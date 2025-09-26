@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\ManuelParrado\Desktop\SEGUNDO DAM\ACCESO A DATOS\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+35225820.index
+1482897041.index

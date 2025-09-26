@@ -1,0 +1,43 @@
+package accesoDatosrepaso.libreria.repositorios;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import accesoDatosrepaso.libreria.modelos.Libro;
+
+public class LibroRepository {
+
+	private HashSet <Libro> libros;
+
+	public LibroRepository(HashSet<Libro> libros) {
+		super();
+		this.libros = new HashSet <Libro> ();
+
+	}
+	
+	public void addlibro (Libro libronuevo) {
+	 libros.add(libronuevo);
+	 }
+	
+	
+	public Libro getlibro(String isbn) {
+
+		
+		
+		for(Libro libro : libros ) {
+			if(libro.getISBN().equals(isbn) ) {
+				
+			}
+		}
+		
+		return null;
+		
+	}	
+	
+
+}
+	        
+	   
+	    
+
+

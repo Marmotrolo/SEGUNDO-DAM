@@ -1,0 +1,30 @@
+package accesoDatosrepaso.libreria.repositorios;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import accesoDatosrepaso.libreria.modelos.Libro;
+
+public class LibroRepository1 {
+
+	private Set<Libro> libros;
+
+	public LibroRepository1(Set<Libro> libros) {
+		super();
+		this.libros= new HashSet<>();
+	}
+
+	public Set<Libro> getLibros() {
+		return libros;
+	}
+
+	public void setLibros(Set<Libro> libros) {
+		this.libros = libros;
+	}
+	
+	public void mostrarLibros() {
+	   
+	}
+}
+	
+	

@@ -1,0 +1,31 @@
+package Service;
+
+import Modelo.Usuario;
+import Repositorio.Usuariorepository;
+
+public class Usuarioservicio {
+ 
+	private Usuariorepository repo;
+
+	public Usuarioservicio() {
+		super();
+		this.repo = new Usuariorepository () ;
+	}
+
+public void addusuario (Usuario u) {
+	
+	this.repo.addusuario(u);
+}
+
+public Usuariorepository getRepo() {
+	return repo;
+}
+
+public void setRepo(Usuariorepository repo) {
+	this.repo = repo;
+}
+
+	
+	
+
+}
