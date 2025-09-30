@@ -1,0 +1,24 @@
+package accesoDatosrepaso.libreria.repositorios;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import accesoDatosrepaso.libreria.modelos.Libro;
+
+public class LibroRepository {
+
+ private Set<Libro> libros; 
+	
+	
+	public void addlibro (Libro libronuevo) {
+	 libros.add(libronuevo);
+	 }
+	
+	
+
+}
+	        
+	   
+	    
+
+

@@ -1,0 +1,7 @@
+package accesoDatosrepaso.libreria.controladores;
+
+import java.util.logging.LogManager;
+
+public class ProbandoLog {
+private static final Logger Logger= 	LogManager.getLogger(ProbandoLog.class);
+}

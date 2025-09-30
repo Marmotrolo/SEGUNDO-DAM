@@ -2,7 +2,7 @@ package accesoDatosrepaso.libreria.modelos;
 
 import java.util.Objects;
 
-public class Editorial {
+public class Editorial implements Comparable<Editorial>{
 private String nombre;
 private String direccion;
 private String cif;
@@ -65,6 +65,15 @@ public boolean equals(Object obj) {
 public String toString() {
 	return "Editorial [nombre=" + nombre + ", direccion=" + direccion + ", cif=" + cif + ", web=" + web
 			+ ", emailcontacto=" + emailcontacto + "]";
+}
+
+@Override
+public int compareTo(Editorial o) {
+int resultado =this.nombre.compareTo(o.getNombre());
+if(resultado !=0) {
+	this.getCif().compareTo(cif);
+}
+return resultado;
 }
 
 

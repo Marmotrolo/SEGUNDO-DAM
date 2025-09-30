@@ -1,0 +1,13 @@
+package accesoDatosrepaso.libreria.services;
+
+public class EditorialService {
+
+	
+	
+	
+	
+	
+	public List<Editorial> ordena Editorialporemail() {
+		this.repo.getEditorial
+	}
+}
