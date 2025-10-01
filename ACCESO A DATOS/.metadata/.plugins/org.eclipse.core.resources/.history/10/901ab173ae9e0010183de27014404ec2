@@ -1,0 +1,29 @@
+package ejerciciorepaso2.modelo;
+
+import java.time.LocalDate;
+
+public class Conversacion {
+private static int contador;
+private String identificador;
+private String pregunta;
+private String respuesta;
+private LocalDate fechaConversacion;
+private int numvaloracionespositivas;
+private TipoAgente tipo;
+public Conversacion() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+public Conversacion(String pregunta, String respuesta, TipoAgente tipo) {
+	super();
+	contador++;
+	this.identificador= (Integer.toString(fechaConversacion.getDayOfMonth()) + contador);
+	this.pregunta = pregunta;
+	this.respuesta = respuesta;
+	this.tipo = tipo;
+}
+
+
+
+
+}

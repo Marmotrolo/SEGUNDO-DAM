@@ -56,6 +56,8 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="VisibilityModifier" value="1"/>
@@ -100,10 +102,10 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
-		<item key="DIALOG_X_ORIGIN" value="-961"/>
-		<item key="DIALOG_Y_ORIGIN" value="-8"/>
-		<item key="DIALOG_WIDTH" value="1936"/>
-		<item key="DIALOG_HEIGHT" value="1048"/>
+		<item key="DIALOG_X_ORIGIN" value="396"/>
+		<item key="DIALOG_Y_ORIGIN" value="335"/>
+		<item key="DIALOG_WIDTH" value="495"/>
+		<item key="DIALOG_HEIGHT" value="609"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="AddUnimplementedConstructorsDialog">
@@ -135,5 +137,12 @@
 	</section>
 	<section name="SelfEncapsulateFieldWizard">
 		<item key="GenerateJavadoc" value="false"/>
+	</section>
+	<section name="NewInterfaceCreationWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="198"/>
+		<item key="DIALOG_Y_ORIGIN" value="157"/>
+		<item key="DIALOG_WIDTH" value="578"/>
+		<item key="DIALOG_HEIGHT" value="543"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

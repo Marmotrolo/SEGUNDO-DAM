@@ -1,0 +1,5 @@
+package ejerciciorepaso2.repositorio;
+
+public class ConversacionException extends Exception {
+
+}

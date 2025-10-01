@@ -9,7 +9,7 @@ public class ProbandoLog {
 	
 public static void main(String[] args) {
 	logger.debug("Empieza main");
-	logger.error("Ocurre excepción" );
+	logger.error("Ocurre excepción"  );
 
 }
 }

@@ -1,0 +1,42 @@
+package ejerciciorepaso2.repositorio;
+
+import java.time.LocalDate;
+
+import ejerciciorepaso2.modelo.Conversacion;
+import ejerciciorepaso2.modelo.TipoAgente;
+
+public class RepositorioConversaciones implements IRepositorioConversaciones {
+
+
+	
+	@Override
+	public boolean contieneConversacion(Conversacion conversacion) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void eliminaconversacion(LocalDate fecha, TipoAgente tipo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void agregaconversacion (String pregunta, String respuesta, TipoAgente tipo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Conversacion getConversacion(LocalDate fecha, TipoAgente tipo, String pregunta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void incrementanumeroValoraciones(LocalDate fecha, TipoAgente tipo, String pregunta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

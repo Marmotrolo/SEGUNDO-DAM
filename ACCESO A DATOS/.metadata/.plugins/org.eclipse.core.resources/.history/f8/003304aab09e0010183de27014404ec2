@@ -1,0 +1,17 @@
+package ejerciciorepaso2.repositorio;
+
+import java.time.LocalDate;
+
+import ejerciciorepaso2.modelo.Conversacion;
+import ejerciciorepaso2.modelo.TipoAgente;
+
+public interface IRepositorioServicios {
+
+	
+	public boolean contieneConversacion(Conversacion conversacion);
+	public void eliminaconversacion (LocalDate fecha, TipoAgente tipo);
+	public void agregaconversacion (TipoAgente tipo, String pregunta, String respuesta);
+	public Conversacion getConversacion(LocalDate fecha, TipoAgente tipo, String pregunta);
+	public void incrementanumeroValoraciones (LocalDate fecha, TipoAgente tipo, String pregunta);
+	
+}
