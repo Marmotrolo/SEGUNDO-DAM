@@ -104,3 +104,29 @@ else{
 function myFirstFunction(){
     console.log ("ola")
 }
+function mySecondFunction(){
+    console.log("Thank u for ur interest")
+}
+function myThirdFunction(mensaje) {
+    console.log('Pesao')
+    console.log(mensaje)
+}
+
+var div =document.getElementById("my_div");
+div.classList.add("my_class");
+console.log (div)
+
+var div = document.getElementsByTagName("div");
+console.log(div);
+
+var second_div= document.querySelector("#my_seconddiv");
+console.log (second_div);
+
+function $ (selector){
+    return document.querySelectorAll (selector);
+    
+
+
+}
+console.log("#my_third_div")
+ 

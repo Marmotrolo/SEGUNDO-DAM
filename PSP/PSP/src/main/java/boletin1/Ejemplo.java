@@ -4,19 +4,35 @@ import java.io.IOException;
 
 public class Ejemplo {
 public static void main(String[] args) {
-	Runtime kernel = Runtime.getRuntime();
-	
-	
-	System.out.println(kernel.totalMemory());
-	System.out.println(kernel.maxMemory());
-	System.out.println(kernel.freeMemory());
-	String [] argumentos = {"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "https://educacionadistancia.juntadeandalucia.es/centros/sevilla/my/" };
-	
+
+
+	String[] comando = {"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\\", 
+	"https://www.marca.com/"};
+ProcessBuilder pb = new ProcessBuilder (comando);
 	try {
-		kernel.exec(argumentos);
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		Process p = ;
+	} catch (IOException e) {			
+		System.out.println(e);
 	}
 }
+
+	
+		Runtime rt = Runtime.getRuntime();
+		String[] informacionProceso = {"NotePad.exe"};
+		Process proceso;
+		try {
+			proceso = rt.exec(informacionProceso);
+			int codigoRetorno = proceso.waitFor(); //Espero a que termine
+System.out.println(codigoRetorno);
+} catch (IOException e) {
+			e.getMessage();
+		} catch (InterruptedException e) {
+		e.getMessage();
+		}
+		
+	}
+
 }
+		
+		
+	
