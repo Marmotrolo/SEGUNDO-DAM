@@ -53,10 +53,10 @@ public class RepositorioConversaciones implements IRepositorioConversaciones {
 					conversacionbuscada = conversacionitero;
 				}
 				else {
-					throw new ConversacionException("No existe brother");
 
 				}
 			}
+
 			
 			return conversacionbuscada;
 			
@@ -72,11 +72,16 @@ public class RepositorioConversaciones implements IRepositorioConversaciones {
 			{
 				encontrado = true;
 				conversacionbuscada = conversacionitero;
-			}else {
+			
+				
+			}
+			else {
 				throw new ConversacionException("No existe brother");
 
 			}
+
 		}
+
 		
 		return conversacionbuscada;
 		
