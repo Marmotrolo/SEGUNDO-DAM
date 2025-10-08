@@ -1,6 +1,9 @@
 //alert("Hello to JS")
 
-console.log("ola ke ase")
+function $ (selector){
+    return document.querySelector (selector);
+}
+/*console.log("ola ke ase")
 
 var table = "Normal table";
 let chair = "One chair";
@@ -80,7 +83,7 @@ console.log (sixth_array)
 /*var i =third_array.length-1;
 for(;i>=0;i--){
     console.log (third_array[i])
-}*/
+}
 
 third_array.forEach(function myFunction(item){
     console.log(item)
@@ -120,13 +123,25 @@ var div = document.getElementsByTagName("div");
 console.log(div);
 
 var second_div= document.querySelector("#my_seconddiv");
-console.log (second_div);
-
-function $ (selector){
-    return document.querySelectorAll (selector);
-    
+console.log (second_div); 
+*/
 
 
-}
+
 console.log("#my_third_div")
- 
+ console.log(".pruebas")
+$("#btn").addEventListener("click",function(){
+    var input = document.createElement("ola");
+    input.setAttribute("type","email");
+    input.setAttribute("placeholder","E-mail");
+    input.setAttribute("name", "emails[]");
+    $("#form").appendChild(input);
+    myAlert("add new email input");
+});
+
+function myAlert(msg){
+    var div= document.createElement("div");
+    div.classList.add("alert");
+    div.innerHTML= msg;
+    $("body").insertBefore(div,$("body").firstChild);
+}
