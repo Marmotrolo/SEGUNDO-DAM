@@ -1,0 +1,53 @@
+package Repositorio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Modelo.Usuario;
+
+public class Usuariorepository {
+	
+
+	private List<Usuario> usuarios;
+
+	public Usuariorepository() {
+		super();
+		this.usuarios = new ArrayList <Usuario>();
+	}
+	
+	public void addusuario(Usuario u) {
+		usuarios.add(u);
+	}
+	
+	public String readusuario(Usuario u) {
+		String nombreusuario ="";
+		if( usuarios.contains(u)) {
+			nombreusuario = u.getNombre();
+		}
+		
+		return nombreusuario;
+	}
+	
+	public void deleteusuario (Usuario u) {
+		usuarios.remove(u);
+		
+	}
+
+	public List<Usuario> getUsuarios() {
+		return usuarios;
+	}
+
+	public void setUsuarios(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+
+	@Override
+	public String toString() {
+		return "Usuariorepository [usuarios=" + usuarios + "]";
+	}
+	
+
+
+}
+
+

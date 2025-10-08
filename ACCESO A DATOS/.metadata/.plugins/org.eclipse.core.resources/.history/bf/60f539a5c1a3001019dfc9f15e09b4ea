@@ -1,0 +1,17 @@
+package fichero;
+
+import java.io.File;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Ejercicio3 {
+private static final Logger logeador = LogManager.getLogger(Ejercicio3.class);
+
+public static void main(String[] args) {
+	String cagarruta = "C:\\Users\\manue\\OneDrive\\Desktop\\Ficheros java";
+	File directorio= new File (cagarruta);
+	File fichero= new File (cagarruta, "")
+	
+}
+}

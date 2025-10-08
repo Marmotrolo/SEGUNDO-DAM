@@ -1,0 +1,41 @@
+package fichero;
+
+import java.io.File;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Ejercicio4 {
+
+	
+	private static final Logger logeador = LogManager.getLogger(Ejercicio4.class);
+	public static void main(String[] args) {
+		Ejercicio4 f= new Ejercicio4 ();
+		String cagarruta= "C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos";
+	File directorio= new File(cagarruta);
+f.mostrarcontenidodirectorio(directorio);
+	
+	
+	}	
+	public void mostrarcontenidodirectorio(File carpeta) {
+		boolean existe= carpeta.exists();
+		if(!existe) {
+		File[] archivos=carpeta.listFiles();
+		
+		for(File archivo: archivos) {
+			if(archivo.isFile()) {
+				logeador.info(archivo.getPath());  
+				logeador.info(archivo.getName());  
+
+			}
+			else {
+				this.mostrarcontenidodirectorio(archivo);
+			}
+			
+				
+			
+		}
+		}
+	}
+	}
+

@@ -1,0 +1,37 @@
+package fichero;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class Ejercicio3 {
+private static final Logger logeador = LogManager.getLogger(Ejercicio3.class);
+
+public static void main(String[] args) {
+	String cagarruta = "C:\\Users\\manue\\OneDrive\\Desktop\\Ficherosjava";
+	File directorio= new File (cagarruta);
+	File carpeta= new File (cagarruta, "directorioejercicio3");
+	
+	try {
+		boolean creado= carpeta.mkdir();
+		
+		File fichero1= new File (carpeta, "fichero1.txt");
+		File fichero2= new File (carpeta, "fichero2.txt");
+
+		boolean creado1= fichero1.createNewFile();
+		boolean creado2= fichero2.createNewFile();
+
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+
+	
+}
+
+
+
+}
+

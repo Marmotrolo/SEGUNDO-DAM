@@ -1,0 +1,18 @@
+package ejerciciorepaso2.repositorio;
+
+import java.time.LocalDate;
+
+import ejerciciorepaso2.modelo.Conversacion;
+import ejerciciorepaso2.modelo.TipoAgente;
+
+public interface IRepositorioConversaciones {
+
+	
+	public boolean contieneConversacion(Conversacion conversacion);
+	public void eliminaconversacion (LocalDate fecha, TipoAgente tipo) throws ConversacionException;
+	public void agregaconversacion (String pregunta, String respuesta, TipoAgente tipo);
+	public Conversacion getConversacion(LocalDate fecha, TipoAgente tipo)throws ConversacionException;
+	public Conversacion getConversacion(LocalDate fecha, TipoAgente tipo, String pregunta) throws ConversacionException;
+	public void incrementanumeroValoraciones (LocalDate fecha, TipoAgente tipo, String pregunta) throws ConversacionException;
+	
+}
