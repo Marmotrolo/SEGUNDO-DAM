@@ -1,0 +1,14 @@
+package fichero;
+
+import utiles.ManejaFicherosPersona;
+
+public class GestionaPersona {
+	 public static void main(String[] args) {
+	    	ManejaFicherosPersona maneja= new ManejaFicherosPersona();
+	        Persona gestor = new Persona();
+	        String ruta = "C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetapersona\\notitas.txt";
+	        
+	        maneja.cargaPersona(ruta);
+	    }
+
+}

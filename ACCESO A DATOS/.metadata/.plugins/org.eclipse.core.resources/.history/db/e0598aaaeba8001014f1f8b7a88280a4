@@ -1,0 +1,73 @@
+package fichero;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class GestionaPersona {
+
+    private String nombre;
+    private List<Notas> listaNotas;
+    private static final Logger logger = LogManager.getLogger(GestionaPersona.class);
+
+    public GestionaPersona() {
+        // Constructor vacío
+    }
+
+    public GestionaPersona(String nombre, List<Notas> listaNotas) {
+        this.nombre = nombre;
+        this.listaNotas = listaNotas;
+    }
+
+    public static void main(String[] args) {
+        GestionaPersona gestor = new GestionaPersona();
+        try {
+            gestor.cargarLista(
+                "C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetapersona\\notas.txt"
+            );
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void cargarLista(String rutaYNombre) throws FileNotFoundException {
+        Scanner in = null;
+        try {
+            System.out.println("Intentando abrir fichero: " + rutaYNombre);
+            FileReader fichero = new FileReader(rutaYNombre);
+            System.out.println("Fichero abierto correctamente.");
+            in = new Scanner(fichero);
+            while (in.hasNextLine()) {
+                String linea = in.nextLine();
+                System.out.println("Linea leida: " + linea);
+                GestionaPersona p = cargaPersona(linea);
+                System.out.println("Objeto creado: " + p.toString());
+            }
+        } finally {
+            if (in != null) {
+                in.close();
+                System.out.println("Scanner cerrado.");
+            }
+        }
+    }
+
+    public GestionaPersona cargaPersona(String linea) {
+        String[] cadenas = linea.split(" ");
+        List<Notas> lista = new ArrayList<>();
+        for (int i = 1; i < cadenas.length; i++) {
+            Notas n = new Notas(Double.parseDouble(cadenas[i]));
+            lista.add(n);
+        }
+        return new GestionaPersona(cadenas[0], lista);
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Notas: " + listaNotas;
+    }
+}

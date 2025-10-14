@@ -1,0 +1,48 @@
+package fichero;
+
+import java.io.File;
+
+public class DiffFolder {
+
+	private String cagarruta= "C:\\Users\\manue\\OneDrive\\Desktop\\SEGUNDO DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\java";
+	private File directorio= new File (cagarruta);
+	private File carpeta1= new File (cagarruta, "carpeton");
+	private File carpeta2= new File (cagarruta, "carpetita");
+	
+	
+	
+	public String getCagarruta() {
+		return cagarruta;
+	}
+	public void setCagarruta(String cagarruta) {
+		this.cagarruta = cagarruta;
+	}
+	public File getDirectorio() {
+		return directorio;
+	}
+	public void setDirectorio(File directorio) {
+		this.directorio = directorio;
+	}
+	public File getCarpeta1() throws GestionFicherosException {
+		
+		return carpeta1;
+	}
+	public void setCarpeta1(File carpeta1) throws GestionFicherosException {
+		if(!carpeta1.isDirectory()) {
+			throw new GestionFicherosException("No es una carpeta brother");
+		}
+		this.carpeta1 = carpeta1;
+	}
+	public File getCarpeta2() {
+		return carpeta2;
+	}
+	public void setCarpeta2(File carpeta2) throws GestionFicherosException {
+		if(!carpeta2.isDirectory()) {
+			throw new GestionFicherosException("No es una carpeta brother");
+		}
+		this.carpeta2 = carpeta2;
+	}
+	
+	
+
+}

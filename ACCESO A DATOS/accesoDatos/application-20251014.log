@@ -1,0 +1,5 @@
+2025-10-14 12:03:47.528 [main] DEBUG fichero.OperacionesStream - \src\main\java\carpetita\luis.txt (El sistema no puede encontrar la ruta especificada)
+2025-10-14 12:04:34.005 [main] DEBUG fichero.OperacionesStream - C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\main\resources\carpetita\luis.txt (El sistema no puede encontrar el archivo especificado)
+2025-10-14 13:56:11.927 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Pepe, notas=[Notas [nota=1.0], Notas [nota=3.5], Notas [nota=7.7]]]
+2025-10-14 13:56:11.929 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Marcos, notas=[Notas [nota=2.0]]]
+2025-10-14 13:56:11.929 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Candela, notas=[Notas [nota=10.0], Notas [nota=11.1]]]

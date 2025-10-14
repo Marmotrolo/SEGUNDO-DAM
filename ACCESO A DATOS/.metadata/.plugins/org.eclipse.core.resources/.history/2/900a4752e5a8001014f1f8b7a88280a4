@@ -1,0 +1,63 @@
+package fichero;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class DiffFolder {
+
+	private String cagarruta= "C:\\Users\\manue\\OneDrive\\Desktop\\SEGUNDO DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\java";
+	private File directorio= new File (cagarruta);
+	private File carpeta1= new File (cagarruta, "carpeton");
+	private File carpeta2= new File (cagarruta, "carpetita");
+	Set<ResultadoComparacion> comparacion ;
+	
+	
+	public String getCagarruta() {
+		return cagarruta;
+	}
+	public void setCagarruta(String cagarruta) {
+		this.cagarruta = cagarruta;
+	}
+	public File getDirectorio() {
+		return directorio;
+	}
+	public void setDirectorio(File directorio) {
+		this.directorio = directorio;
+	}
+	public void setCarpetas(File carpeta1, File carpeta2) throws GestionFicherosException {
+		if(!carpeta1.isDirectory() || !carpeta2.isDirectory()) {
+			throw new GestionFicherosException("Los archivos que indican no son directorios");
+		}
+		this.carpeta1 = carpeta1;
+		this.carpeta2= carpeta2;
+	}
+	public File getCarpeta1() throws GestionFicherosException {
+		
+		return carpeta1;
+	}
+
+	public File getCarpeta2() {
+		return carpeta2;
+	}
+	
+	public Set<ResultadoComparacion> compare(File carpeta1, File carpeta2) {
+		//Metoo mira quien tiene mas ficheros de folder1 y folde r2
+		//llama al metodo que es compararlistaficheros y recibe File[1], File2 []
+		//Devuelve un set de resultados, se lo añado a variable (AddAll) comparacion
+		//llamo a comparaListaFicheros, lo del segundo pero al reves
+		//log comparacion
+	
+		return resultados
+
+	}
+	
+	private Set<ResultadoComparacion> comparaListaFicheros (File[] ficheros1, File[] ficheros2, boolean isprimero ){
+		
+	}
+
+	
+}
+

@@ -1,0 +1,37 @@
+package fichero;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
+
+
+public class OperacionesStream {
+public static void main(String[] args) {
+	String ruta ="C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetita\\luis.txt";
+
+	try {
+		muestraContenidoFich(ruta);
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+	static void muestraContenidoFich(String rutaYNombre) throws FileNotFoundException {
+		Scanner in = null;
+		try {
+			// abre el fichero
+			FileReader fichero = new FileReader(rutaYNombre);
+			//Se crea el flujo
+			in = new Scanner(fichero);
+			// lee el fichero
+			while (in.hasNext()) { //Lectura palabra a palabra
+				// Aquí se hará la lectura in.next()
+			}
+		} finally {
+			if (in != null) {
+				in.close();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+package accesoDatosrepaso.libreria.repositorios;
+
+public class EditorialRepository {
+ 
+}

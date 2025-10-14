@@ -1,0 +1,24 @@
+/*package fichero;
+
+import java.io.File;
+
+public class ControlaDiffFolder {
+	
+		public static void main(String[] args) {
+			try {
+				DiffFolder diff = new DiffFolder();
+				diff.setCarpetas(
+					new File(diff.getCagarruta(), "carpeton"),
+					new File(diff.getCagarruta(), "carpetita")
+				);
+
+				for (ResultadoComparacion r : diff.compare()) {
+					System.out.println(r);
+				}
+			} catch (GestionFicherosException e) {
+				System.err.println("Error: " + e.getMessage());
+			}
+		}
+	}
+
+*/

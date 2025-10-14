@@ -1,0 +1,40 @@
+package fichero;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import utiles.ManejaFicherosPersona;
+
+public class GestionaPersona {
+
+    private String nombre;
+    private List<Notas> listaNotas;
+    
+
+    public GestionaPersona() {
+        // Constructor vacío
+    }
+
+    public GestionaPersona(String nombre, List<Notas> listaNotas) {
+        this.nombre = nombre;
+        this.listaNotas = listaNotas;
+    }
+
+    public static void main(String[] args) {
+    	ManejaFicherosPersona maneja= new ManejaFicherosPersona();
+        GestionaPersona gestor = new GestionaPersona();
+        String ruta = "C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetapersona\\notas.txt";
+        
+        maneja.cargaPersona(ruta);
+    }
+
+  
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Notas: " + listaNotas;
+    }
+}
+

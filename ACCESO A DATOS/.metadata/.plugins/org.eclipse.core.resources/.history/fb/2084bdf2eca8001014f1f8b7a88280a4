@@ -1,0 +1,67 @@
+package fichero;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class GestionaPersona {
+
+    private String nombre;
+    private List<Notas> listaNotas;
+
+    public GestionaPersona() {
+        // Constructor vacío
+    }
+
+    public GestionaPersona(String nombre, List<Notas> listaNotas) {
+        this.nombre = nombre;
+        this.listaNotas = listaNotas;
+    }
+
+    public static void main(String[] args) {
+        GestionaPersona gestor = new GestionaPersona();
+        String ruta = "C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetapersona\\notas.txt";
+        try {
+            gestor.cargarLista(ruta);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void cargarLista(String rutaYNombre) throws FileNotFoundException {
+        Scanner in = null;
+        try {
+            FileReader fichero = new FileReader(rutaYNombre);
+            in = new Scanner(fichero);
+            while (in.hasNextLine()) {
+                String linea = in.nextLine();
+                GestionaPersona p = cargaPersona(linea);
+                System.out.println(p.toString());
+            }
+        } finally {
+            if (in != null) {
+                in.close();
+            }
+        }
+    }
+
+    public GestionaPersona cargaPersona(String linea) {
+        // Divide por espacios (uno o más)
+        String[] cadenas = linea.trim().split("\\s+");
+        List<Notas> lista = new ArrayList<>();
+        for (int i = 1; i < cadenas.length; i++) {
+            // Convierte cada nota a double y crea objeto Notas
+            Notas n = new Notas(Double.parseDouble(cadenas[i]));
+            lista.add(n);
+        }
+        return new GestionaPersona(cadenas[0], lista);
+    }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Notas: " + listaNotas;
+    }
+}
+

@@ -1,0 +1,62 @@
+package fichero;
+
+import java.time.LocalDate;
+import java.util.Objects;
+
+//public class ResultadoComparacion implements Comparable<ResultadoComparacion> {
+
+/*	private final String nomFichero;
+	private final ValorComparacion valorComparacion;
+	private final LocalDate fechaModificacion;
+
+	public ResultadoComparacion(String nomFichero, ValorComparacion valorComparacion, LocalDate fechaModificacion) {
+		this.nomFichero = nomFichero;
+		this.valorComparacion = valorComparacion;
+		this.fechaModificacion = fechaModificacion;
+	}
+
+	public String getNomFichero() {
+		return nomFichero;
+	}
+
+	public ValorComparacion getValorComparacion() {
+		return valorComparacion;
+	}
+
+	public LocalDate getFechaModificacion() {
+		return fechaModificacion;
+	}
+
+	@Override
+	public int compareTo(ResultadoComparacion o) {
+		int comparado= this.nomFichero.compareToIgnoreCase(o.nomFichero);
+		if ( comparado!=0) {
+	  comparado= this.fechaModificacion.compareTo(o.fechaModificacion);
+	  
+		}
+	return comparado;	
+	}
+
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nomFichero);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ResultadoComparacion other = (ResultadoComparacion) obj;
+		return Objects.equals(nomFichero, other.nomFichero);
+	}
+
+	@Override
+	public String toString() {
+		return nomFichero + " -> " + valorComparacion;
+	}*/
+//}

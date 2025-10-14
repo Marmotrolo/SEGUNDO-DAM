@@ -1,0 +1,92 @@
+package fichero;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class DiffFolder {
+
+	private String cagarruta= "C:\\Users\\manue\\OneDrive\\Desktop\\SEGUNDO DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\java";
+	private File directorio= new File (cagarruta);
+	private File carpeta1= new File (cagarruta, "carpeton");
+	private File carpeta2= new File (cagarruta, "carpetita");
+	
+	
+	
+	public String getCagarruta() {
+		return cagarruta;
+	}
+	public void setCagarruta(String cagarruta) {
+		this.cagarruta = cagarruta;
+	}
+	public File getDirectorio() {
+		return directorio;
+	}
+	public void setDirectorio(File directorio) {
+		this.directorio = directorio;
+	}
+	public void setCarpetas(File carpeta1, File carpeta2) throws GestionFicherosException {
+		if(!carpeta1.isDirectory() || !carpeta2.isDirectory()) {
+			throw new GestionFicherosException("Los archivos que indican no son directorios");
+		}
+		this.carpeta1 = carpeta1;
+		this.carpeta2= carpeta2;
+	}
+	public File getCarpeta1() throws GestionFicherosException {
+		
+		return carpeta1;
+	}
+
+	public File getCarpeta2() {
+		return carpeta2;
+	}
+	
+	public Set<ResultadoComparacion> compare() {
+		Set<ResultadoComparacion> resultados = new HashSet<>();
+
+		File[] files1 = carpeta1.listFiles(File::isFile);
+		File[] files2 = carpeta2.listFiles(File::isFile);
+
+		Map<String, File> map1 = new HashMap<>();
+		Map<String, File> map2 = new HashMap<>();
+
+		if (files1 != null)
+			for (File f : files1) map1.put(f.getName(), f);
+		if (files2 != null)
+			for (File f : files2) map2.put(f.getName(), f);
+
+		// Unimos todos los nombres de ficheros
+		Set<String> nombres = new HashSet<>();
+		if (files1 != null)
+			for (File f : files1) nombres.add(f.getName());
+		if (files2 != null)
+			for (File f : files2) nombres.add(f.getName());
+
+		for (String nombre : nombres) {
+			File f1 = map1.get(nombre);
+			File f2 = map2.get(nombre);
+
+			if (f1 != null && f2 != null) {
+				// Comprobamos si son idénticos
+				if (f1.length() == f2.length() && f1.lastModified() == f2.lastModified()) {
+					resultados.add(new ResultadoComparacion(nombre, ValorComparacion.IGUALES, f1.lastModified()));
+				} else if (f1.lastModified() > f2.lastModified()) {
+					resultados.add(new ResultadoComparacion(nombre, ValorComparacion.MENOS_NUEVO_EN_2, f1.lastModified()));
+				} else {
+					resultados.add(new ResultadoComparacion(nombre, ValorComparacion.MENOS_NUEVO_EN_1, f1.lastModified()));
+				}
+			} else if (f1 == null) {
+				resultados.add(new ResultadoComparacion(nombre, ValorComparacion.FALTA_EN_1, f2.lastModified()));
+			} else {
+				resultados.add(new ResultadoComparacion(nombre, ValorComparacion.FALTA_EN_2, f1.lastModified()));
+			}
+		}
+
+		return resultados;
+	}
+
+	
+}
+
