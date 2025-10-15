@@ -1,0 +1,36 @@
+package diffFolder;
+
+import java.io.File;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import fichero.Ejercicio3;
+import fichero.GestionFicherosException;
+import fichero.ResultadoComparacion;
+
+public class ControlaDiffFolder {
+	
+	private static final Logger logeador = LogManager.getLogger(Ejercicio3.class);
+
+	
+		public static void main(String[] args) {
+			try {
+				DiffFolder diff = new DiffFolder();
+				diff.setCarpetas(
+					new File(diff.getCagarruta(), "carpeton"),
+					new File(diff.getCagarruta(), "carpetita")
+				);
+
+				for (ResultadoComparacion r : diff.compare()) {
+
+					logeador.info(r);
+					}
+			} catch (GestionFicherosException e) {
+
+				logeador.error("");
+			}
+		}
+	}
+
+

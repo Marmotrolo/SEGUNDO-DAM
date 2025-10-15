@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="utiles.ManejaFicherosPersona"/>
     <fullyQualifiedTypeName name="fichero.GestionaPersona"/>
     <fullyQualifiedTypeName name="fichero.ValorComparacion"/>
+    <fullyQualifiedTypeName name="fichero.ResultadoComparacion"/>
 </qualifiedTypeNameHistroy>

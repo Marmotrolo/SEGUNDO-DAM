@@ -1,38 +1,27 @@
 package fichero;
 
-
-
 import java.io.FileNotFoundException;
 
 import java.io.FileReader;
 
 import java.util.Scanner;
 
-
-
 import org.apache.logging.log4j.LogManager;
 
 import org.apache.logging.log4j.Logger;
 
-
-
 public class OperacionesStream {
-
-
 
 	private static final Logger logger = LogManager.getLogger(OperacionesStream.class);
 
-
-
 	public static void main(String[] args) {
-
-
 
 		OperacionesStream l = new OperacionesStream();
 
 		try {
 
-			l.muestraContenidoFich("C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetita\\luis.txt");
+			l.muestraContenidoFich(
+					"C:\\Users\\ManuelParrado\\Desktop\\SEGUNDO_DAM\\ACCESO A DATOS\\accesoDatos\\src\\main\\resources\\carpetita\\luis.txt");
 
 		} catch (FileNotFoundException e) {
 
@@ -43,8 +32,6 @@ public class OperacionesStream {
 		}
 
 	}
-
-
 
 	void muestraContenidoFich(String rutaYNombre) throws FileNotFoundException {
 
@@ -68,7 +55,7 @@ public class OperacionesStream {
 
 				String palabra = in.next();
 
-				logger.info("Palabra: " + palabra);	
+				logger.info("Palabra: " + palabra);
 
 			}
 

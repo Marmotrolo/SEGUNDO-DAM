@@ -1,0 +1,22 @@
+2025-10-15 13:38:20.789 [main] INFO  fichero.Ejercicio3 - hola.txt.txt -> MENOS_NUEVO_EN_1
+2025-10-15 13:38:20.791 [main] INFO  fichero.Ejercicio3 - limon.txt.txt -> IGUALES
+2025-10-15 13:38:20.791 [main] INFO  fichero.Ejercicio3 - luis.txt.txt -> IGUALES
+2025-10-15 13:38:20.791 [main] INFO  fichero.Ejercicio3 - cereza.txt.txt -> FALTA_EN_2
+2025-10-15 13:41:40.536 [main] INFO  fichero.Ejercicio3 - hola.txt.txt -> MENOS_NUEVO_EN_1
+2025-10-15 13:41:40.538 [main] INFO  fichero.Ejercicio3 - limon.txt.txt -> IGUALES
+2025-10-15 13:41:40.538 [main] INFO  fichero.Ejercicio3 - luis.txt.txt -> IGUALES
+2025-10-15 13:41:40.538 [main] INFO  fichero.Ejercicio3 - cereza.txt.txt -> FALTA_EN_2
+2025-10-15 13:42:07.151 [main] INFO  fichero.Ejercicio3 - mandarina.txt.txt -> FALTA_EN_1
+2025-10-15 13:42:07.153 [main] INFO  fichero.Ejercicio3 - hola.txt.txt -> MENOS_NUEVO_EN_2
+2025-10-15 13:42:07.153 [main] INFO  fichero.Ejercicio3 - limon.txt.txt -> IGUALES
+2025-10-15 13:42:07.153 [main] INFO  fichero.Ejercicio3 - luis.txt.txt -> IGUALES
+2025-10-15 13:42:07.153 [main] INFO  fichero.Ejercicio3 - cereza.txt.txt -> FALTA_EN_1
+2025-10-15 13:42:51.568 [main] INFO  fichero.Ejercicio3 - mandarina.txt.txt -> FALTA_EN_2
+2025-10-15 13:42:51.570 [main] INFO  fichero.Ejercicio3 - pepe.txt.txt -> FALTA_EN_2
+2025-10-15 13:42:51.570 [main] INFO  fichero.Ejercicio3 - hola.txt.txt -> MENOS_NUEVO_EN_1
+2025-10-15 13:42:51.570 [main] INFO  fichero.Ejercicio3 - limon.txt.txt -> IGUALES
+2025-10-15 13:42:51.570 [main] INFO  fichero.Ejercicio3 - luis.txt.txt -> IGUALES
+2025-10-15 13:42:51.570 [main] INFO  fichero.Ejercicio3 - cereza.txt.txt -> FALTA_EN_2
+2025-10-15 13:45:13.069 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Pepe, notas=[Notas [nota=1.0], Notas [nota=3.5], Notas [nota=7.7]]]
+2025-10-15 13:45:13.071 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Marcos, notas=[Notas [nota=2.0]]]
+2025-10-15 13:45:13.071 [main] INFO  utiles.ManejaFicherosPersona - Persona [nombre=Candela, notas=[Notas [nota=10.0], Notas [nota=11.1]]]

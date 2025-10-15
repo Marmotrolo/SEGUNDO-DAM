@@ -1,0 +1,47 @@
+package fichero;
+
+import java.time.LocalDate;
+import java.util.Objects;
+
+public class ResultadoComparacion {
+	private final String nomFichero;
+	private final ValorComparacion valorComparacion;
+
+	public ResultadoComparacion(String nomFichero, ValorComparacion valorComparacion) {
+		this.nomFichero = nomFichero;
+		this.valorComparacion = valorComparacion;
+	
+	}
+
+	public String getNomFichero() {
+		return nomFichero;
+	}
+
+	public ValorComparacion getValorComparacion() {
+		return valorComparacion;
+	}
+
+	
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(nomFichero);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ResultadoComparacion other = (ResultadoComparacion) obj;
+		return Objects.equals(nomFichero, other.nomFichero);
+	}
+
+	@Override
+	public String toString() {
+		return nomFichero + " -> " + valorComparacion;
+	}
+}
