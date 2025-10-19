@@ -1,0 +1,52 @@
+body{
+    background-image: url(/ValidarformularioJSNUEVO/IMAGES/cjAR9D3.jpg);
+    background-size: cover;       
+
+}
+div{
+
+    padding:6px;
+}
+h1{
+    
+    color: rgb(58, 94, 95);
+
+}
+label{
+    color: rgb(82, 129, 131);
+}
+
+button{
+    
+    border-radius: 20px;
+    border-color: cadetblue;
+    padding: 10px;
+    
+    font-size: medium  ;
+
+
+
+}
+.formulariogordo{
+    
+    border: 2px solid;
+    border-color: cadetblue;
+    background-color: lightgray;
+    opacity: 0.8;
+    
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 50px auto;        
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#campoGenero{
+    
+    border: 1px solid;
+    background-color: white;
+    width: 200px;
+    margin-top: 20px;
+    margin: auto;
+}
