@@ -1194,3 +1194,5 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2025-10-15 14:27:21,960 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
 2025-10-15 14:27:24,861 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@34da4e4e{STOPPING}[12.0.21,sto=0]
 2025-10-15 14:27:24,863 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@b78f723{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-10-20 08:14:14,340 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-20 08:14:15,973 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.

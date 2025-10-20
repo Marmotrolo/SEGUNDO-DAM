@@ -14,7 +14,7 @@ public class LanzadorPython {
 
 	}
 
-	public void ejecutaProceso() {
+	public void ejecutaProceso()   {
 
 		String[] comando = {"python", rutaFicheroJava};
 		ProcessBuilder pb = new ProcessBuilder(comando);
@@ -23,8 +23,7 @@ public class LanzadorPython {
 			pb.redirectErrorStream(true);
 			pb.inheritIO();
 			Process p1 = pb.start();
-			/*int exit = p1.waitFor();
-			System.out.println(exit);*/
+			
 	
 		} catch (IOException e) {
 			e.printStackTrace();

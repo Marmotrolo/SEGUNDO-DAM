@@ -1,6 +1,7 @@
 body{
     background-image: url(/ValidarformularioJSNUEVO/IMAGES/cjAR9D3.jpg);
-    background-size: cover;       
+    background-size: cover;     
+      
 
 }
 div{
@@ -31,15 +32,17 @@ button{
     
     border: 2px solid;
     border-color: cadetblue;
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211, 0.8);
     opacity: 0.8;
-    
+    backdrop-filter: blur(10px);
+
     text-align: center;
     padding: 20px;
     width: 500px;
     border-radius: 20px;
     margin: 50px auto;        
     font-family:Georgia, 'Times New Roman', Times, serif
+    
 }
 
 #campoGenero{
