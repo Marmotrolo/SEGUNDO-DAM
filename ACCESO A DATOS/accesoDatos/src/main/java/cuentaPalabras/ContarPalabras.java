@@ -1,0 +1,72 @@
+package cuentaPalabras;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+
+public class ContarPalabras {
+
+	
+	
+
+	
+	
+		
+
+	public int contarpalabrasfila(String palabra, File archivo) throws FileNotFoundException {
+		int numerodevecesEs=0;
+		
+		FileReader fichero = new FileReader(archivo);
+		Scanner in = new Scanner(fichero);
+		while(in.hasNextLine()) {
+			String linea= in.nextLine();
+			String[] palabras= linea.split(" ");
+			
+			for (String palabraitero : palabras) {
+				if(palabraitero.equalsIgnoreCase(palabra)) {
+					numerodevecesEs++;
+				}
+			 
+			
+			
+			}
+		}
+		return numerodevecesEs;
+	}
+		
+			
+		public String escribenumerodepalabracontada(int numero, File archivo) {
+			PrintWriter out = null;
+			try {
+				FileWriter ficheroSalida;
+					ficheroSalida = new FileWriter(archivo);
+				// abre el fichero de texto
+				out = new PrintWriter(ficheroSalida);
+				// escribe el listado persona a persona
+				out.printf("%d", numero);
+				}		
+			catch (IOException e) {
+						System.out.println("IOException");		}
+			finally		{
+				if (out!=null)
+					out.close();
+			}	
+			
+		
+		return "se escribió " + numero;
+		}
+
+		
+		
+		
+		
+		
+		
+			
+	}
+

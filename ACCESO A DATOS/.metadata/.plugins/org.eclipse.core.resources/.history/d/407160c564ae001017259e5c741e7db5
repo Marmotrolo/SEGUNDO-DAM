@@ -1,0 +1,29 @@
+package cuentaPalabras;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import fichero.OperacionesStream;
+
+public class GestionaContadorPalabras {
+	private static final Logger logger = LogManager.getLogger(GestionaContadorPalabras.class);
+
+public static void main(String[] args) {
+	
+	ContarPalabras cuentapalabras= new ContarPalabras();
+	String ruta= "src\\main\\resources";
+	File archivo= new File (ruta,"fichero.txt.txt");
+	
+	try {
+		logger.info(cuentapalabras.contarpalabrasfila("es", archivo));	
+	} catch (FileNotFoundException e) {
+		
+		e.printStackTrace();
+	}
+	
+	
+}
+}

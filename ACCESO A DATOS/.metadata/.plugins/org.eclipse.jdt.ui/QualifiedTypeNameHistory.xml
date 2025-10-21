@@ -17,4 +17,6 @@
     <fullyQualifiedTypeName name="fichero.GestionaPersona"/>
     <fullyQualifiedTypeName name="fichero.ValorComparacion"/>
     <fullyQualifiedTypeName name="fichero.ResultadoComparacion"/>
+    <fullyQualifiedTypeName name="cuentaPalabras.GestionaContadorPalabras"/>
+    <fullyQualifiedTypeName name="cuentaPalabras.ContarPalabras"/>
 </qualifiedTypeNameHistroy>
