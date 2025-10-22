@@ -1290,3 +1290,116 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2025-10-21 13:30:16,312 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
 2025-10-21 13:30:17,239 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@6cdf211f{STOPPING}[12.0.21,sto=0]
 2025-10-21 13:30:17,241 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4540c7db{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-10-22 10:13:28,573 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-22 10:13:29,814 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.
+2025-10-22 10:39:26,513 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-22 10:39:28,093 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.
+2025-10-22 10:41:29,332 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-22 10:41:30,545 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.
+2025-10-22 11:40:21,929 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-22 11:40:22,558 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.
+2025-10-22 11:42:14,186 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 11:42:14,189 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 11:42:14,197 [Worker-3: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 11:42:14,198 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:12:27,444 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:12:27,446 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:12:27,451 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:12:27,451 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:12:43,049 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:12:43,051 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:12:43,055 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:12:43,056 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:13:35,072 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:13:35,074 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:13:35,076 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:13:35,076 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:14:35,259 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:14:35,261 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:14:35,264 [Worker-2: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:14:35,264 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:15:25,632 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:15:25,633 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:15:25,636 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:15:25,636 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:40:29,924 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-22 12:40:31,150 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dam.accesoadatos:Libreria:0.0.1-SNAPSHOT @ C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\pom.xml.
+2025-10-22 12:41:52,732 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:41:52,734 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources from src\main\resources to target\classes
+2025-10-22 12:41:52,741 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:41:52,742 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:43:30,591 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:43:30,594 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-22 12:43:30,600 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:43:30,601 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 12:58:29,385 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:58:29,388 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-22 12:58:29,391 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 12:58:29,392 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:00:42,298 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:00:42,300 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-22 13:00:42,304 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:00:42,305 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:10:40,868 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:10:40,870 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:10:40,876 [Worker-17: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:10:40,877 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:12:08,226 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:12:08,227 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:12:08,232 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:12:08,233 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:12:18,837 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:12:18,839 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:12:18,843 [Worker-16: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:12:18,844 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:12:31,828 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.21; built: 2025-05-09T00:32:00.688Z; git: 1c4719601e31b05b7d68910d2edd980259f1f53c; jvm 21.0.7+6-LTS
+2025-10-22 13:12:31,883 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@4612f432{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@7b457a6d{STARTED}}
+2025-10-22 13:12:31,884 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-10-22 13:12:31,911 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1acc0228{HTTP/1.1, (http/1.1)}{127.0.0.1:55191}
+2025-10-22 13:12:31,924 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@46abca82{STARTING}[12.0.21,sto=0] @1929885ms
+2025-10-22 13:13:09,937 [Worker-18: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:13:09,940 [Worker-18: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:13:09,944 [Worker-18: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:13:09,944 [Worker-18: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:15:59,141 [Worker-11: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:15:59,143 [Worker-11: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:15:59,147 [Worker-11: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:15:59,148 [Worker-11: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:18:07,501 [Worker-20: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:07,502 [Worker-20: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:18:07,506 [Worker-20: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:07,507 [Worker-20: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:18:33,627 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:33,629 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-22 13:18:33,634 [Worker-20: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:33,635 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:18:49,774 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:49,776 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-22 13:18:49,779 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:18:49,779 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:20:44,346 [Worker-20: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:20:44,347 [Worker-20: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:20:44,351 [Worker-20: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:20:44,351 [Worker-20: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:24:10,312 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:24:10,314 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:24:10,318 [Worker-23: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:24:10,318 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:25:37,442 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:25:37,443 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:25:37,446 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:25:37,447 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:30:50,834 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:30:50,836 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:30:50,839 [Worker-34: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:30:50,840 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:31:29,755 [Worker-34: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:31:29,756 [Worker-34: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:31:29,759 [Worker-34: Launching GestionaPokemons] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:31:29,759 [Worker-34: Launching GestionaPokemons] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:32:00,686 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:32:00,688 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 9 resources from src\main\resources to target\classes
+2025-10-22 13:32:00,690 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-10-22 13:32:00,691 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\test\resources
+2025-10-22 13:36:17,393 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@46abca82{STOPPING}[12.0.21,sto=0]
+2025-10-22 13:36:17,396 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1acc0228{HTTP/1.1, (http/1.1)}{127.0.0.1:0}

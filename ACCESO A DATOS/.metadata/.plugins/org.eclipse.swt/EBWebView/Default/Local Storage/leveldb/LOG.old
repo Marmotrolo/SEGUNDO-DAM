@@ -1,2 +1,3 @@
-2025/10/15-11:57:15.184 3fd8 Creating DB C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
-2025/10/15-11:57:15.196 3fd8 Reusing MANIFEST C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/22-13:01:59.138 12b0 Reusing MANIFEST C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
+2025/10/22-13:01:59.143 12b0 Recovering log #3
+2025/10/22-13:01:59.145 12b0 Reusing old log C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
