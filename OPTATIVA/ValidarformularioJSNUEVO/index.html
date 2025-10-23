@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Validado</title>
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body onload="iniciarpagina()" >
+  
+
+<form class="formulariogordo" onsubmit="return validarTodo()">
+     
+    <b><h1 style="text-align: center;"> Registro</h1></b>
+   
+  <div>
+    <label >Nombre </label><br>
+    <input id="nombre" type="text" placeholder="Nombre">
+  </div>
+    <div id="campoApellidos" style="display: none;">
+      <label>Apellidos</label><br>
+      <input id="apellidos" type="text" placeholder="Apellidos">
+      </div>
+
+    <div id="campoEmail" style="display: none;">
+    <label>Email</label><br>
+    <input id="email" type="text" placeholder="Email">
+    </div>
+
+    <div id="campoTelefono" style="display: none;">
+    <label>Telefono</label><br>
+    <input id="numeropais" type="text" style="width: 35px;" placeholder="+xx">
+
+    <input id="telefono" type="text" placeholder="Telefono" >
+    </div>
+
+    <div id="campoFecha" style="display: none;">
+      <label>Nacimiento</label><br>
+      <input id="fecha" type="date"  >
+      </div>
+
+      <div id="campoDireccion" style="display: none;">
+        <label>Dirección</label><br>
+        <input id="direccion" type="text" placeholder="Calle, número">
+      </div>
+
+      <div id="campoDNI" style="display: none;">
+        <label>DNI</label><br>
+        <input id="dni" type="text" placeholder="DNI" >
+        </div>
+
+        <div id="campoContraseña" style="display: none;">
+          <label>Contraseña</label><br>
+          <input id="contraseña" type="password" placeholder="Contraseña" ><br>
+        <label>Confirma contraseña</label><br>
+        <input id="confirmacontraseña" type="password" placeholder="Confirma contraseña" >
+        </div>
+        
+        <br>
+        
+        <div id="campoGenero" style="display: none;">
+          <label>Género</label><br>
+          <input id="masculino" type="radio" name="genero" value="Masculino" >
+          <label> Masculino</label> <br>
+          <input id="femenino" type="radio" name="genero" value="Femenino" >
+          <label > Femenino</label>
+          </div>
+
+         
+
+      
+
+          <div id="campoCheck"  style="display: none;">
+           <b><label>¿Listo para enviar? </label></b>
+            <input id="checkcaja" type="checkbox"  > 
+            </div>
+      
+
+    
+
+
+
+  
+
+    <button id= "botonrvalidar" type="button" >Continuar</button>
+    <button id= "botonenviar" type="submit" disabled>Enviar</button>
+
+
+  </form>
+
+  <script src="js/script.js"> </script>
+</body>
+</html>

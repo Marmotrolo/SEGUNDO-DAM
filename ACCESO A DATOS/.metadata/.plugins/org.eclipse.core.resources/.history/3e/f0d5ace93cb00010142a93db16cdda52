@@ -1,0 +1,71 @@
+package utiles;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import paises.Pais;
+import pokemon.GestionaPokemons;
+import pokemon.Pokemon;
+
+public class GestionaPaises {
+	
+
+		private static final Logger logger = LogManager.getLogger(GestionaPaises.class);
+		
+		public List<Pais> leeCsv (String rutaFichero) throws FileNotFoundException{
+			List<Pais> listapaises= new ArrayList<Pais>();
+				
+				FileReader fichero = new FileReader(rutaFichero);
+				Scanner in = new Scanner(fichero);
+				while(in.hasNextLine()) {
+					String linea= in.nextLine();
+					String[] palabras= linea.split(",");
+					
+					String nombre= palabras[0] ;
+					String continente= palabras[1];
+					int poblacion= Integer.parseInt( palabras[2]);
+					String[] idioma = palabras[3].split(";");
+					String moneda= palabras[4];
+					
+					Pais pais = new Pais(nombre, continente, poblacion, idioma, moneda);
+					listapaises.add(pais);
+					
+					}
+				return listapaises;
+				
+		}
+
+
+					
+		public void escribeEmpleado(List<Pais>, String ruta){// Convertir el objeto a JSON
+			 Gson gson = new Gson();
+			 String json = gson.toJson(empleado);
+			 FileWriter fichero = null;
+			 try {
+				fichero = new FileWriter(ruta);
+				fichero.write(json);
+			} catch (IOException e) {
+				e.printStackTrace();
+			} finally {
+				if (fichero != null) {
+					try {
+						fichero.close();
+					} catch (IOException e) {
+						System.out.println("Error al escribir empleado");
+					}
+					
+				}}}
+}}
+
+
+

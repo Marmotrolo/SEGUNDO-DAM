@@ -20,4 +20,5 @@
     <fullyQualifiedTypeName name="cuentaPalabras.GestionaContadorPalabras"/>
     <fullyQualifiedTypeName name="cuentaPalabras.ContarPalabras"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="utiles.GestionaPaises"/>
 </qualifiedTypeNameHistroy>

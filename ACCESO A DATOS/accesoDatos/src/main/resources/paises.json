@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Argentina",
+    "continente": "América",
+    "poblacion": 46000000,
+    "idioma": [
+      "Español"
+    ],
+    "moneda": "Peso argentino"
+  },
+  {
+    "nombre": "Brasil",
+    "continente": "América",
+    "poblacion": 214000000,
+    "idioma": [
+      "Portugués"
+    ],
+    "moneda": "Real brasileño"
+  },
+  {
+    "nombre": "Canadá",
+    "continente": "América",
+    "poblacion": 38000000,
+    "idioma": [
+      "\"Inglés"
+    ],
+    "moneda": " Francés\""
+  },
+  {
+    "nombre": "China",
+    "continente": "Asia",
+    "poblacion": 1412000000,
+    "idioma": [
+      "Chino mandarín"
+    ],
+    "moneda": "Yuan"
+  },
+  {
+    "nombre": "Francia",
+    "continente": "Europa",
+    "poblacion": 67000000,
+    "idioma": [
+      "Francés"
+    ],
+    "moneda": "Euro"
+  },
+  {
+    "nombre": "India",
+    "continente": "Asia",
+    "poblacion": 1393000000,
+    "idioma": [
+      "\"Hindi"
+    ],
+    "moneda": " Inglés\""
+  },
+  {
+    "nombre": "Japón",
+    "continente": "Asia",
+    "poblacion": 125800000,
+    "idioma": [
+      "Japonés"
+    ],
+    "moneda": "Yen"
+  },
+  {
+    "nombre": "México",
+    "continente": "América",
+    "poblacion": 126000000,
+    "idioma": [
+      "Español"
+    ],
+    "moneda": "Peso mexicano"
+  },
+  {
+    "nombre": "Nigeria",
+    "continente": "África",
+    "poblacion": 206000000,
+    "idioma": [
+      "Inglés"
+    ],
+    "moneda": "Naira"
+  },
+  {
+    "nombre": "Sudáfrica",
+    "continente": "África",
+    "poblacion": 60000000,
+    "idioma": [
+      "\"Inglés"
+    ],
+    "moneda": " Afrikáans"
+  },
+  {
+    "nombre": "Alemania",
+    "continente": "Europa",
+    "poblacion": 83000000,
+    "idioma": [
+      "Alemán"
+    ],
+    "moneda": "Euro"
+  },
+  {
+    "nombre": "Australia",
+    "continente": "Oceanía",
+    "poblacion": 26000000,
+    "idioma": [
+      "Inglés"
+    ],
+    "moneda": "Dólar australiano"
+  }
+]

@@ -19,10 +19,10 @@ public class GestionaPokemons {
 		String ruta = "src\\main\\resources\\pokemon.json";
 		String rutaCsv = "src\\main\\resources\\pokemon.csv";
 		
-		//Pokemon p = manejaPokemonJson.leePokemon(ruta);
 		
-		//terminar
-		//escribirP.escribePokemon(p, rutaCsv);
+		
+		
+		
 		try {
 			manejaPokemonJson.leeCsv(rutaCsv);
 			logger.info(manejaPokemonJson.leeCsv(rutaCsv));
