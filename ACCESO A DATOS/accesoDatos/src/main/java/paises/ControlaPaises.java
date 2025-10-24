@@ -1,0 +1,39 @@
+package paises;
+
+import java.io.FileNotFoundException;
+import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import pokemon.GestionaPokemons;
+import utiles.EscribirPokemonCsv;
+import utiles.GestionaPaises;
+import utiles.ManejaPokemons;
+
+public class ControlaPaises {
+	
+private static final Logger logger = LogManager.getLogger(GestionaPokemons.class);
+	
+	public static void main(String[] args) {
+
+
+		GestionaPaises gestionapaises = new GestionaPaises();
+		String rutaCsv = "src\\main\\resources\\paises.csv";
+
+		String rutaJson = "src\\main\\resources\\paises.json";
+		
+		
+		try {
+			List<Pais> paises= 	gestionapaises.leeCsv(rutaCsv);
+
+			gestionapaises.escribepaises(paises, rutaJson);
+			logger.info(gestionapaises.leeCsv(rutaCsv));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	
+}
+}

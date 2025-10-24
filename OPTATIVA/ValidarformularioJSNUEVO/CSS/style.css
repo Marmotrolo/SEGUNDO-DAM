@@ -1,8 +1,6 @@
 body{
-    background-image: url(/ValidarformularioJSNUEVO/IMAGES/cjAR9D3.jpg);
+    background-image: url(../images/cjAR9D3.jpg);
     background-size: cover;     
-      
-
 }
 
 input{
@@ -15,12 +13,10 @@ div{
 h1{
     
     color: rgb(58, 94, 95);
-
 }
 label{
     color: rgb(82, 129, 131);
 }
-
 button{
     
     border-radius: 20px;
@@ -28,8 +24,6 @@ button{
     padding: 10px;
     
     font-size: medium  ;
-
-
 
 }
 .formulariogordo{

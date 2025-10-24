@@ -32,7 +32,7 @@ private static final Logger logger = LogManager.getLogger(ManejaPokemons.class);
 			logger.debug("Error al leer pokemon"+e.getMessage());
 		}	
 		return pokemon;
-	}
+	}	
 	public List<Pokemon> leeCsv (String rutaFichero) throws FileNotFoundException{
 		List<Pokemon> listapokemon= new ArrayList<Pokemon>();
 			
