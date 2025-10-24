@@ -4,6 +4,10 @@ body{
       
 
 }
+
+input{
+    border-radius: 20px;
+}
 div{
 
     padding:6px;
