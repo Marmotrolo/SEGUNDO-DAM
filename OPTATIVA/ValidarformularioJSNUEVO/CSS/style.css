@@ -1,10 +1,8 @@
 body{
-    background-image: url(../images/cjAR9D3.jpg);
+    background-image: url(../images/2025-10-26-12-30-59.gif);
     background-size: cover;     
-}
+      
 
-input{
-    border-radius: 20px;
 }
 div{
 
@@ -13,10 +11,34 @@ div{
 h1{
     
     color: rgb(58, 94, 95);
+
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  padding: 10px 12px;
+  margin-top: 7px;
+  border: 2px solid lightcyan;
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input:focus {
+
+  background: lightcyan;
+  border-color: cadetblue;
+}
+
+
 label{
     color: rgb(82, 129, 131);
 }
+
 button{
     
     border-radius: 20px;
@@ -25,7 +47,11 @@ button{
     
     font-size: medium  ;
 
+
+
 }
+
+
 .formulariogordo{
     
     border: 2px solid;

@@ -21,4 +21,5 @@
     <fullyQualifiedTypeName name="cuentaPalabras.ContarPalabras"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="utiles.GestionaPaises"/>
+    <fullyQualifiedTypeName name="towergpt.modelo.InteraccionAgente"/>
 </qualifiedTypeNameHistroy>
