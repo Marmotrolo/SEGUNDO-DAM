@@ -19,8 +19,6 @@ private static final String rutafichero= "src/main/resources/";
 		String	palabra=args[0];
 		String archivo= rutafichero + args[1];
 
-		
-
 		System.out.println(contarpalabrasfila(palabra, archivo));
 		
 	}

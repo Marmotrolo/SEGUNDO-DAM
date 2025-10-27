@@ -105,54 +105,7 @@ public class ServicioEstadisticaImpl implements IServicioEstadistica  {
 		return interaccionesagentemayorqueporcentajepedido;
 	}
 	
-	public Set<InteraccionAgente> cargarRegistrosDesdeJSON(String ruta) {
-	    Set<InteraccionAgente> interacciones = new HashSet<>();
-	    Gson gson = new Gson();
-
-	    try (FileReader reader = new FileReader(new String (ruta))) {
-	        InteraccionAgente[] array = gson.fromJson(reader, InteraccionAgente[].class);
-	        interacciones = new HashSet<>(Arrays.asList(array));
-	    } catch (FileNotFoundException e) {
-	        e.printStackTrace();
-	    } catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-
-	    return interacciones;
-	}
-
-	@Override
-	public void grabarFicheroCSV(String ruta, Set<InteraccionAgente> interacciones) {
-		 interacciones = clase_repo.getInteracciones();
-			PrintWriter out = null;
-		    File ruta_real = new File(ruta);
-
-		    try {
-		        FileWriter ficheroSalida = new FileWriter(ruta_real);
-		        out = new PrintWriter(ficheroSalida);
-
-		        out.println("Id,TipoAgente,Peticion,Respuesta,Valoracion,Porcentaje_Acierto");
-
-		        for (InteraccionAgente a : interacciones) {
-		        	out.printf(Locale.US, "%d,%s,%s,%s,%f,%d%n",
-		        		    a.getId(),
-		        		    a.getTipoAgente(),
-		        		    a.getPeticion(),
-		        		    a.getRespuesta(),
-		        		    a.getValoracion(),
-		        		    a.getPorcentaje_Acierto()
-		        		);
-		        }
-
-		    } catch (IOException e) {
-		        System.out.println("IOException");
-		    } finally {
-		        if (out != null)
-		            out.close();
-		    }
-		}
-
+	
 
 
 	@Override
