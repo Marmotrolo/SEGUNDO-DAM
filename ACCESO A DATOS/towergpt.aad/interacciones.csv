@@ -1,0 +1,2 @@
+Id,TipoAgente,Peticion,Respuesta,Valoracion,Porcentaje_Acierto
+0,AI,¿Qué hora es?,Son las 10:00,4.500000,90.000000,1.2000000,AI,Calcula 2+2,4,3.500000,95.000000,0.5000000,HUMANO,Saludar,Hola!,5.000000,100.000000,0.8000000,HUMANO,Pide chiste,¿Por qué la IA cruzó la red?,4.000000,70.000000,2.000000

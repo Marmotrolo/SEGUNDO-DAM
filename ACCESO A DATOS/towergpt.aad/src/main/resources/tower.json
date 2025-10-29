@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "tipoAgente": "AI",
+    "peticion": "ola",
+    "respuesta": "adios",
+    "valoracion": 4.5,
+    "porcentajeAcierto": 98.0,
+    "tiempoResolucion": 1.2
+  },
+  {
+    "id": 0,
+    "tipoAgente": "HUMANO",
+    "peticion": "2+2",
+    "respuesta": "4",
+    "valoracion": 5.0,
+    "porcentajeAcierto": 100.0,
+    "tiempoResolucion": 0.8
+  },
+  {
+    "id": 0,
+    "tipoAgente": "HUMANO",
+    "peticion": "Tocktock",
+    "respuesta": "Quien es?",
+    "valoracion": 3.8,
+    "porcentajeAcierto": 90.0,
+    "tiempoResolucion": 0.5
+  },
+  {
+    "id": 0,
+    "tipoAgente": "AI",
+    "peticion": "Soraya apruebame",
+    "respuesta": "No",
+    "valoracion": 4.7,
+    "porcentajeAcierto": 95.0,
+    "tiempoResolucion": 2.1
+  }
+]

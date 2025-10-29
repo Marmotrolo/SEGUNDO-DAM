@@ -1,0 +1,149 @@
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas: 4
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: towergpt.modelo.InteraccionAgente@1e9e725a
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:32:27] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:32:28] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:32:28] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:32:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:32:28] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas: 4
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: towergpt.modelo.InteraccionAgente@1e9e725a
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:32:52] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:32:52] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones mayores
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:35:05] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:35:05] [INFO ] towergpt.main.ControladorTowerGPT - Interacción eliminada: 
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas: 4
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: towergpt.modelo.InteraccionAgente@1e9e725a
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:35:28] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:35:28] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas: 4
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: towergpt.modelo.InteraccionAgente@1e9e725a
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:35:31] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:35:31] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:42:56] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:42:56] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90: 3
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:43:15] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con ID=3 eliminada: false
+[2025-10-27 23:43:15] [INFO ] towergpt.main.ControladorTowerGPT - === FIN DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones con acierto > 90:3
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humanas agrupadas: 2
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:44:39] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:44:39] [INFO ] towergpt.main.ControladorTowerGPT - Interacción eliminada: false
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones mayor acierto3
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humano agrupadas: 2
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-27 23:47:38] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-27 23:47:38] [INFO ] towergpt.main.ControladorTowerGPT - Interacción eliminada: false
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones mayor acierto3
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humano agrupadas: 2
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-29 13:01:37] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-29 13:01:37] [INFO ] towergpt.main.ControladorTowerGPT - Interacción eliminada: false
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - === INICIO DEL PROGRAMA TowerGPT ===
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones registradas:
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio AI: 1.65
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Tiempo medio Humano: 0.65
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio AI: 96.5
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Porcentaje acierto medio Humano: 96.5
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones mayor acierto3
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacción con mejor valoración: InteraccionAgente [id=0, tipoAgente=HUMANO, peticion=2+2, respuesta=4, valoracion=5.0, porcentajeAcierto=100.0, tiempoResolucion=0.8]
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones AI agrupadas: 2
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacciones Humano agrupadas: 2
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Archivos JSON y CSV generados correctamente.
+[2025-10-29 13:30:12] [INFO ] towergpt.repositorio.Repositoriointeracciones - No se encontró iteracción
+[2025-10-29 13:30:12] [INFO ] towergpt.main.ControladorTowerGPT - Interacción eliminada: false

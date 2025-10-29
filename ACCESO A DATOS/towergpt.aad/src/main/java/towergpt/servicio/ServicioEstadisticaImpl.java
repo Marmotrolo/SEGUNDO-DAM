@@ -8,9 +8,11 @@ import com.google.gson.Gson;
 
 import towergpt.modelo.InteraccionAgente;
 import towergpt.modelo.TipoAgente;
+import towergpt.repositorio.Repositoriointeracciones;
 
 public class ServicioEstadisticaImpl implements IServicioEstadistica  {
 	
+	Repositoriointeracciones repo = new Repositoriointeracciones();
 	
 	@Override
 	public Map<TipoAgente, List<InteraccionAgente>> agruparInteraccionesPorTipo(Set<InteraccionAgente> interacciones, TipoAgente tipo) {
@@ -62,50 +64,28 @@ public class ServicioEstadisticaImpl implements IServicioEstadistica  {
 			
 			return interaccionesregistradasportipoAI;
 	}
+
 	@Override
-	public InteraccionAgente obtenerInteraccionConMejorValoracion(Set<InteraccionAgente> interacciones) {
-		InteraccionAgente interaccionmejorvalorada=null;
-		double valoracioninteraccion= 0;
-	
-		for (InteraccionAgente interaccionAgente : interacciones) {
-			if(valoracioninteraccion< interaccionAgente.getValoracion()) {
-				valoracioninteraccion= interaccionAgente.getValoracion();
-				interaccionmejorvalorada= interaccionAgente;
-			}
-		}
-	
-		return interaccionmejorvalorada;
+	public double calcularTiempoMedioPorTipo(TipoAgente tipo) {
+		return repo.obtenerTiempoMedioPorAgente(tipo);
 	}
 
 	@Override
-	public double calcularTiempoMedioPorTipo(TipoAgente tipo, Set<InteraccionAgente> interacciones) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double calcularPorcentajeAciertoMedioPorTipo(TipoAgente tipo, Set<InteraccionAgente> interacciones) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double calcularPorcentajeAciertoMedioPorTipo(TipoAgente tipo) {
+		return repo.obtenerPorcentajeAciertoMedioPorAgente(tipo);
 	}
 
 
 
 	@Override
-	public List<InteraccionAgente> obtenerInteraccionesAciertoMayorQueOrdenadas(double porcentaje,
-			Set<InteraccionAgente> interacciones) {
-			List<InteraccionAgente> interaccionesagentemayorqueporcentajepedido = new ArrayList<InteraccionAgente> ();
+	public List<InteraccionAgente> obtenerInteraccionesAciertoMayorQueOrdenadas(double porcentaje) {
+		
 			
-			for (InteraccionAgente interaccionAgente : interacciones) {
-				if(interaccionAgente.getPorcentajeAcierto()> porcentaje) {
-					interaccionesagentemayorqueporcentajepedido.add(interaccionAgente);
-				}
-			}
-			
-		return interaccionesagentemayorqueporcentajepedido;
+		return repo.obtenerInteraccionesAciertoMayorQueOrdenadas(porcentaje);
 	}
 	
-	
+
+
 
 
 	@Override
@@ -113,4 +93,30 @@ public class ServicioEstadisticaImpl implements IServicioEstadistica  {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public boolean eliminarInteraccion(int id) {
+		return repo.eliminarInteraccion(id);
+	}
+
+	@Override
+	public void agregarInteraccionARegistro(InteraccionAgente interaccion) {
+		repo.agregarInteraccionARegistro(interaccion);		
+	}
+
+	@Override
+	public InteraccionAgente obtenerInteraccionConMejorValoracion() {
+		return repo.obtenerInteraccionConMejorValoracion();
+	}
+
+
+
+
+
+	
+
+	
+
+
+
 }

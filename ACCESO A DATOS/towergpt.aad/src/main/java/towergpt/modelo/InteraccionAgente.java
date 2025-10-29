@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class InteraccionAgente implements Comparable <InteraccionAgente> {
 
-	 	private String id;
+	 	private int id;
 	    private TipoAgente tipoAgente; 
 	    private String peticion;
 	    private String respuesta;
@@ -16,7 +16,7 @@ public class InteraccionAgente implements Comparable <InteraccionAgente> {
 
 	    public InteraccionAgente(TipoAgente tipoAgente, String peticion, String respuesta,
 	                             double valoracion, double porcentajeAcierto, double tiempoResolucion) {
-	        this.id = calculaIdentificador();
+	        this.id = id;
 	        this.tipoAgente = tipoAgente;
 	        this.peticion = peticion;
 	        this.respuesta = respuesta;
@@ -25,29 +25,17 @@ public class InteraccionAgente implements Comparable <InteraccionAgente> {
 	        this.tiempoResolucion = tiempoResolucion;
 	    }
 	    
-	    
-	    
-	    public String calculaIdentificador() {
-	            Random aleatorio = new Random();
-	            int num = aleatorio.nextInt();
-
-	            String numeroString = Integer.toString(num);
-	            SimpleDateFormat formatoFecha = new SimpleDateFormat("ddMMyyyy");
-	            this.id = numeroString ;
-
-	            return id;
-
-	        }
+	  
 
 
 
-		public String getId() {
+		public int getId() {
 			return id;
 		}
 
 
 
-		public void setId(String id) {
+		public void setId(int id) {
 			this.id = id;
 		}
 
@@ -129,6 +117,17 @@ public class InteraccionAgente implements Comparable <InteraccionAgente> {
 		public int compareTo(InteraccionAgente o) {
 
 			return Double.compare(this.porcentajeAcierto, o.porcentajeAcierto);
+		}
+
+
+
+
+
+		@Override
+		public String toString() {
+			return "InteraccionAgente [id=" + id + ", tipoAgente=" + tipoAgente + ", peticion=" + peticion
+					+ ", respuesta=" + respuesta + ", valoracion=" + valoracion + ", porcentajeAcierto="
+					+ porcentajeAcierto + ", tiempoResolucion=" + tiempoResolucion + "]";
 		}
 	    
 	    

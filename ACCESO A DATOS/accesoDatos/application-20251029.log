@@ -1,0 +1,2 @@
+2025-10-29 13:36:55.887 [main] ERROR xml.XMLdomEmpleado - C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\main\resourcesempleado.xml (El sistema no puede encontrar el archivo especificado)
+2025-10-29 13:40:55.868 [main] INFO  xml.controlador.Main - Empleado [id=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]

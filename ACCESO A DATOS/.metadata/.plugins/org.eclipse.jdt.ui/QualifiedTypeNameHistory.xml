@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="fichero.Ejercicio2"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
-    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
     <fullyQualifiedTypeName name="utiles.ManejaFicherosPersona"/>
     <fullyQualifiedTypeName name="fichero.GestionaPersona"/>
     <fullyQualifiedTypeName name="fichero.ValorComparacion"/>
@@ -22,4 +21,6 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="utiles.GestionaPaises"/>
     <fullyQualifiedTypeName name="towergpt.modelo.InteraccionAgente"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="xml.XMLdomEmpleado"/>
 </qualifiedTypeNameHistroy>

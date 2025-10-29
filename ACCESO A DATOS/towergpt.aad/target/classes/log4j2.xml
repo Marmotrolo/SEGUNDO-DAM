@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Mostrar logs en la consola -->
+        <Console name="Consola" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%-5p] %c{1} - %msg%n" />
+        </Console>
+
+        <!-- Guardar logs en un fichero -->
+        <File name="ArchivoLog" fileName="logs/towergpt.log" append="true">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss}] [%-5p] %c - %msg%n" />
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Consola" />
+            <AppenderRef ref="ArchivoLog" />
+        </Root>
+    </Loggers>
+</Configuration>
