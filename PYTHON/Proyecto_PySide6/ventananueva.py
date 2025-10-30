@@ -1,3 +1,4 @@
+#MANUEL PARRADO TORRES
 from PySide6.QtWidgets import QApplication,QMainWindow , QWidget, QPushButton
 from PySide6.QtCore import QSize
 
