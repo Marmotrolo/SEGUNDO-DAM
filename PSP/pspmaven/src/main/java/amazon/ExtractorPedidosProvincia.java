@@ -23,7 +23,7 @@ public class ExtractorPedidosProvincia {
         String ficheroSalida = rutaprovincias + provincia + ".txt";
 
 		try {
-			List<String> listaprovincias= f.contadortemperaturassuperiores( rutaprovincias+"/pedidos.txt",  provincia);
+			List<String> listaprovincias= f.contarprovinciasamazon( rutaprovincias+"/pedidos.txt",  provincia);
 			f.crearficheroresultado(listaprovincias, ficheroSalida );
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -35,7 +35,7 @@ public class ExtractorPedidosProvincia {
 	}
 	
 	
-	public List<String> contadortemperaturassuperiores(String rutaficheroprovincias, String provincia) throws FileNotFoundException {
+	public List<String> contarprovinciasamazon(String rutaficheroprovincias, String provincia) throws FileNotFoundException {
 		int contador=0;
 		List<String> pedidos = new ArrayList<>();
 
