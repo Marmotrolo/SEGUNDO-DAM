@@ -1,19 +1,22 @@
 package xml.controlador;
 
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import xml.Empleado;
-import xml.XMLdomEmpleado;
+import xml.modelo.Empleado;
+import xml.utiles.XMLdomEmpleado;
+import xml.utiles.XMLdomEmpleados;
 
 public class Main {
 	private static final Logger logger= LogManager.getLogger(Main.class);
 
 	public static void main(String[] args) {
-		XMLdomEmpleado xmlempleado= new XMLdomEmpleado();
+		XMLdomEmpleados xmlempleado= new XMLdomEmpleados();
 		
 		try {
-			Empleado empleado = xmlempleado.leerEmpleadoDesdeXML("empleado.xml");
+			List<Empleado> empleado = xmlempleado.leerEmpleadosDesdeXML("empleados.xml");
 			logger.info(empleado);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

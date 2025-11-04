@@ -1,4 +1,4 @@
-package xml;
+package xml.utiles;
 
 import java.io.File;
 
@@ -10,13 +10,16 @@ import org.apache.logging.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import xml.modelo.Empleado;
+
 public class XMLdomEmpleado {
 	
 	private static final Logger logger= LogManager.getLogger(XMLdomEmpleado.class);
 	
 	private static final String rutaFichero= "src\\main\\resources\\";
 
-	
+	//siempre igual
+	//genero dom
 	private Document getDocumentFromXML(String nombrefichero) {
 		File file = new File(rutaFichero + nombrefichero);
 		Document documento = null;
@@ -33,7 +36,7 @@ public class XMLdomEmpleado {
 
 
 
-
+//cambia dependiendo de lo que quiera
 	private  Empleado getEmpleadoFromElement(Element elemento){
 			Empleado e = new Empleado();
 			String nombre = elemento.getElementsByTagName("nombreApellido").item(0).getTextContent();
@@ -47,7 +50,7 @@ public class XMLdomEmpleado {
 			return e;
 	}
 	
-
+//de un fichero genera el documento
 	public Empleado leerEmpleadoDesdeXML(String rutaFichero) throws Exception {
 	       Document doc = getDocumentFromXML(rutaFichero);
 	       // Obtener el elemento raíz (el único <empleado>)

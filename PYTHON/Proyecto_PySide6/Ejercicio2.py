@@ -7,7 +7,7 @@ class VentanaPrincipal (QMainWindow):
         super().__init__()
         self.setWindowTitle("Mi aplicación")
 
-        boton= QPushButton("Púlsame ostia")
+        boton= QPushButton("Púlsame ")
         boton.setCheckable(True)
         boton.clicked.connect(self.el_boton_fue_pulsado)
         boton.clicked.connect(self.el_boton_esta_on)

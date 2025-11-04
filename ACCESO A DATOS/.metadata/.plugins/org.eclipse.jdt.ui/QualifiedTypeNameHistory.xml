@@ -23,4 +23,5 @@
     <fullyQualifiedTypeName name="towergpt.modelo.InteraccionAgente"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
     <fullyQualifiedTypeName name="xml.XMLdomEmpleado"/>
+    <fullyQualifiedTypeName name="xml.utiles.XMLdomPeliculas"/>
 </qualifiedTypeNameHistroy>

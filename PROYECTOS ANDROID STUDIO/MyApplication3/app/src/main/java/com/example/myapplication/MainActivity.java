@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         Intent ejemplo6 = new Intent(this, SecondActivity.class);
         ejemplo6.putExtra("Surname", "Luis");
         startActivity(ejemplo6);
-
+        Log.i("camara","Abierto");
     }
 
     }

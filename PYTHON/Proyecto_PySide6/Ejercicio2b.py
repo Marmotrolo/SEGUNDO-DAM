@@ -7,7 +7,7 @@ class VentanaPrincipal (QMainWindow):
         super().__init__()
         self.setWindowTitle("Mi aplicación")
 
-        self.boton= QPushButton("Púlsame ostia")
+        self.boton= QPushButton("Púlsame ")
         self.boton.clicked.connect(self.cambia_titulo)
         self.boton.pressed.connect(self.cambia_texto_botonpulsado)
         self.boton.released.connect(self.cambia_texto_botonliberado)
@@ -23,12 +23,12 @@ class VentanaPrincipal (QMainWindow):
             self.setWindowTitle("Ventana apagada")
 
     def cambia_texto_botonpulsado(self):
-        self.boton.setText("Sueltame papu")
+        self.boton.setText("Sueltame ")
         print("Boton pulsado")
 
 
     def cambia_texto_botonliberado(self):
-        self.boton.setText("Pulsame más papu")
+        self.boton.setText("Pulsame más")
         print("Boton liberado")
 
 

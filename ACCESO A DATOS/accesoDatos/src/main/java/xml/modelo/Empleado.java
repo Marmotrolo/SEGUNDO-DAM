@@ -1,4 +1,4 @@
-package xml;
+package xml.modelo;
 
 import java.util.Objects;
 
