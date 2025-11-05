@@ -1,11 +1,15 @@
 package utiles;
 
 import java.io.FileReader;
+import java.util.Arrays;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.google.gson.Gson;
+
+import pruebaJSON.Empleado;
 
 public class leerjson {
 

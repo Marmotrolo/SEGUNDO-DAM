@@ -7,7 +7,7 @@ class VentanaPrincipal (QMainWindow):
         self.setWindowTitle("Mi aplicación")
 
         combo= QComboBox()
-        combo.addItems(["Uno","Dos","Tres"])
+        combo.addItems(["Python","Java","C++", "Kotlin"])
         combo.setEditable(True)
         combo.setInsertPolicy(QComboBox.InsertAlphabetically)
         combo.setMaxCount(5)
@@ -22,6 +22,11 @@ class VentanaPrincipal (QMainWindow):
 
     def cambio_text (self , i):
         print ("Texto seleccionado", i)
+        self.setWindowTitle(i)
+
+
+     
+
 
 app = QApplication([])
 vetana= VentanaPrincipal()
