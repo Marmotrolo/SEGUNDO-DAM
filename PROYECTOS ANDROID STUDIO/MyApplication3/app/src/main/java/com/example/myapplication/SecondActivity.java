@@ -14,7 +14,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second_activity);
+        setContentView(R.layout.pruebalinearlayout);
         Bundle b = getIntent().getExtras();
         Log.i("Datos", b.getString("Surname"));;
     }
