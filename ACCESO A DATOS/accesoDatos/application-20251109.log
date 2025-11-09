@@ -1,0 +1,7 @@
+2025-11-09 21:54:20.091 [main] INFO  xml.controlador.Main - []
+2025-11-09 21:54:29.194 [main] INFO  xml.controlador.Main - []
+2025-11-09 21:54:37.154 [main] INFO  xml.controlador.Main - []
+2025-11-09 21:54:57.255 [main] INFO  xml.controlador.Main - []
+2025-11-09 21:58:16.372 [main] INFO  xml.controlador.Main - [Empleado [id=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI], Empleado [id=E002, nombreApellido=María López, edad=25, empresa=Google]]
+2025-11-09 22:00:33.660 [main] INFO  xml.controlador.Main - [Empleado [id=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI], Empleado [id=E002, nombreApellido=María López, edad=25, empresa=Google]]
+2025-11-09 22:00:41.602 [main] INFO  xml.controlador.Main - [Producto [id=1, enventa=true, nombre=Producto 1, precio=10.0, stock=3], Producto [id=2, enventa=true, nombre=Producto 2, precio=15.0, stock=10], Producto [id=3, enventa=true, nombre=Producto 3, precio=25.0, stock=0], Producto [id=4, enventa=true, nombre=Producto 4, precio=5.75, stock=50]]

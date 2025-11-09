@@ -40,18 +40,18 @@ private static final Logger logger= LogManager.getLogger(XMLdomEmpleado.class);
 			
 		} 
 		//cambia dependiendo de lo que quiera
-		private  Producto getProductoFromElement(Element elemento){
-				Producto e = new Producto();
-				String nombre = elemento.getElementsByTagName("Nombre").item(0).getTextContent();
-				int stock = Integer.parseInt(elemento.getElementsByTagName("Stock").item(0).getTextContent());
-				String empresa = elemento.getElementsByTagName("empresa").item(0).getTextContent();
-				String id = elemento.getAttribute("identificador"); // La etiqueta empleado tiene el atributo identificador
-				e.setEdad(edad);
-				e.setNombreApellido(nombre);
-				e.setId(id);
-				e.setEmpresa(empresa);
-				return e;
-		}
+		private  Empleado getEmpleadoFromElement(Element elemento){
+			Empleado e = new Empleado();
+			String nombre = elemento.getElementsByTagName("nombreApellido").item(0).getTextContent();
+			int edad = Integer.parseInt(elemento.getElementsByTagName("edad").item(0).getTextContent());
+			String empresa = elemento.getElementsByTagName("empresa").item(0).getTextContent();
+			String id = elemento.getAttribute("identificador"); // La etiqueta empleado tiene el atributo identificador
+			e.setEdad(edad);
+			e.setNombreApellido(nombre);
+			e.setId(id);
+			e.setEmpresa(empresa);
+			return e;
+	}
 
 		public List<Empleado> leerEmpleadosDesdeXML(String rutaFichero) throws Exception {
 			List<Empleado> empleados = new ArrayList<Empleado>();

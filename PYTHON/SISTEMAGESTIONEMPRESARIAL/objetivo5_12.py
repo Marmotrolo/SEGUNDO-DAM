@@ -1,17 +1,7 @@
-# ============================================================
-# Nombre: [Tu Nombre Aquí]
-# Apellidos: [Tus Apellidos Aquí]
-# Grupo: [Tu Grupo Aquí]
-# Archivo: objetivo5_fase12.py
-# Descripción: Calculadora interactiva con operaciones básicas
-#              y avanzadas, estructurada mediante funciones.
-# ============================================================
+#MANUEL PARRADO TORRES
+#calculadora interactiva, capaz de realizar tanto las operaciones matemáticas básicas (suma, resta, multiplicación, división) como otras operaciones extendidas (potencia, raíz cuadrada y módulo).
 
-import math  # Se importa para usar raíz cuadrada y potencia
-
-# ------------------------------------------------------------
-# FUNCIONES DE OPERACIONES BÁSICAS
-# ------------------------------------------------------------
+import math  
 
 def pedir_numero(mensaje):
     """
@@ -21,7 +11,7 @@ def pedir_numero(mensaje):
         try:
             return float(input(mensaje))
         except ValueError:
-            print("❌ Error: introduce un número válido.")
+            print(" Error: introduce un número válido.")
 
 
 def sumar():
@@ -29,7 +19,7 @@ def sumar():
     a = pedir_numero("Introduce el primer número: ")
     b = pedir_numero("Introduce el segundo número: ")
     resultado = a + b
-    print(f"Resultado de la suma: {resultado:.2f}")
+    print("Resultado de la suma:" + resultado)
 
 
 def restar():
@@ -37,7 +27,7 @@ def restar():
     a = pedir_numero("Introduce el primer número: ")
     b = pedir_numero("Introduce el segundo número: ")
     resultado = a - b
-    print(f"Resultado de la resta: {resultado:.2f}")
+    print("Resultado de la resta:"+ resultado)
 
 
 def multiplicar():
@@ -45,7 +35,7 @@ def multiplicar():
     a = pedir_numero("Introduce el primer número: ")
     b = pedir_numero("Introduce el segundo número: ")
     resultado = a * b
-    print(f"Resultado de la multiplicación: {resultado:.2f}")
+    print("Resultado de la multiplicación"+ resultado)
 
 
 def dividir():
@@ -53,32 +43,29 @@ def dividir():
     a = pedir_numero("Introduce el dividendo: ")
     b = pedir_numero("Introduce el divisor: ")
     if b == 0:
-        print("❌ Error: no se puede dividir entre cero.")
+        print("Error: no se puede dividir entre cero.")
         return
     resultado = a / b
-    print(f"Resultado de la división: {resultado:.2f}")
+    print("Resultado de la división"+ resultado)
 
 
-# ------------------------------------------------------------
-# FUNCIONES DE OPERACIONES AVANZADAS
-# ------------------------------------------------------------
 
 def potencia():
     """Calcula la potencia de un número (base ^ exponente)."""
     base = pedir_numero("Base: ")
     exponente = pedir_numero("Exponente: ")
     resultado = math.pow(base, exponente)
-    print(f"Resultado: {resultado:.2f}")
+    print("Resultado"+ resultado)
 
 
 def raiz_cuadrada():
     """Calcula la raíz cuadrada de un número, evitando valores negativos."""
     numero = pedir_numero("Introduce un número: ")
     if numero < 0:
-        print("❌ Error: no se puede calcular la raíz cuadrada de un número negativo.")
+        print(" Error: no se puede calcular la raíz cuadrada de un número negativo.")
         return
     resultado = math.sqrt(numero)
-    print(f"Resultado: {resultado:.2f}")
+    print("Resultado"+ resultado)
 
 
 def modulo():
@@ -86,10 +73,10 @@ def modulo():
     a = pedir_numero("Introduce el primer número: ")
     b = pedir_numero("Introduce el segundo número: ")
     if b == 0:
-        print("❌ Error: no se puede calcular el módulo con divisor cero.")
+        print(" Error: no se puede calcular el módulo con divisor cero.")
         return
     resultado = a % b
-    print(f"Resultado: {resultado:.2f}")
+    print("Resultado"+ resultado)
 
 
 # ------------------------------------------------------------
@@ -118,7 +105,7 @@ def menu_avanzado():
         elif opcion == "d":
             break
         else:
-            print("❌ Opción no válida. Inténtalo de nuevo.")
+            print("Opción no válida. Inténtalo de nuevo.")
 
 
 def menu():
@@ -153,11 +140,7 @@ def menu():
             print("Fin del programa. ¡Hasta pronto! 👋")
             break
         else:
-            print("❌ Opción no válida. Inténtalo de nuevo.")
+            print("Opción no válida. Inténtalo de nuevo.")
 
 
-# ------------------------------------------------------------
-# EJECUCIÓN DEL PROGRAMA
-# ------------------------------------------------------------
-if __name__ == "__main__":
-    menu()
+menu()
