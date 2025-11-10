@@ -11,7 +11,9 @@ import org.apache.logging.log4j.Logger;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import ejerciciorepaso2.repositorio.RepositorioConversaciones;
 import xml.modelo.Producto;
+import xml.repositorio.RepositorioProducto;
 import xml.utiles.XMLdomEmpleado;
 import xml.utiles.XMLdomProductos;
 
@@ -19,13 +21,20 @@ import xml.utiles.XMLdomProductos;
 public class ServicioProducto {
 	private static final Logger logger= LogManager.getLogger(XMLdomEmpleado.class);
 
-	XMLdomProductos util= new XMLdomProductos();
+	RepositorioProducto repo ;
 	String rutaFichero= "src\\main\\resources\\";
 	
+	
+	
+	public ServicioProducto( List<Producto> productos) {
+		super();
+		this.repo = new RepositorioProducto(productos);
+	}
+
 	public List<Producto> obtieneproductosinferiorstock ( int numerostock ) throws Exception {
 
 		List<Producto> listaproductosinferiorstock= new ArrayList<>();
-		List<Producto> listaproductos = util.leerpodructosDesdeXML(rutaFichero);
+		List<Producto> listaproductos = repo.getProductos();
 		
 		for (Producto producto : listaproductos) {
 			if(producto.getStock()<numerostock) {
@@ -63,9 +72,7 @@ public class ServicioProducto {
 		
 		
 	}
-	public void generaJSONnoenventa() throws Exception {
-		List<Producto> listaproductos = util.leerpodructosDesdeXML(rutaFichero);
-		List<Producto> listaproductosinferiora5 = obtieneproductosstockmenor5(listaproductos);
+	public void generaJSONnoenventa(List<Producto> p) throws Exception {
 
 	    String rutaSalida = rutaFichero + "productosNOenVenta.json";
 		
@@ -73,7 +80,7 @@ public class ServicioProducto {
 	    String rutasalida= rutaFichero + "productosNOenventa.json";
 	    
 	    try (FileWriter writer = new FileWriter(rutaSalida)) {
-	        gson.toJson(listaproductosinferiora5, writer);
+	        gson.toJson(p, writer);
 	        logger.info("CREADO");
 	       
 	    } catch (IOException e) {

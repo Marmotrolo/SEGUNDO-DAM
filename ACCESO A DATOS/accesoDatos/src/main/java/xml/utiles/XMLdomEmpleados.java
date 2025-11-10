@@ -45,7 +45,7 @@ private static final Logger logger= LogManager.getLogger(XMLdomEmpleado.class);
 			String nombre = elemento.getElementsByTagName("nombreApellido").item(0).getTextContent();
 			int edad = Integer.parseInt(elemento.getElementsByTagName("edad").item(0).getTextContent());
 			String empresa = elemento.getElementsByTagName("empresa").item(0).getTextContent();
-			String id = elemento.getAttribute("identificador"); // La etiqueta empleado tiene el atributo identificador
+			String id = elemento.getAttribute("identificador"); 
 			e.setEdad(edad);
 			e.setNombreApellido(nombre);
 			e.setId(id);

@@ -1,0 +1,3 @@
+2025-11-10 09:21:12.909 [main] INFO  xml.controlador.Main - [Producto [id=1, enventa=true, nombre=Producto 1, precio=10.0, stock=3], Producto [id=2, enventa=true, nombre=Producto 2, precio=15.0, stock=10], Producto [id=3, enventa=true, nombre=Producto 3, precio=25.0, stock=0], Producto [id=4, enventa=true, nombre=Producto 4, precio=5.75, stock=50]]
+2025-11-10 09:30:06.077 [main] INFO  xml.utiles.XMLdomEmpleado - CREADO
+2025-11-10 09:30:06.084 [main] INFO  xml.controlador.Main - [Producto [id=1, enventa=true, nombre=Producto 1, precio=10.0, stock=3], Producto [id=2, enventa=true, nombre=Producto 2, precio=15.0, stock=10], Producto [id=3, enventa=true, nombre=Producto 3, precio=25.0, stock=0], Producto [id=4, enventa=true, nombre=Producto 4, precio=5.75, stock=50]]

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\main\java\accesoDatosrepaso\libreria\repositorios\EditorialRepository.java"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO DAM\ACCESO A DATOS\Streaming\src\Modelo\Canal.java"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO DAM\ACCESO A DATOS\tema0\src\main\java\tema0\Test.java"/>
@@ -48,12 +49,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="f1.psp"/>
 			<item value="dam.accesoadatos"/>
 			<item value="dam.psp"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="formula1"/>
 			<item value="Libreria"/>
 			<item value="RepasoJava"/>
 			<item value="tema0"/>

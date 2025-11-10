@@ -24,4 +24,8 @@
     <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
     <fullyQualifiedTypeName name="xml.XMLdomEmpleado"/>
     <fullyQualifiedTypeName name="xml.utiles.XMLdomPeliculas"/>
+    <fullyQualifiedTypeName name="ejerciciorepaso2.repositorio.RepositorioConversaciones"/>
+    <fullyQualifiedTypeName name="xml.servicio.ServicioProducto"/>
+    <fullyQualifiedTypeName name="xml.repositorio.RepositorioProducto"/>
+    <fullyQualifiedTypeName name="xml.modelo.Producto"/>
 </qualifiedTypeNameHistroy>
