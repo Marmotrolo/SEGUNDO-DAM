@@ -23,9 +23,7 @@ public class RepositorioBancoAlimentos {
 	
 	
 	
-	
-	
-	public RepositorioBancoAlimentos(List<CentroLogistico> centroslogisticos) {
+		public RepositorioBancoAlimentos(List<CentroLogistico> centroslogisticos) {
 		super();
 		this.centroslogisticos = centroslogisticos;
 	}
@@ -105,6 +103,17 @@ public class RepositorioBancoAlimentos {
 	
 	    return trabajador;
 	}
+
+
+	public List<CentroLogistico> getCentroslogisticos() {
+		return centroslogisticos;
+	}
+
+
+	public void setCentroslogisticos(List<CentroLogistico> centroslogisticos) {
+		this.centroslogisticos = centroslogisticos;
+	}
+	
 }	
 		
 		

@@ -6,10 +6,10 @@ public class Trabajador {
 	 private String nombre;
 	    private String dni; 
 	    private String id;
-	    private LocalDate fechaNacimiento;
+	    private String fechaNacimiento;
 	    private boolean esAsalariado; 
 	
-		public Trabajador(String nombre, String dni, LocalDate fechaNacimiento, boolean esAsalariado,
+		public Trabajador(String nombre, String dni, String fechaNacimiento, boolean esAsalariado,
 				CentroLogistico centroLogistico) {
 			super();
 			this.nombre = nombre;
@@ -40,10 +40,10 @@ public class Trabajador {
 		public void setId(String id) {
 			this.id = id;
 		}
-		public LocalDate getFechaNacimiento() {
+		public String getFechaNacimiento() {
 			return fechaNacimiento;
 		}
-		public void setFechaNacimiento(LocalDate fechaNacimiento) {
+		public void setFechaNacimiento(String fechaNacimiento) {
 			this.fechaNacimiento = fechaNacimiento;
 		}
 		public boolean isEsAsalariado() {
@@ -55,7 +55,7 @@ public class Trabajador {
 		
 		@Override
 		public String toString() {
-			return "Trabajador [nombre=" + nombre + ", dni=" + dni + ", id=" + id + ", fechaNacimiento="
+			return "Trabajador [nombre=" + nombre + ", dni=" + dni + ", centrologistico=" + id + ", fechaNacimiento="
 					+ fechaNacimiento + ", esAsalariado=" + esAsalariado +"]";
 		}
 		

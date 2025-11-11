@@ -22,6 +22,7 @@ public class MainProducto {
 			ServicioProducto servicio = new ServicioProducto(productos);
 			List <Producto> sinstock= servicio.obtieneproductosinferiorstock(5);
 			servicio.generaJSONnoenventa(sinstock);
+			
 			logger.info(productos);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

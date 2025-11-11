@@ -79,7 +79,7 @@ public class XMLDomBancoAlimento {
 				
 				String dni = elemento.getElementsByTagName("DNI").item(0).getTextContent().trim();
 				
-				LocalDate fechaNacimiento = LocalDate.parse(elemento.getElementsByTagName("FechaNacimiento").item(0).getTextContent().trim());
+				String fechaNacimiento =elemento.getElementsByTagName("FechaNacimiento").item(0).getTextContent().trim();
 				
 				String tipo = elemento.getElementsByTagName("Tipo").item(0).getTextContent().trim();
 				
