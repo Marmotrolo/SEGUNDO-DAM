@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
     <fullyQualifiedTypeName name="java.time.DateTimeException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Modelo.Usuario"/>
     <fullyQualifiedTypeName name="Repositorio.Usuariorepository"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -28,5 +27,9 @@
     <fullyQualifiedTypeName name="xml.servicio.ServicioProducto"/>
     <fullyQualifiedTypeName name="xml.repositorio.RepositorioProducto"/>
     <fullyQualifiedTypeName name="xml.modelo.Producto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="util.XMLDomBancoAlimento"/>
     <fullyQualifiedTypeName name="modelo.CentroLogistico"/>
+    <fullyQualifiedTypeName name="modelo.Trabajador"/>
 </qualifiedTypeNameHistroy>

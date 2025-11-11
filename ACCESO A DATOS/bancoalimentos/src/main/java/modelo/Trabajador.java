@@ -8,17 +8,15 @@ public class Trabajador {
 	    private String id;
 	    private LocalDate fechaNacimiento;
 	    private boolean esAsalariado; 
-	    private CentroLogistico centroLogistico;
 	
 		public Trabajador(String nombre, String dni, LocalDate fechaNacimiento, boolean esAsalariado,
 				CentroLogistico centroLogistico) {
 			super();
 			this.nombre = nombre;
 			this.dni = dni;
-			this.id = centroLogistico.getId();;
+			this.id =id;
 			this.fechaNacimiento = fechaNacimiento;
 			this.esAsalariado = esAsalariado;
-			this.centroLogistico = centroLogistico;
 		}
 		public Trabajador() {
 			super();
@@ -54,12 +52,13 @@ public class Trabajador {
 		public void setEsAsalariado(boolean esAsalariado) {
 			this.esAsalariado = esAsalariado;
 		}
-		public CentroLogistico getCentroLogistico() {
-			return centroLogistico;
+		
+		@Override
+		public String toString() {
+			return "Trabajador [nombre=" + nombre + ", dni=" + dni + ", id=" + id + ", fechaNacimiento="
+					+ fechaNacimiento + ", esAsalariado=" + esAsalariado +"]";
 		}
-		public void setCentroLogistico(CentroLogistico centroLogistico) {
-			this.centroLogistico = centroLogistico;
-		} 
+		
 	    
 	    
 	    

@@ -1,13 +1,14 @@
 package modelo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CentroLogistico {
-	  private String id; // Identificador único del centro
+	  private String id; 
 	    private String nombre;
 	    private String ciudad;
-	    private int numeroComedores; // Número de comedores que abastece
-	    private List<Trabajador> personal; // Lista de trabajadores del centro
+	    private int numeroComedores; 
+	    private List<Trabajador> personal; 
 		public CentroLogistico(String id, String nombre, String ciudad, int numeroComedores,
 				List<Trabajador> personal) {
 			super();
@@ -15,13 +16,13 @@ public class CentroLogistico {
 			this.nombre = nombre;
 			this.ciudad = ciudad;
 			this.numeroComedores = numeroComedores;
-			this.personal = personal;
+			this.personal = new ArrayList<>();
 		}
 		
 		
 		public CentroLogistico() {
 			super();
-			// TODO Auto-generated constructor stub
+			this.personal = new ArrayList<>();
 		}
 
 
@@ -54,6 +55,13 @@ public class CentroLogistico {
 		}
 		public void setPersonal(List<Trabajador> personal) {
 			this.personal = personal;
+		}
+
+
+		@Override
+		public String toString() {
+			return "CentroLogistico [id=" + id + ", nombre=" + nombre + ", ciudad=" + ciudad + ", numeroComedores="
+					+ numeroComedores + ", personal=" + personal + "]";
 		}
 	    
 	    
