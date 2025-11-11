@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\manue\OneDrive\Desktop\SEGUNDO DAM\SEGUNDO-DAM\ACCESO A DATOS\accesoDatos"/>
+			<item value="C:\Users\manue\OneDrive\Desktop\SEGUNDO DAM\SEGUNDO-DAM\ACCESO A DATOS\formula1\src\main\java\formula1\modelo\Piloto.java"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO_DAM\ACCESO A DATOS\accesoDatos\src\main\java\accesoDatosrepaso\libreria\repositorios\EditorialRepository.java"/>
 			<item value="C:\Users\ManuelParrado\Desktop\SEGUNDO DAM\ACCESO A DATOS\Streaming\src\Modelo\Canal.java"/>
@@ -49,6 +51,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="f1"/>
+			<item value="bancoalimentos.ps"/>
 			<item value="f1.psp"/>
 			<item value="dam.accesoadatos"/>
 			<item value="dam.psp"/>
@@ -57,6 +61,7 @@
 		</list>
 		<list key="artifactId">
 			<item value="formula1"/>
+			<item value="bancoalimentos"/>
 			<item value="Libreria"/>
 			<item value="RepasoJava"/>
 			<item value="tema0"/>

@@ -28,4 +28,5 @@
     <fullyQualifiedTypeName name="xml.servicio.ServicioProducto"/>
     <fullyQualifiedTypeName name="xml.repositorio.RepositorioProducto"/>
     <fullyQualifiedTypeName name="xml.modelo.Producto"/>
+    <fullyQualifiedTypeName name="modelo.CentroLogistico"/>
 </qualifiedTypeNameHistroy>

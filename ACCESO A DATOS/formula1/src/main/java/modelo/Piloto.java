@@ -1,4 +1,4 @@
-package formula1.modelo;
+package modelo;
 
 public class Piloto {
 
