@@ -30,11 +30,10 @@ public class Mihilo2 extends Thread {
 	System.out.println(this.nombrehilo +"estado:" +this.getState() );
 
 	try {
-		while (true) {
 		System.out.println("PROCESOS");
 		sleep(500);
 		
-		}
+		
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
