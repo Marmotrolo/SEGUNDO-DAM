@@ -1,15 +1,13 @@
-package com.example.myapplication;
+package com.example.myapplication2;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -18,12 +16,16 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Bundle b = getIntent().getExtras();
-        Log.i("Datos", b.getString("Surname"));
 
         TextView mitexto = (TextView) findViewById(R.id.texto);
         mitexto.setText("Nuevo texto para mostrar");
-        Typeface mifuente= Typeface.createFromAsset(getAssets(), "fonts/fuente2.ttf");
-        mitexto.setTypeface(mifuente);
+
+        Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animaciones);
+        miAnimacion.setRepeatMode(Animation.RESTART);
+        miAnimacion.setRepeatCount(20);
+        mitexto.startAnimation(miAnimacion);
+
 
     }
 }
+
