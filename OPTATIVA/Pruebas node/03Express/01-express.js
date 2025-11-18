@@ -19,7 +19,7 @@ app.get('/contacto.html', (req, res) => {
 
   res.send('Hello contacto !')
 })
-app.get('/product', (req, res) => {
+app.get('/product.html', (req, res) => {
  console.log(__dirname)
 
   res.send('Hello contacto !')
