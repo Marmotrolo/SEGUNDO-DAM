@@ -10,7 +10,9 @@ public class HiloRunnable implements Runnable {
 	@Override
 	public void run() {
 		Thread.currentThread().setName(nombreHilo);
-		System.out.println("Ejecutando Hilo:"+Thread.currentThread().getName());		
+		
+		System.out.println("Ejecutando Hilo:"+Thread.currentThread().getName());
+		
 	}
 }
 

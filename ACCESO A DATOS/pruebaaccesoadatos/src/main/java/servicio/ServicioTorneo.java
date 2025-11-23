@@ -34,9 +34,9 @@ public class ServicioTorneo {
     public Equipo getequipo (String id ) {
 		return repositorioequipo.getequipo(id);
 }
-    public void agregalistaequipo(List<Equipo>listaequiposañadir)  {
+    public void agregalistaequipo(List<Equipo>listaequiposaÃ±adir)  {
     	
-    	for (Equipo equipo : listaequiposañadir) {
+    	for (Equipo equipo : listaequiposaÃ±adir) {
 			try {
 				repositorioequipo.agregarEquipo(equipo);
 			} catch (TorneoException e) {
@@ -51,8 +51,8 @@ public class ServicioTorneo {
     	
     }
     
-    public void agregalistaenfretameintos (List<Enfrentamiento> listaenfrentaimentosañadir) {
-    	for (Enfrentamiento enfrentamiento : listaenfrentaimentosañadir) {
+    public void agregalistaenfretameintos (List<Enfrentamiento> listaenfrentaimentosaÃ±adir) {
+    	for (Enfrentamiento enfrentamiento : listaenfrentaimentosaÃ±adir) {
 			try {
 				repositorioenfrentamiento.agregarenfrentamiento(enfrentamiento);
 			} catch (TorneoException e) {
