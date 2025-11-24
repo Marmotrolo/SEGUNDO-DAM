@@ -8,6 +8,8 @@ app.set('view engine', 'ejs')
 app.use(express.static(__dirname+ '/public'));
 app.use(express.static( __dirname +'/views'));
 
+app.use('/', require('./router/rutas'));
+app.use('/pokemon', require('./router/pokemon'));
 
 app.get('/prueba', (req, res) => {
   console.log(__dirname)
