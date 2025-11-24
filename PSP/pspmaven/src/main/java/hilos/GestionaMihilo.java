@@ -1,4 +1,5 @@
 package hilos;
+import java.util.Scanner;
 
 public class GestionaMihilo {
 public static void main(String[] args) {
@@ -11,6 +12,13 @@ public static void main(String[] args) {
 	Mihilo2 hilo2= new Mihilo2("hilo2");
 
 	hilo2.start();
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.println("PULSA ENTER PARA PARAR LOS HILOS");
+	String input= sc.next();
+	
+	hilo.interrupt();
+	hilo2.interrupt();
 
 
     try {
