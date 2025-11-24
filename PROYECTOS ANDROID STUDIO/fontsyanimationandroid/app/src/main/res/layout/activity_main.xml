@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+   <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:text="Pulsa un boton"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:ignore="MissingConstraints" />
+
+    <!-- <Button
+        android:id="@+id/buttonrojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rojo"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde"
+        tools:ignore="MissingConstraints" />
+ -->
+    <RadioGroup
+        android:id="@+id/grupo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="lunes"
+            tools:ignore="MissingConstraints" />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:text="martes"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="miercoles"
+            tools:ignore="MissingConstraints" />
+        <RadioButton
+            android:id="@+id/radio4"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:text="jueves"/>
+        <RadioButton
+            android:id="@+id/radio5"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:text="viernes"/>
+
+        <RadioButton
+            android:id="@+id/radio6"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="sabado"
+            tools:ignore="MissingConstraints" />
+        <RadioButton
+            android:id="@+id/radio7"
+
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="domingo"
+            tools:ignore="MissingConstraints" />
+
+
+    </RadioGroup>
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
