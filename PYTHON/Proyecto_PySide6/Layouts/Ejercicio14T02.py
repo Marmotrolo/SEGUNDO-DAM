@@ -12,7 +12,7 @@ class VentanaPrincipal(QMainWindow):
 
     def mostrar_dialogo(self):
         # Cuadro de mensaje crítico
-        boton_pulsado =  .
+        boton_pulsado =  
         QMessageBox.critical(
             self,
             "Ejemplo de cuadro de mensaje crítico",
