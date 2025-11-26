@@ -3,7 +3,7 @@ from PySide6.QtWidgets import (
     QApplication,
     QMainWindow,
     QWidget,
-    QLineEdit,QLabel,QTextEdit, QComboBox, QRadioButton, QVBoxLayout,QHBoxLayout,QGridLayout,QFormLayout, QToolBar, QStatusBar)
+    QLineEdit,QLabel,QTextEdit, QComboBox, QRadioButton, QVBoxLayout,QHBoxLayout,QGridLayout,QFormLayout, QToolBar, QStatusBar, QMessageBox)
     # TODO: aÃ±adir aquÃ­ los widgets que necesites (QLineEdit, QTextEdit...)
 
 from PySide6.QtGui import QAction
@@ -17,7 +17,7 @@ class VentanaPrincipal(QMainWindow):
 
         # TODO: tÃ­tulo y tamaÃ±o mÃ­nimo de la ventana
         self.setWindowTitle("Bloc de notas")
-        self.setMinimumSize(QSize(1000,6000))
+        self.setMinimumSize(QSize(600,400))
 
         # TODO: declarar atributos de widgets (title, categoria, prioridad, area de texto)
         self.line_edit_titulo = QLineEdit()
@@ -29,10 +29,8 @@ class VentanaPrincipal(QMainWindow):
         # ...
 
         # TODO: declarar acciones (limpiar, imprimir, salir, acerca de)
-        self.accion_limpiar_nota = self.slot_limpiar_nota()
         self.accion_imprimir_nota= self.imprimir_en_consola()
         self.salirdeblocdenotas= self.slot_salir()
-        self.acercade= self.slot_acerca_de()
         # ...
 
         # ConstrucciÃ³n general
@@ -86,6 +84,12 @@ class VentanaPrincipal(QMainWindow):
         self.accion_salir.triggered.connect(self.slot_salir)
         self.accion_acercade= QAction("Acerca de",self)
         self.accion_acercade.triggered.connect(self.slot_acerca_de)
+
+        self.line_edit_titulo.textChanged.connect(self.slot_titulo_cambiado)
+        self.categoria.currentTextChanged.connect(self.slot_categoria_cambiada)
+        self.prioridadalta.clicked.connect(self.slot_prioridad_cambiada)
+        self.prioridadnormal.clicked.connect(self.slot_prioridad_cambiada)
+
         pass
 
     def crear_menus(self):
@@ -113,6 +117,7 @@ class VentanaPrincipal(QMainWindow):
         # TODO: crear barra de estado y mostrar un mensaje inicial
         barra_estado = self.statusBar()
         barra_estado.showMessage("Listo. Esperando acción...", 3000)
+        self.barra_estado= barra_estado
         pass
 
     # =========================
@@ -126,8 +131,15 @@ class VentanaPrincipal(QMainWindow):
     # FUNCIONES DE UTILIDAD
     # =========================
     def obtener_prioridad_actual(self):
-        # TODO devolver prioridad actual
+
+
         prioridad = ""
+
+        if(self.prioridadalta.isChecked()):
+            prioridad="Alta"
+        else:
+            prioridad="Normal"
+
         return prioridad    # Ãºnico return
 
     def limpiar_contenido_nota(self):
@@ -142,33 +154,46 @@ class VentanaPrincipal(QMainWindow):
     # SLOTS (LOGICA)
     # =========================
     def slot_limpiar_nota(self):
-        self.areatexto.clear()
+        botonlimpar= QMessageBox.question(
+            self,
+             "hola",
+             "pene",       
+            buttons= QMessageBox.Yes|QMessageBox.No,
+            defaultButton=QMessageBox.Yes)
+        
+        if botonlimpar == QMessageBox.Yes:
+            self.areatexto.clear   
+        
 
-        pass
 
     def slot_imprimir_nota(self):
-        print(self.line_edit_titulo.text,"\n", self.areatexto.toPlainText)
-        pass
+        print(self.line_edit_titulo.text(), "\n", self.categoria.itemText(self.categoria.currentIndex()),"\n",self.obtener_prioridad_actual(),"\n", self.areatexto.toPlainText())
+        
 
     def slot_salir(self):
-        # TODO pedir confirmaciÃ³n antes de cerrar
-        pass
+        app.closeAllWindows()
+        
 
     def slot_acerca_de(self):
         # TODO mostrar QMessageBox.information
-        pass
+           QMessageBox.information(
+            self,
+            "Ejemplo de cuadro de mensaje crítico",
+            "Ha ocurrido un problema al realizar la acción")
+         
 
     def slot_titulo_cambiado(self, nuevo_titulo):
-        # TODO actualizar tÃ­tulo de la ventana y barra de estado
-        pass
+        self.setWindowTitle(nuevo_titulo)
+        self.barra_estado.showMessage(nuevo_titulo)
+        
 
     def slot_categoria_cambiada(self, nueva_categoria):
-        # TODO mostrar categorÃ­a en la barra
-        pass
+        self.barra_estado.showMessage(nueva_categoria)
 
-    def slot_prioridad_cambiada(self, checked):
-        # TODO reaccionar solo si checked es True
-        pass
+    def slot_prioridad_cambiada(self):
+ 
+            self.barra_estado.showMessage(self.obtener_prioridad_actual())
+        
 
 
 if __name__ == "__main__":
