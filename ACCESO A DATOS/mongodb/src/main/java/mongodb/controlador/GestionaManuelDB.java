@@ -14,8 +14,10 @@ public class GestionaManuelDB {
 		MongoDatabase db= conexion.getDb();	
 //TODO Aquí creamos los diferentes servicios a partir del objeto db	
 		
+		
+		
 	 EstudianteService servicio= new EstudianteService(db);
-	 Estudiante estu1= new Estudiante(22, "Luis Parrales", 9.3, List.of("sexo", "correr de forma reflexiva"),12, "luisparrales@gmail.com");
+	 Estudiante estu1= new Estudiante(16, "felipe", 8.6, null, null, null)
 	 
 	 servicio.save(estu1);
 	 List<Estudiante> estudiantes = servicio.read();

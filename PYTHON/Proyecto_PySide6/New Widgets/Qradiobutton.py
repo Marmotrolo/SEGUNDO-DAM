@@ -8,6 +8,7 @@ class VentanaPrincipal(QMainWindow):
         self.setWindowTitle("Función DESACTIVADA")
 
         self.radio = QRadioButton("Activar función")
+
         self.radio.toggled.connect(self.cambiar_estado)
 
         self.setCentralWidget(self.radio)
