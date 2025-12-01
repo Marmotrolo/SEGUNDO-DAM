@@ -1,15 +1,15 @@
 plugins {
-    id("com.android.application") version "8.10.1" apply false
-    id("com.android.library") version "8.10.1" apply false}
+    alias(libs.plugins.android.application)
+}
 
 android {
-    namespace = "com.example.myapplication2"
+    namespace = "com.marmolo.pruebaslayout"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.myapplication2"
-        minSdk = 21
-        targetSdk = 36
+        applicationId = "com.marmolo.pruebaslayout"
+        minSdk = 23
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
