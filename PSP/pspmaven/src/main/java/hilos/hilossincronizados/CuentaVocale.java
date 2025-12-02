@@ -36,6 +36,10 @@ public String toString() {
 }
 
 
-public int cuentavocales()
+synchronized int cuentavocales() {
 
+	
+	
 }
+
+
