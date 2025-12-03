@@ -1,3 +1,5 @@
+
+# MANUEL PARRADO TORRES
 import os
 import platform
 from PySide6.QtCore import Qt
@@ -9,13 +11,38 @@ from PySide6.QtWidgets import (
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ventana con menú, barra de herramientas y componente flotante")
+        self.setWindowTitle("Componentes flotantes")
 
-        # --- MENÚ Y ACCIÓN ---
+        # --- COMPONENTE FLOTANTE (DOCK) ---
+        dock1 = QDockWidget("Panel de notas", self)
+        dock1.setWidget(QTextEdit(""))
+        dock1.setMinimumWidth(50)
+        self.addDockWidget(Qt.LeftDockWidgetArea, dock1)
+
+        dock1.setFeatures(QDockWidget.NoDockWidgetFeatures)
+
+        dock2 = QDockWidget("Panel de estado", self)
+        dock2.setWidget(QLabel())
+        dock2.setMinimumWidth(50)
+        self.addDockWidget(Qt.RightDockWidgetArea, dock2)
+
+        dock2.setFeatures(QDockWidget.DockWidgetFloatable)
+
+        dock3 = QDockWidget("Panel de ayuda", self)
+        dock3.setWidget(QLabel())
+        dock3.setMinimumWidth(50)
+        self.addDockWidget(Qt.BottomDockWidgetArea, dock3)
+
+        dock3.setFeatures(QDockWidget.DockWidgetClosable | QDockWidget.DockWidgetFloatable)
+
+        # --- COMPONENTE CENTRAL ---
+        self.setCentralWidget(QLabel("Área principal de la aplicación"))
+
+     # --- MENÚ Y ACCIÓN ---
         barra_menus = self.menuBar()
         menu = barra_menus.addMenu("&Menú")
 
-        ruta_icono = os.path.join(os.path.dirname(__file__), "console-log-icon.png")
+        ruta_icono = os.path.join(os.path.dirname(__file__), "impresora.png")
         accion = QAction(QIcon(ruta_icono), "Imprimir por consola", self)
         accion.setStatusTip("Imprimir por consola")
         accion.setShortcut(QKeySequence("Ctrl+P"))
@@ -29,17 +56,7 @@ class VentanaPrincipal(QMainWindow):
 
         # --- BARRA DE ESTADO ---
         barra_estado = self.statusBar()
-        barra_estado.addPermanentWidget(QLabel(platform.system()))
-        barra_estado.showMessage("Listo. Esperando acción...", 3000)
-
-        # --- COMPONENTE FLOTANTE (DOCK) ---
-        dock1 = QDockWidget("Componente base 1", self)
-        dock1.setWidget(QTextEdit(""))
-        dock1.setMinimumWidth(50)
-        self.addDockWidget(Qt.RightDockWidgetArea, dock1)
-
-        # --- COMPONENTE CENTRAL ---
-        self.setCentralWidget(QLabel("Componente principal"))
+        barra_estado.showMessage("Listo, Panales creados correctamente")
 
     def imprimir_por_consola(self):
         print("Acción lanzada desde el menú, el atajo o la barra de herramientas.")
@@ -48,4 +65,4 @@ if __name__ == "__main__":
     app = QApplication([])
     ventana = VentanaPrincipal()
     ventana.show()
-    app.exec()  
+    app.exec()

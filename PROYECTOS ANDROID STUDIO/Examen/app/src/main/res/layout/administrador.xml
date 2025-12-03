@@ -1,0 +1,90 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Administrador">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#FDD57E">
+
+    <!-- Datos para asignar-->
+    <TextView
+        android:text="Asignaciones"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#D32F2F"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del conductor"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Línea"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Bus"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="25dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ASIGNAR"
+        android:backgroundTint="#FF7700"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"/>
+<!-- Ejemplos de lineas-->
+    <TextView
+        android:text="A) Línea 2 | Bus 10"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="B) Línea 5 | Bus 8"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textColor="#D32F2F"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/botonVolver"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:backgroundTint="#FF7700"
+        android:textSize="18sp"
+        android:padding="15dp"/>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

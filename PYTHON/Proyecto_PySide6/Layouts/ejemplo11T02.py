@@ -6,7 +6,7 @@ from PySide6.QtWidgets import QApplication, QMainWindow, QToolBar
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ventana principal - Ejercicio 11 T02")
+        self.setWindowTitle("   Ejercicio 11 T02")
 
         # --- MENÚ PRINCIPAL ---
         barra_menus = self.menuBar()
@@ -85,9 +85,6 @@ class VentanaPrincipal(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication([])
-
-    # Opcional: no mostrar iconos en los menús (mantiene los menús más limpios)
-    # app.setAttribute(Qt.AA_DontShowIconsInMenus)
 
     ventana = VentanaPrincipal()
     ventana.show()

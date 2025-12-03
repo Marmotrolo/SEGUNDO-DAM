@@ -11,7 +11,7 @@ class VentanaPrincipal(QMainWindow):
 
         # --- MENÚ ---
         barra_menus = self.menuBar()
-        menu = barra_menus.addMenu("&Archivo")
+        menu = barra_menus.addMenu("Archivo")
 
         # Ruta del icono
         ruta_icono = os.path.join(os.path.dirname(__file__), "impresora.png")

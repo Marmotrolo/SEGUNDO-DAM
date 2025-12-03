@@ -1,51 +1,48 @@
+
+# Ángela Chica Montero
+
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtGui import QAction, QKeySequence
+
 
 class VentanaPrincipal(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Ventana principal - Ejercicio 10 T02")
+        self.setWindowTitle("Menú Archivo")
 
-        # Crear barra de menú
+        # Obtenemos la referencia a la barra de menús incluida en QMainWindow
         barra_menu = self.menuBar()
 
-        # Crear menú "Archivo"
-        menu_archivo = barra_menu.addMenu("&Archivo")
+        # Añadimos un menú principal
+        menu = barra_menu.addMenu("&Archivo")
 
-        # --- Acción 1: Mostrar mensaje ---
-        accion_mostrar = QAction("Mostrar mensaje", self)
-        accion_mostrar.setShortcut(QKeySequence("Ctrl+M"))
-        accion_mostrar.triggered.connect(self.mostrar_mensaje)
-        menu_archivo.addAction(accion_mostrar)
+        # Creamos una acción
+        accion = QAction("Mostrar mensaje", self)
+        accion.setShortcut(QKeySequence("Ctrl+M"))  
+        accion.triggered.connect(self.mostrar_mensaje)  
 
-        # Añadir separador
-        menu_archivo.addSeparator()
+        # Creamos las demás acciones y las añadimos
+        accion2 = QAction("Cambiar Título", self)
+        accion2.setShortcut(QKeySequence("Ctrl+L"))
+        accion2.triggered.connect(self.cambiar_titulo)
 
-        # --- Acción 2: Cambiar título ---
-        accion_cambiar = QAction("Cambiar título", self)
-        accion_cambiar.setShortcut(QKeySequence("Ctrl+L"))
-        accion_cambiar.triggered.connect(self.cambiar_titulo)
-        menu_archivo.addAction(accion_cambiar)
+        accion3 = QAction("Salir", self)
+        accion3.setShortcut(QKeySequence("Ctrl+Q"))
+        accion3.triggered.connect(self.cerrar_menu)
 
-        # Añadir separador
-        menu_archivo.addSeparator()
+        # Añadimos la acción al menú
+        menu.addAction(accion)
+        menu.addAction(accion2)
+        menu.addAction(accion3)
 
-        # --- Acción 3: Salir ---
-        accion_salir = QAction("Salir", self)
-        accion_salir.setShortcut(QKeySequence("Ctrl+Q"))
-        accion_salir.triggered.connect(self.cerrar_aplicacion)
-        menu_archivo.addAction(accion_salir)
-
-    # Métodos asociados a las acciones
     def mostrar_mensaje(self):
         print("Hola desde el menú")
 
     def cambiar_titulo(self):
         self.setWindowTitle("Título cambiado desde el menú")
 
-    def cerrar_aplicacion(self):
+    def cerrar_menu(self):
         self.close()
-
 
 if __name__ == "__main__":
     app = QApplication([])

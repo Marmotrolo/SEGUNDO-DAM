@@ -1,19 +1,19 @@
-package hilos.gasolinera;
+package hilos.servidorweb;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestionaGasolinera {
+public class GestionaServidorWeb {
 	public static void main(String[] args) {
 
-		ConexionBBDD baseDatos = new ConexionBBDD(3);
-		int numHilos = 8;
+		ServidorWeb servidor = new ServidorWeb(12);
+		int numHilos = 20;
 		
 		List<Thread> hilos = new ArrayList<>();
 		
 		for(int i = 0; i < numHilos; i++)
 		{
-			hilos.add(new Coche(baseDatos, "Coche "+(i+1)));
+			hilos.add(new Thread(new Peticion(servidor, "Peticion "+(i+1))));
 		}		
 		
 		for(Thread hilo : hilos)

@@ -6,14 +6,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<!-- Layout principal-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#FDD57E">
+        <!-- Titulo aplicación -->
 
-    <TextView
-        android:layout_width="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="serif"
+            android:text="TUSSAM"
+
+            android:textColor="#D32F2F"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flota de autobuses urbanos de Sevilla
+"
+            android:layout_gravity="center"
+            android:textColor="#6F0000"
+            android:textStyle="italic"
+            android:layout_marginBottom="100dp"
+            android:textSize="23dp" />
+        <!-- Campos del usuario para ingresar -->
+
+        <EditText
+            android:id="@+id/usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="#90FDBBAE"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:background="#90FDBBAE"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+        <!-- Botón para ingresar -->
+
+    <Button
+        android:id="@+id/botoningreso"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="ACCEDER"
+        android:backgroundTint="#FF7700"
+        app:cornerRadius="30dp"></Button>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

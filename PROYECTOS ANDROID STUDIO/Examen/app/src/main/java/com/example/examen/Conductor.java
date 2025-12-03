@@ -1,5 +1,6 @@
 package com.example.examen;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,22 +12,22 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
-
-    @Override
+public class Conductor extends AppCompatActivity {
+    @SuppressLint("MissingInflatedId")
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.conductor);
 
-//logica boton para ingresar, falta hacer que verifique que ha escrito algo en el edittext
-        Button botoningreso = (Button) findViewById(R.id.botoningreso);
-        botoningreso.setOnClickListener(new View.OnClickListener() {
+//logica boton para volver
+        Button botonvolver = findViewById(R.id.botonVolver);
+
+        botonvolver.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Rol.class);
-                startActivity(intent);
+                Intent intentvolver = new Intent(Conductor.this, Rol.class);
+                startActivity(intentvolver);
             }
         });
-    }
-}
+    }}
+
