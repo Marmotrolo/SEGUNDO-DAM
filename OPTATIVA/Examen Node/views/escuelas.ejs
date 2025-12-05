@@ -1,0 +1,29 @@
+<%- include("templates/cabecera", {subtitulo:'Escuelas'}) %>
+
+ <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% if (arrayPokemon.length> 0) { %>
+                    <% arrayPokemon.forEach(pokemon => { %>
+                        <tr>
+                            <th scope="row"><%= pokemon.id %></th>
+                            <td><%= pokemon.nombre %></td>
+                            <td><%= pokemon.descripcion %></td>
+                            <td>Aciones</td>
+                        </tr>
+                    <% }) %>
+                <% } %>
+            </tbody>
+
+        </table>
+    </div>
+
+
+<% -include("templates/footer") %>
