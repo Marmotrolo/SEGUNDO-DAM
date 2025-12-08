@@ -12,12 +12,12 @@ public class GestionaManuelDB {
 	public static void main(String[] args) {
 		MongoDBConexion conexion = new MongoDBConexion();
 		MongoDatabase db= conexion.getDb();	
-//TODO Aquí creamos los diferentes servicios a partir del objeto db	
+//TODO Aquï¿½ creamos los diferentes servicios a partir del objeto db	
 		
 		
 		
 	 EstudianteService servicio= new EstudianteService(db);
-	 Estudiante estu1= new Estudiante(16, "felipe", 8.6, null, null, null)
+	 //Estudiante estu1= new Estudiante(16, "felipe", 8.6, ["pene", "negros", "de mierda"], "negros", null);
 	 
 	 servicio.save(estu1);
 	 List<Estudiante> estudiantes = servicio.read();

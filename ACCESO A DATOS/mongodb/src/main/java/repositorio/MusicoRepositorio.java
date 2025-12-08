@@ -13,12 +13,12 @@ import modelo.Direccion;
 import modelo.Estudiante;
 import modelo.Puntuacion;
 
-public class EstudianteRepositorio {
+public class MusicoRepositorio {
 	   private static final String NOMBRE_COLECCION = "estudiantes";
 	  private final MongoCollection<Document> coleccion;
 	  private List<Estudiante> estudiantes;
 
-	   public EstudianteRepositorio(MongoDatabase db) {
+	   public MusicoRepositorio(MongoDatabase db) {
 	       this.coleccion = db.getCollection(NOMBRE_COLECCION);
 	       this.estudiantes= this.read();
 	   }
@@ -58,7 +58,7 @@ public class EstudianteRepositorio {
 				
 				Document addressdoc= (Document) doc.get("address");
 				if(addressdoc !=null) {
-					Direccion address= new Direccion(addressdoc.getString("city"), addressdoc.getInteger("zip"), addressdoc.getString("street"), addressdoc.getInteger("number"));
+					Direccion address= new Direccion(addressdoc.getString("city"), addressdoc.getInteger("zip"), addressdoc.getString("street"), addressdoc.getInteger("2"));
 					e.setAdress(address);
 				}
 				

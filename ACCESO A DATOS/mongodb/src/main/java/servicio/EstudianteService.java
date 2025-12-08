@@ -5,18 +5,18 @@ import java.util.List;
 import com.mongodb.client.MongoDatabase;
 
 import modelo.Estudiante;
-import repositorio.EstudianteRepositorio;
+import repositorio.MusicoRepositorio;
 
 public class EstudianteService {
-	  private final EstudianteRepositorio repo;
+	  private final MusicoRepositorio repo;
 
 	   // El servicio recibe MongoDatabase y construye el repositorio
 	   public EstudianteService(MongoDatabase db) {
-	       this.repo = new EstudianteRepositorio(db);
+	       this.repo = new MusicoRepositorio(db);
 	   }
 	   // Guarda un estudiante en la base de datos
 	   public void save(Estudiante e) {
-	       // Aquí podrías añadir validaciones, reglas de negocio, etc.
+	       // Aquï¿½ podrï¿½as aï¿½adir validaciones, reglas de negocio, etc.
 	       repo.save(e);
 	   }
 	   // Lista todos los estudiantes
@@ -24,7 +24,7 @@ public class EstudianteService {
 	       return repo.read();
 	   }
 	//TODO Agregar resto de operaciones del CRUD
-	   public EstudianteRepositorio getRepo() {
+	   public MusicoRepositorio getRepo() {
 		   return repo;
 	   }
 	   

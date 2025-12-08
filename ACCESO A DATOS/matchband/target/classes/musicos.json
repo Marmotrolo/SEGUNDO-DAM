@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "nombreCompleto": "Carlos Torres",
+    "correo": "carlos.torres@example.com",
+    "fechaNacimiento": "1995-04-12",
+    "perfil": {
+      "perfilId": 101,
+      "instrumentos": ["Guitarra", "Piano"],
+      "experiencia": 5,
+      "genero": "ROCK",
+      "biografia": "Músico autodidacta, con experiencia en conciertos en bares y festivales locales.",
+      "busca_banda": true
+    },
+    "anuncios": [
+      {
+        "anuncioId": 2001,
+        "titulo": "Se busca bajista",
+        "descripcion": "Grupo de rock alternativo busca bajista disponible para ensayos y directos.",
+        "tipo_anuncio": "BUSQUEDA",
+        "precio": 0.0,
+        "urgente": true,
+        "fecha_creacion": "2025-01-08"
+      },
+      {
+        "anuncioId": 2002,
+        "titulo": "Clases de guitarra eléctrica",
+        "descripcion": "Clases presenciales y online. Técnica, teoría y improvisación.",
+        "tipo_anuncio": "SERVICIO",
+        "precio": 18.0,
+        "urgente": false,
+        "fecha_creacion": "2025-01-10"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombreCompleto": "Lucía García",
+    "correo": "lucia.garcia@example.com",
+    "fechaNacimiento": "1999-07-22",
+    "perfil": {
+      "perfilId": 102,
+      "instrumentos": ["Voz"],
+      "experiencia": 3,
+      "genero": "POP",
+      "biografia": "Cantante profesional con experiencia en estudio, eventos privados y grabación.",
+      "busca_banda": false
+    },
+    "anuncios": [
+      {
+        "anuncioId": 2003,
+        "titulo": "Composición de letras originales",
+        "descripcion": "Creo letras de pop, indie y canciones acústicas.",
+        "tipo_anuncio": "SERVICIO",
+        "precio": 25.0,
+        "urgente": false,
+        "fecha_creacion": "2025-01-11"
+      },
+      {
+        "anuncioId": 2004,
+        "titulo": "Se vende micrófono Neumann TLM 102",
+        "descripcion": "Micrófono de estudio, perfecto estado, muy poco uso.",
+        "tipo_anuncio": "VENTA",
+        "precio": 560.0,
+        "urgente": true,
+        "fecha_creacion": "2025-01-13"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombreCompleto": "Diego Fernández",
+    "correo": "diego.fernandez@example.com",
+    "fechaNacimiento": "1988-02-05",
+    "perfil": {
+      "perfilId": 103,
+      "instrumentos": ["Batería", "Percusión latina"],
+      "experiencia": 8,
+      "genero": "METAL",
+      "biografia": "Baterista profesional, 30 conciertos internacionales entre 2018 y 2024.",
+      "busca_banda": true
+    },
+    "anuncios": [
+      {
+        "anuncioId": 2005,
+        "titulo": "Venta de platillos Meinl",
+        "descripcion": "Juego de platillos sin apenas uso.",
+        "tipo_anuncio": "VENTA",
+        "precio": 180.0,
+        "urgente": false,
+        "fecha_creacion": "2025-01-18"
+      },
+      {
+        "anuncioId": 2006,
+        "titulo": "Busco grupo para girar",
+        "descripcion": "Disponibilidad para ensayos y viajes. Tengo equipo propio.",
+        "tipo_anuncio": "BUSQUEDA",
+        "precio": 0.0,
+        "urgente": true,
+        "fecha_creacion": "2025-01-19"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombreCompleto": "Sara López",
+    "correo": "sara.lopez@example.com",
+    "fechaNacimiento": "2001-09-30",
+    "perfil": {
+      "perfilId": 104,
+      "instrumentos": ["Violín", "Piano"],
+      "experiencia": 10,
+      "genero": "CLASICA",
+      "biografia": "Violinista de conservatorio. Experiencia en orquesta y proyectos audiovisuales.",
+      "busca_banda": false
+    },
+    "anuncios": [
+      {
+        "anuncioId": 2007,
+        "titulo": "Grabaciones de violín para cine",
+        "descripcion": "Mando pistas de violín con calidad profesional.",
+        "tipo_anuncio": "SERVICIO",
+        "precio": 45.99,
+        "urgente": false,
+        "fecha_creacion": "2025-02-02"
+      },
+      {
+        "anuncioId": 2008,
+        "titulo": "Se busca pianista acompañante",
+        "descripcion": "Proyecto de recital programado para abril.",
+        "tipo_anuncio": "BUSQUEDA",
+        "precio": 0.0,
+        "urgente": false,
+        "fecha_creacion": "2025-02-03"
+      },
+      {
+        "anuncioId": 2009,
+        "titulo": "Clases de violín nivel iniciación",
+        "descripcion": "Clases online por Zoom. Método Suzuki.",
+        "tipo_anuncio": "SERVICIO",
+        "precio": 20.0,
+        "urgente": true,
+        "fecha_creacion": "2025-02-04"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nombreCompleto": "Adrián Vega",
+    "correo": "adrian.vega@example.com",
+    "fechaNacimiento": "1992-03-14",
+    "perfil": {
+      "perfilId": 105,
+      "instrumentos": ["Bajo"],
+      "experiencia": 12,
+      "genero": "FUNK",
+      "biografia": "Bajista freelance, sesiones de estudio, giras y grabación profesional.",
+      "busca_banda": true
+    },
+    "anuncios": [
+      {
+        "anuncioId": 2010,
+        "titulo": "Se alquila bajo Fender Jazz Bass",
+        "descripcion": "Alquiler por días para sesiones de estudio.",
+        "tipo_anuncio": "OTRO",
+        "precio": 12.5,
+        "urgente": false,
+        "fecha_creacion": "2025-02-10"
+      }
+    ]
+  }
+]
