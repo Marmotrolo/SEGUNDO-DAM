@@ -33,7 +33,7 @@ public class GestionaManuelDB {
 		Musico m2= new Musico(7,"Victoria Garcia Moreno" , "victoriagarciamoreno@gmail.com", "06-06-2007", perfilNuevo, anunciosIniciales);
 
 		//Añadir nuevo musico
-		servicio.save(m2);
+		//servicio.save(m2);
 		
 		 List<Musico> musicos= repo.read();
 		 logger.info("------------------MUSICOS----------------------");
@@ -50,6 +50,10 @@ public class GestionaManuelDB {
 		Musico m3= servicio.getMusicoPorId(3) ;
 		logger.info(m3);
 		m3.setNombreCompleto("julian navas");
+		List<Anuncio> anuncionsm3= m3.getAnuncios();
+		for (Anuncio anuncio : anuncionsm3) {
+			
+		}
 		servicio.update(m3);
 
 		 for (Musico musico : musicosdeleteupdate) {
