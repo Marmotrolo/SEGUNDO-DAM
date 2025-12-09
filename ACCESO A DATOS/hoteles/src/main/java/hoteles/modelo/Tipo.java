@@ -1,5 +1,5 @@
 package hoteles.modelo;
 
 public enum Tipo {
-SUITEJUNIOR, DOBLEESTANDAR, INDIVIDUAL
+SUITEJUNIOR, DOBLEESTÁNDAR, INDIVIDUAL, Penthouse
 }
