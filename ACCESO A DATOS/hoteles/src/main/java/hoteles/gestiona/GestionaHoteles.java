@@ -30,12 +30,12 @@ public class GestionaHoteles {
 		for (Hotel hotel : hotelesmadrid) {
 			logger.info(hotel);
 		}
-		List<Hotel> hotelessuitejunior= repo.gethotelessuitejuniordisponible();
-		for (Hotel hotel : hotelessuitejunior) {
-			logger.info(hotel);
+		int hotelessuitejunior= repo.gethotelessuitejunior();
+		{
+			logger.info(hotelessuitejunior);
 		}
 		
-		long modificado= repo.aÃ±adehabitacionporid("h127");
+		long modificado= repo.añadehabitacionporid("h127");
 		logger.info(modificado);
 		
 		long modificadocodigpostal= repo.actualizagranviaa28013();

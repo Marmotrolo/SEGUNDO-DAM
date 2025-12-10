@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 
@@ -17,6 +19,7 @@ import com.mongodb.client.model.Filters;
 import com.mongodb.client.model.Updates;
 import com.mongodb.client.result.UpdateResult;
 
+import hoteles.gestiona.GestionaHoteles;
 import hoteles.modelo.Coordenadas;
 import hoteles.modelo.Habitacion;
 import hoteles.modelo.Hotel;
@@ -25,6 +28,8 @@ import hoteles.modelo.Ubicacion;
 
 
 public class HotelesRepositorio {
+	private static final Logger logger = LogManager.getLogger(HotelesRepositorio.class);
+
 	 private static final String NOMBRE_COLECCION = "hoteles";
 	   private final MongoCollection<Document> coleccion;
 	   
@@ -229,7 +234,7 @@ public class HotelesRepositorio {
 		
 		//7.Dado el ID de un hotel, añade una nueva habitación a su lista de habitaciones. La nueva habitación debe ser: { "tipo": "Penthouse", "precio": 500.00, "capacidad": 4, "disponible": true }.
 
-				public long añadehabitacionporid (String id) {
+				public long a�adehabitacionporid (String id) {
 					// 1. DEFINIR EL FILTRO (Quién queremos actualizar)
 				    // Buscamos el hotel por su ID. Asumimos que el campo clave se llama "id".
 				    Document filtro = new Document("idHotel", id);
@@ -285,7 +290,10 @@ public class HotelesRepositorio {
 				    Document filtroprecionoventaactualizar= new Document("$set", filtroprecionoventa );
 				    
 				    UpdateResult resultado=coleccion.updateOne(filtrosand, filtroprecionoventaactualizar);
-				    
+				    if (resultado.getModifiedCount() > 0) {
+				        logger.debug(" Se han eliminado habitaciones caras del hotel.");
+				    } 
+
 				    return resultado.getModifiedCount();
 				    
 

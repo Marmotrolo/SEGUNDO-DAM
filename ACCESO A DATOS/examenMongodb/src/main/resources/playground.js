@@ -26,7 +26,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_001",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-10T08:03:00Z"
       },
       {
@@ -38,7 +38,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_003",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-10T08:03:00Z"
       }
     ]
@@ -59,7 +59,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_004",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-10T08:06:00Z"
       },
       {
@@ -71,7 +71,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_006",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-10T08:06:00Z"
       }
     ]
@@ -92,7 +92,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_007",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-11T08:09:00Z"
       },
       {
@@ -104,7 +104,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_009",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-11T08:09:00Z"
       }
     ]
@@ -125,7 +125,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_010",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-11T08:12:00Z"
       },
       {
@@ -137,7 +137,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_012",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-11T08:12:00Z"
       }
     ]
@@ -158,7 +158,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_013",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-11T08:15:00Z"
       },
       {
@@ -170,7 +170,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_015",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-11T08:15:00Z"
       }
     ]
@@ -191,7 +191,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_016",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-12T08:18:00Z"
       },
       {
@@ -203,7 +203,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_018",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-12T08:18:00Z"
       }
     ]
@@ -224,7 +224,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_019",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-12T08:21:00Z"
       },
       {
@@ -236,7 +236,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_021",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-12T08:21:00Z"
       }
     ]
@@ -257,7 +257,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_022",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-12T08:24:00Z"
       },
       {
@@ -269,7 +269,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_024",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-12T08:24:00Z"
       }
     ]
@@ -290,7 +290,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_025",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-13T08:27:00Z"
       },
       {
@@ -302,7 +302,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_027",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-13T08:27:00Z"
       }
     ]
@@ -323,7 +323,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_028",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-13T08:30:00Z"
       },
       {
@@ -335,7 +335,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_030",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-13T08:30:00Z"
       }
     ]
@@ -356,7 +356,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_031",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-13T08:33:00Z"
       },
       {
@@ -368,7 +368,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_033",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-13T08:33:00Z"
       }
     ]
@@ -389,7 +389,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_034",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-14T08:36:00Z"
       },
       {
@@ -401,7 +401,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_036",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-14T08:36:00Z"
       }
     ]
@@ -422,7 +422,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_037",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-14T08:39:00Z"
       },
       {
@@ -434,7 +434,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_039",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-14T08:39:00Z"
       }
     ]
@@ -455,7 +455,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_040",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-14T08:42:00Z"
       },
       {
@@ -467,7 +467,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_042",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-14T08:42:00Z"
       }
     ]
@@ -488,7 +488,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_043",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-15T08:45:00Z"
       },
       {
@@ -500,7 +500,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_045",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-15T08:45:00Z"
       }
     ]
@@ -521,7 +521,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_046",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-15T08:48:00Z"
       },
       {
@@ -533,7 +533,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_048",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-15T08:48:00Z"
       }
     ]
@@ -554,7 +554,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_049",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-15T08:51:00Z"
       },
       {
@@ -566,7 +566,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_051",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-15T08:51:00Z"
       }
     ]
@@ -587,7 +587,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_052",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-16T08:54:00Z"
       },
       {
@@ -599,7 +599,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_054",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-16T08:54:00Z"
       }
     ]
@@ -620,7 +620,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_055",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-16T08:57:00Z"
       },
       {
@@ -632,7 +632,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_057",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-16T08:57:00Z"
       }
     ]
@@ -653,7 +653,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_058",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-16T08:00:00Z"
       },
       {
@@ -665,7 +665,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_060",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-16T08:00:00Z"
       }
     ]
@@ -686,7 +686,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_061",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-17T08:03:00Z"
       },
       {
@@ -698,7 +698,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_063",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-17T08:03:00Z"
       }
     ]
@@ -719,7 +719,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_064",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-17T08:06:00Z"
       },
       {
@@ -731,7 +731,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_066",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-17T08:06:00Z"
       }
     ]
@@ -752,7 +752,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_067",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-17T08:09:00Z"
       },
       {
@@ -764,7 +764,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_069",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-17T08:09:00Z"
       }
     ]
@@ -785,7 +785,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_070",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-18T08:12:00Z"
       },
       {
@@ -797,7 +797,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_072",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-18T08:12:00Z"
       }
     ]
@@ -818,7 +818,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_073",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-18T08:15:00Z"
       },
       {
@@ -830,7 +830,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_075",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-18T08:15:00Z"
       }
     ]
@@ -851,7 +851,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_076",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-18T08:18:00Z"
       },
       {
@@ -863,7 +863,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_078",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-18T08:18:00Z"
       }
     ]
@@ -884,7 +884,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_079",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-19T08:21:00Z"
       },
       {
@@ -896,7 +896,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_081",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-19T08:21:00Z"
       }
     ]
@@ -917,7 +917,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_082",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-19T08:24:00Z"
       },
       {
@@ -929,7 +929,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_084",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-19T08:24:00Z"
       }
     ]
@@ -950,7 +950,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_085",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-19T08:27:00Z"
       },
       {
@@ -962,7 +962,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_087",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-19T08:27:00Z"
       }
     ]
@@ -983,7 +983,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_088",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-20T08:30:00Z"
       },
       {
@@ -995,7 +995,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_090",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-20T08:30:00Z"
       }
     ]
@@ -1016,7 +1016,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_091",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-20T08:33:00Z"
       },
       {
@@ -1028,7 +1028,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_093",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-20T08:33:00Z"
       }
     ]
@@ -1049,7 +1049,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_094",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-20T08:36:00Z"
       },
       {
@@ -1061,7 +1061,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_096",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-20T08:36:00Z"
       }
     ]
@@ -1082,7 +1082,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_097",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-21T08:39:00Z"
       },
       {
@@ -1094,7 +1094,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_099",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-21T08:39:00Z"
       }
     ]
@@ -1115,7 +1115,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_100",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-21T08:42:00Z"
       },
       {
@@ -1127,7 +1127,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_102",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-21T08:42:00Z"
       }
     ]
@@ -1148,7 +1148,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_103",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-21T08:45:00Z"
       },
       {
@@ -1160,7 +1160,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_105",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-21T08:45:00Z"
       }
     ]
@@ -1181,7 +1181,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_106",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-22T08:48:00Z"
       },
       {
@@ -1193,7 +1193,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_108",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-22T08:48:00Z"
       }
     ]
@@ -1214,7 +1214,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_109",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-22T08:51:00Z"
       },
       {
@@ -1226,7 +1226,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_111",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-22T08:51:00Z"
       }
     ]
@@ -1247,7 +1247,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_112",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-22T08:54:00Z"
       },
       {
@@ -1259,7 +1259,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_114",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-22T08:54:00Z"
       }
     ]
@@ -1280,7 +1280,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_115",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-23T08:57:00Z"
       },
       {
@@ -1292,7 +1292,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_117",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-23T08:57:00Z"
       }
     ]
@@ -1313,7 +1313,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_118",
         "tag": "LOGIN",
-        "mensaje": "Inicio de sesiÃ³n exitoso",
+        "mensaje": "Inicio de sesión exitoso",
         "timestamp": "2024-02-23T08:00:00Z"
       },
       {
@@ -1325,7 +1325,7 @@ db.usuarios.insertMany([
       {
         "id_evento": "ev_120",
         "tag": "GPS",
-        "mensaje": "SeÃ±al GPS adquirida",
+        "mensaje": "Señal GPS adquirida",
         "timestamp": "2024-02-23T08:00:00Z"
       }
     ]
