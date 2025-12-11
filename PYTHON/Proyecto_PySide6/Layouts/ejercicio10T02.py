@@ -1,5 +1,5 @@
 
-# Ángela Chica Montero
+# Manuel Parrado Torres
 
 from PySide6.QtWidgets import QApplication, QMainWindow
 from PySide6.QtGui import QAction, QKeySequence

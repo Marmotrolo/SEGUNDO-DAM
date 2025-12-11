@@ -1,4 +1,4 @@
-# Ángela Chica Monteor
+# Manuel Parrado Torres
 
 from PySide6.QtWidgets import (
     QMainWindow, QApplication, QDialog, QDialogButtonBox, QVBoxLayout,
