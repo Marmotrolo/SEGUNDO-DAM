@@ -1,3 +1,4 @@
+#Manuel Parrado Torres
 import os
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QAction, QIcon, QKeySequence
