@@ -11,7 +11,6 @@ import modelo.Enfrentamiento;
 import modelo.Equipo;
 
 public class RepoEnfrentamiento {
-private static final Logger logger = LogManager.getLogger(RepoEnfrentamiento.class);
 	
 	private List<Enfrentamiento> listaenfretamientos;
 	
