@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,12 +31,13 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
 	private Jugador getnarradorporid(int id) throws MiExcepcion {
 		Jugador jugador=null;
 		
-    	String consulta= "select * from dixitparrado.jugadores where id= " +id ;
+    	String consulta= "select * from dixitparrado.jugadores where id= ?"  ;
     	try {
     	Connection conexion= conector.getConnect();
     	PreparedStatement ps = conexion.prepareStatement(consulta);
 
-		ResultSet rs= ps.executeQuery(consulta);
+    	ps.setInt(1, id);
+		ResultSet rs= ps.executeQuery();
 		
 		if(rs.next()) {
 			jugador= new Jugador(rs.getInt("id"),rs.getString("nombre"), rs.getString("email"), rs.getInt("puntosTotales"));
@@ -46,7 +48,7 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
         
         
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+
 			throw new MiExcepcion("Error: " + e.getMessage());
 		}
         return jugador;
@@ -79,8 +81,6 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
 
 			p.setResultado(Resultado.valueOf(resul.getString("resultado")));
 
-
-
 			lista.add(p);
 
 		}
@@ -88,11 +88,10 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
 		return lista;
 
 	}
-	public int cuentapartidas() {
+	public int cuentapartidas() throws SQLException {
 		String consulta= "select count(*) as total from dixitparrado.partidas";
 		int partidascontadas=0;
     	Connection conexion;
-		try {
 			conexion = conector.getConnect();
 			PreparedStatement ps;
 			ps = conexion.prepareStatement(consulta);
@@ -100,43 +99,120 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
 			if(rs.next()) {
 			partidascontadas= rs.getInt("total");
 			}
-		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
     	
 		  	return partidascontadas;
 	}
-		
-	
-	
-	public void añadirpartida(Partida partida) throws MiExcepcion {
-		String consulta= "insert into dixitparrado.partidas(narrador_id,fecha) values(?,?)";
+			
+	public void aÃ±adirpartida(Partida partida) throws MiExcepcion, SQLException {
+		String consulta= "insert into dixitparrado.partidas(torneo_id,narrador_id,fecha,resultado) values(?,?,?,?)";
 		PreparedStatement ps;
 		if(cuentapartidas()<5) {
-		try {
 			Connection conexion= conector.getConnect();
-			ps=conexion.prepareStatement(consulta);
-			ps.setInt(1, partida.getNarrador_id().getId());
-			ps.setDate(2, partida.getFecha());
+			ps=conexion.prepareStatement(consulta, Statement.RETURN_GENERATED_KEYS);
+						int narradorIdAInsertar = partida.getNarrador_id().getId();
+						logger.warn("Intentando insertar Partida con narrador_id: " + narradorIdAInsertar);
+			ps.setInt(1,partida.getTorneo_id());			
+			ps.setInt(2, partida.getNarrador_id().getId());
+			ps.setDate(3, partida.getFecha());
+			ps.setString(4, partida.getResultado().name());
 			ps.executeUpdate();
-			
-			logger.info("Partida añadida" + partida.getId());
 
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+	    	ResultSet rs= ps.getGeneratedKeys();
+	    	if(rs.next()) {
+	    		partida.setId(rs.getInt(1));
+	    	}
+			logger.info("Partida aÃ±adida " + partida.getId());
+
+			partidas.add(partida);
+
+
+		}
+
+		else {
+			throw new MiExcepcion("ERROR: No puede haber mas de 5 partidas");
 		}
 }
-		else {
-			throw new MiExcepcion("ERROR: No puede haber más de 5 partidas");
+
+	public void actualizapuntuacionnarrador(int id, Resultado resultado) throws SQLException {
+		String consulta= "update dixitparrado.jugadores set puntosTotales= puntosTotales +3 where id= ?";
+
+		Connection conexion= conector.getConnect();
+		PreparedStatement ps= conexion.prepareStatement(consulta);
+		ps.setInt(1, id);
+		
+		if(resultado.equals(Resultado.ALGUNOS)) {
+			ps.executeUpdate();
+			logger.info("Puntos actualizados + 3");
 		}
 		
-		partidas.add(partida);
+	}
+	public void actualizapuntuacionnoacertante(int id, Resultado resultado) throws SQLException {
+		String consulta= "update dixitparrado.jugadores set puntosTotales= puntosTotales +2 where id= ?";
+
+		Connection conexion= conector.getConnect();
+		PreparedStatement ps= conexion.prepareStatement(consulta);
+		ps.setInt(1, id);
+		
+		if(resultado.equals(Resultado.TODOS)|| resultado.equals(Resultado.NADIE)) {
+			ps.executeUpdate();
+			logger.info("Puntos actualizados + 2");
+		}
+		
+	}
+	public void actualizarPuntuacionAcertante (int id, Resultado resultado) throws SQLException {
+
+		Connection conexion= conector.getConnect();
+		
+		if(resultado.equals(Resultado.TODOS)|| resultado.equals(Resultado.NADIE)) {
+			actualizapuntuacionnoacertante(id, resultado);
+		}
+		else if (resultado.equals(Resultado.ALGUNOS)) {
+			actualizapuntuacionnarrador(id, resultado);
+		}
+		
+	}
+
+	public List<Partida> obtienepartidasporfechadescendiente() throws SQLException, MiExcepcion{
+		
+		List<Partida> partidas=new ArrayList<>();
+		Connection conexion = conector.getConnect();
+		
+		String consulta= "select * from dixitparrado.partidas order by fecha desc";
+		
+		PreparedStatement ps= conexion.prepareStatement(consulta);
+		ResultSet rs= ps.executeQuery();
+		
+		while (rs.next()) {
+
+			Partida p = new Partida();
+
+			p.setId(rs.getInt("id"));
+
+			p.setTorneo_id(rs.getInt("torneo_id"));
+
+			p.setNarrador_id(this.getnarradorporid(rs.getInt("narrador_id")));
+
+			p.setFecha(rs.getDate("fecha"));
+
+			p.setResultado(Resultado.valueOf(rs.getString("resultado")));
+
+			partidas.add(p);
+
+		}
+		return partidas;
+		
+		
+		
 	}
 	
-	public void actualizapuntuacionnarrador(int id, Resultado resultado) {
-	
+	public List<Partida> getPartidas() {
+		return partidas;
+	}
+
+	public void setPartidas(List<Partida> partidas) {
+		this.partidas = partidas;
 	}
 	
 }

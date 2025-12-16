@@ -567,3 +567,515 @@
 2025-12-16 14:25:58.798 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
 2025-12-16 14:25:58.799 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
 2025-12-16 14:25:58.799 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 16:53:40.759 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 16:53:40.781 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 16:53:40.783 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 16:53:40.801 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 16:53:40.801 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 16:53:40.818 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 16:53:40.818 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 16:53:40.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 16:53:40.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 16:53:40.852 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 16:53:40.852 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 16:53:40.869 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 16:53:40.869 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 16:53:40.914 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 16:53:40.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 16:53:40.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 16:53:40.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 16:53:40.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 16:53:40.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 16:53:40.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 16:53:40.940 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 16:54:01.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 16:54:01.192 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 16:54:01.205 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 16:59:52.631 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 16:59:52.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 16:59:52.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:03:29.936 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 17:03:29.965 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:03:30.002 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:03:30.015 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:05:26.469 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:05:26.518 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:05:26.535 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:05:26.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:05:54.467 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:05:54.469 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:05:54.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:05:54.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:05:54.504 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:05:54.504 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:05:54.520 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:05:54.521 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:05:54.536 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:05:54.536 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:05:54.552 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:05:54.552 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:05:54.577 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 17:05:54.591 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 17:05:54.615 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 17:05:54.619 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 17:05:54.632 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:05:54.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:06:56.929 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:06:56.963 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:06:56.976 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:30:02.739 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:30:02.741 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:30:02.759 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:30:02.759 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:30:02.776 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:30:02.776 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:30:02.794 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:30:02.794 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:30:02.810 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:30:02.811 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:30:02.826 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:30:02.826 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:30:02.927 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 17:30:02.939 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 17:30:02.952 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:30:02.964 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:30:41.155 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 17:30:41.169 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 17:30:41.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:30:41.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:38:04.591 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:38:04.593 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:38:04.611 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:38:04.611 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:38:04.629 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:38:04.629 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:38:04.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:38:04.647 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:38:04.665 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:38:04.667 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:38:04.682 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:38:04.682 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:38:04.790 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 1
+2025-12-16 17:38:04.802 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:38:04.815 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:38:04.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:39:57.888 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:39:57.923 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:39:57.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:41:07.687 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 1
+2025-12-16 17:41:07.701 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:41:07.714 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:41:07.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:41:49.818 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 17:41:49.831 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:41:49.845 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:41:49.859 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:46:10.801 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=1, nombre=eva, email=eva@gmail, puntostotales=4]
+2025-12-16 17:46:10.803 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=2]
+2025-12-16 17:46:10.803 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1]
+2025-12-16 17:46:10.803 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:46:10.803 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3]
+2025-12-16 17:46:10.803 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5]
+2025-12-16 17:46:10.910 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 17:46:10.921 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:46:10.935 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:46:10.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:54:45.293 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 17:54:45.308 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:54:45.324 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:54:45.338 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:54:45.338 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:54:45.338 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:54:45.338 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:54:45.339 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:54:45.339 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:56:04.550 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 17:56:04.565 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:56:04.592 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 0
+2025-12-16 17:56:04.632 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 17:56:04.635 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:56:04.660 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 17:56:04.663 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:56:04.688 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 17:56:04.692 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 17:56:04.706 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 17:56:04.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 17:52:24.927 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:52:24.930 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 17:52:24.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:52:24.948 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 17:52:24.965 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:52:24.966 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 17:52:24.983 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:52:24.983 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 17:52:24.999 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:52:25.000 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 17:52:25.017 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 17:52:25.017 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:29:47.007 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:29:47.010 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:29:47.028 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:29:47.029 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:29:47.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:29:47.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:29:47.064 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:29:47.064 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:29:47.080 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:29:47.080 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:29:47.096 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:29:47.096 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:29:47.122 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 20:29:47.134 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:29:47.159 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 20:29:47.163 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:29:47.188 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 20:29:47.192 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:29:47.215 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 20:29:47.219 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:29:47.244 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 20:29:47.248 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:29:47.260 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 20:29:47.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 20:29:47.289 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-12-16 20:29:47.301 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-12-16 20:29:47.324 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Statement.executeQuery() cannot issue statements that do not produce result sets.
+2025-12-16 20:29:47.396 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:29:47.397 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:29:47.397 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=2], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 20:29:47.397 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 20:29:47.397 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 20:32:27.761 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:32:27.763 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:32:27.780 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:32:27.780 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:32:27.796 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:32:27.796 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:32:27.813 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:32:27.813 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:32:27.828 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:32:27.829 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:32:27.844 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:32:27.844 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:32:27.857 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 20:32:27.869 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 20:32:27.882 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 20:32:27.895 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 20:32:27.906 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 20:32:27.918 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 20:32:27.933 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 20:32:27.934 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 20:32:27.934 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 20:32:27.934 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 20:32:27.956 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Unknown column 'puntoTotales' in 'field list'
+2025-12-16 20:32:27.968 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Unknown column 'puntoTotales' in 'field list'
+2025-12-16 20:32:27.990 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Unknown column 'puntoTotales' in 'field list'
+2025-12-16 20:32:28.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:32:28.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:32:28.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=2], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 20:32:28.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 20:32:28.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 20:34:20.665 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:34:20.667 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 20:34:20.684 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:34:20.684 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 20:34:20.701 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:34:20.702 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 20:34:20.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:34:20.719 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 20:34:20.735 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:34:20.736 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 20:34:20.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:34:20.752 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 20:34:20.777 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 20:34:20.791 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:34:20.816 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 20:34:20.821 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:34:20.846 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 20:34:20.854 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:34:20.877 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 20:34:20.881 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:34:20.905 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 20:34:20.909 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 20:34:20.921 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 20:34:20.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 20:34:20.937 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 20:34:20.938 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 20:34:20.938 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 20:34:20.938 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 20:34:20.938 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 20:34:20.954 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 20:34:20.969 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 20:34:20.995 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 20:34:21.070 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:34:21.070 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 20:34:21.070 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=5], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 20:34:21.070 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 20:34:21.070 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 21:14:38.429 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 21:14:38.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 21:14:38.467 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 21:14:38.491 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 21:14:38.508 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 21:14:38.523 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 21:14:38.549 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 21:14:38.563 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 21:14:38.587 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 21:14:38.591 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 21:14:38.617 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 21:14:38.621 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 21:14:38.645 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 21:14:38.649 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 21:14:38.675 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 21:14:38.678 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 21:14:38.691 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 21:14:38.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 21:14:38.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 21:14:38.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 21:14:38.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 21:14:38.708 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 21:14:38.708 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 21:14:38.721 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 21:14:38.736 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 21:14:38.763 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 21:14:38.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 21:14:38.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 21:14:38.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=5], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 21:14:38.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 21:14:38.836 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 22:02:30.508 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 22:02:30.526 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 22:02:30.543 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 22:02:30.562 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 22:02:30.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 22:02:30.594 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 22:02:30.609 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 22:02:30.622 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 22:02:30.634 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 22:02:30.648 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 22:02:30.663 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - ERROR: No puede haber mas de 5 partidas
+2025-12-16 22:02:30.676 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8]
+2025-12-16 22:02:30.692 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 8
+2025-12-16 22:02:30.692 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 6
+2025-12-16 22:02:30.692 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 22:02:30.692 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 5
+2025-12-16 22:02:30.692 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:02:30.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:02:30.708 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 22:02:30.723 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:02:30.749 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:02:30.825 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=10], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:02:30.825 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:02:30.825 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=8], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 22:02:30.825 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 22:02:30.825 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 22:02:50.335 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 22:02:50.355 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 22:02:50.373 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 22:02:50.391 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 22:02:50.407 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 22:02:50.423 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 22:02:50.451 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 22:02:50.453 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+2025-12-16 22:02:50.481 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 22:02:50.481 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+2025-12-16 22:02:50.508 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 22:02:50.508 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+2025-12-16 22:02:50.532 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 22:02:50.532 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+2025-12-16 22:02:50.556 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 22:02:50.557 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+2025-12-16 22:02:50.571 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 22:02:50.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:02:50.602 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 22:02:50.617 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:02:50.643 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:04:10.872 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 22:04:10.891 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 22:04:10.908 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 22:04:10.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 22:04:10.943 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 22:04:10.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 22:04:10.986 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 22:04:11.001 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 22:04:11.027 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 22:04:11.030 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 22:04:11.055 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 22:04:11.065 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 22:04:11.089 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 22:04:11.093 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 22:04:11.118 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 22:04:11.121 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida0
+2025-12-16 22:04:11.135 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 22:04:11.150 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 22:04:11.151 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:04:11.151 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 22:04:11.151 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:04:11.151 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 22:04:11.151 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:04:11.166 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 22:04:11.181 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:04:11.207 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:04:11.279 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:04:11.279 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:04:11.279 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=5], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 22:04:11.279 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 22:04:11.281 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 22:06:39.176 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 22:06:39.196 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 22:06:39.212 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 22:06:39.230 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 22:06:39.246 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 22:06:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 22:06:39.288 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 22:06:39.306 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida1
+2025-12-16 22:06:39.331 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 22:06:39.334 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida2
+2025-12-16 22:06:39.360 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 22:06:39.364 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida3
+2025-12-16 22:06:39.388 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 22:06:39.392 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida4
+2025-12-16 22:06:39.416 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 22:06:39.420 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida5
+2025-12-16 22:06:39.433 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 22:06:39.449 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:06:39.463 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 22:06:39.479 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:06:39.505 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:06:39.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:06:39.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:06:39.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=5], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 22:06:39.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 22:06:39.577 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 22:21:57.567 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from dixitparrado.jugadores where id =2' at line 1
+2025-12-16 22:28:30.429 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 22:28:30.448 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 22:28:30.467 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 22:28:30.484 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 22:28:30.500 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 22:28:30.516 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 22:28:30.543 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 6
+2025-12-16 22:28:30.555 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida 1
+2025-12-16 22:28:30.582 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 5
+2025-12-16 22:28:30.586 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida 2
+2025-12-16 22:28:30.611 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 4
+2025-12-16 22:28:30.614 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida 3
+2025-12-16 22:28:30.638 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 2
+2025-12-16 22:28:30.641 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida 4
+2025-12-16 22:28:30.667 [main] WARN  dixitJDBC.repositorio.RepositorioPartida - Intentando insertar Partida con narrador_id: 3
+2025-12-16 22:28:30.675 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida añadida 5
+2025-12-16 22:28:30.689 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 22:28:30.705 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 22:28:30.720 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 3
+2025-12-16 22:28:30.734 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:28:30.760 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Puntos actualizados + 2
+2025-12-16 22:28:30.833 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=3, torneo_id=4, narrador_id=Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=8], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:28:30.833 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=5, torneo_id=2, narrador_id=Jugador [id=3, nombre=carlos, email=carlos@gmail, puntostotales=1], fecha=1999-12-31, resultado=NADIE]
+2025-12-16 22:28:30.833 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=4, torneo_id=3, narrador_id=Jugador [id=2, nombre=angela, email=angela@gmail, puntostotales=5], fecha=1999-12-20, resultado=TODOS]
+2025-12-16 22:28:30.833 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=1, torneo_id=6, narrador_id=Jugador [id=6, nombre=manuel, email=manuel@gmail, puntostotales=5], fecha=1999-12-10, resultado=ALGUNOS]
+2025-12-16 22:28:30.833 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Partida [id=2, torneo_id=5, narrador_id=Jugador [id=5, nombre=puerto, email=puerto@gmail, puntostotales=3], fecha=1999-12-09, resultado=NADIE]
+2025-12-16 22:28:30.853 [main] ERROR dixitJDBC.repositorio.RepositorioPartida - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* from dixitparrado.jugadores where id =2' at line 1
+2025-12-16 22:31:43.140 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador eliminado con id 2

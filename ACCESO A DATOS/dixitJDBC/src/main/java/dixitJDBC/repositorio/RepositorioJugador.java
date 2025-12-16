@@ -26,9 +26,9 @@ public class RepositorioJugador {
 	public RepositorioJugador() throws MiExcepcion, SQLException {
 		super();
 		this.conector = new MySqlConector();
-		this.jugadores= this.cargar();
+		this.jugadores= this.cargarjugadores();
 	}
-	private List<Jugador> cargar() throws SQLException, MiExcepcion {
+	private List<Jugador> cargarjugadores() throws SQLException, MiExcepcion {
 
 		List<Jugador> lista = new ArrayList<>();
 
@@ -51,6 +51,47 @@ public class RepositorioJugador {
 
 	}
 	
+	public void delete(int id ) throws SQLException {
+		String consulta= "delete from dixitparrado.jugadores where id =?";
+	    
+			Connection conexion= conector.getConnect();
+	    	PreparedStatement ps = conexion.prepareStatement(consulta);	
+	    	ps.setInt(1, id);
+
+	    	ps.executeUpdate();
+	    	
+	    	logger.info("Jugador eliminado con id " + id);
+	
+	}
+	
+	
+	public Jugador obtenerjugadorporid(int id ) throws MiExcepcion, SQLException {
+		Jugador jugadordevuelve = null;
+    	String consulta= "select * from dixitparrado.jugadores where id =?";
+    
+			Connection conexion= conector.getConnect();
+	    	PreparedStatement ps = conexion.prepareStatement(consulta);
+	    	ps.setInt(1, id);
+			ResultSet rs= ps.executeQuery();
+			
+			if(rs.next()) {
+				jugadordevuelve= new Jugador(rs.getInt("id"),rs.getString("nombre"), rs.getString("email"), rs.getInt("puntosTotales"));
+			}
+			
+	    	
+            
+            else {
+			// TODO Auto-generated catch block
+			throw new MiExcepcion("Error: No se ha podido obtener");
+            }
+            conexion.close();
+
+        return jugadordevuelve;
+
+	}
+	
+	
+	
 	public void insertarjugador(Jugador jugador) throws MiExcepcion, SQLException {
 		//Añadiendo un nuevo elemento a la BBDD con otra manera de conexión			 
 	    
@@ -70,6 +111,8 @@ public class RepositorioJugador {
 		    	if(rs.next()) {
 		    		jugador.setId(rs.getInt(1));
 		    	}
+		    	jugadores.add(jugador);
+
 		    	logger.info("Jugador añadido: " + jugador.getNombre());
 		    	
 	            conexion.close();
@@ -80,8 +123,7 @@ public class RepositorioJugador {
 				// TODO Auto-generated catch block
 				throw new MiExcepcion("Error: " + e.getMessage());
 			}
-	    	jugadores.add(jugador);
-	    	logger.info("Jugador añadido: " + jugador.getNombre()); // Falta loguear el ID!
+	    	
 	    }
 	
 	public Jugador obtienejugadorconmayorpuntuacion() throws MiExcepcion {
@@ -113,10 +155,10 @@ public class RepositorioJugador {
 
 	    }
 	
-	public List<Jugador> obtienenombresypuntuacionesordenadosdescendentemente(){
+	public List<Jugador> obtienenombresypuntuacionesordenadosdescendentemente() throws SQLException{
 		List<Jugador> jugadores= new ArrayList<>();
     	String consulta= "select nombre, puntosTotales from dixitparrado.jugadores order by puntosTotales desc;";
-    	try {
+  
 			Connection conexion= conector.getConnect();
 			PreparedStatement ps= conexion.prepareStatement(consulta);
 			ResultSet rs= ps.executeQuery(consulta);
@@ -125,12 +167,18 @@ public class RepositorioJugador {
 				jugadores.add(new Jugador(rs.getString("nombre"), rs.getInt("puntosTotales")));
 			}
 			conexion.close();
-		} catch (SQLException e) {
+		
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			return jugadores	;
+
 		}
 
-	return jugadores;	
+	
+	public List<Jugador> getJugadores() {
+		return jugadores;
+	}
+	public void setJugadores(List<Jugador> jugadores) {
+		this.jugadores = jugadores;
 	}
 	
 }
