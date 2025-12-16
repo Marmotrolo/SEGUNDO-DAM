@@ -1,14 +1,15 @@
 package dixitJDBC.modelos;
 
+import java.sql.Date;
 import java.time.LocalDate;
 
 public class Partida {
 private int id;
 private int torneo_id;
 private Jugador narrador_id;
-private LocalDate fecha;
+private Date fecha;
 private Resultado resultado;
-public Partida(int id, int torneo_id, Jugador narrador_id, LocalDate fecha, Resultado resultado) {
+public Partida(int torneo_id, Jugador narrador_id, Date fecha, Resultado resultado) {
 	super();
 	this.id = id;
 	this.torneo_id = torneo_id;
@@ -42,10 +43,10 @@ public Jugador getNarrador_id() {
 public void setNarrador_id(Jugador narrador_id) {
 	this.narrador_id = narrador_id;
 }
-public LocalDate getFecha() {
+public Date getFecha() {
 	return fecha;
 }
-public void setFecha(LocalDate fecha) {
+public void setFecha(Date fecha) {
 	this.fecha = fecha;
 }
 public Resultado getResultado() {

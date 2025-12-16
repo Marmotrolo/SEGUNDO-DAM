@@ -11,6 +11,22 @@ public Jugador(String nombre, String email, int puntostotales) {
 	this.email = email;
 	this.puntostotales = puntostotales;
 }
+
+public Jugador(int id, String nombre, String email, int puntostotales) {
+	super();
+	this.id = id;
+	this.nombre = nombre;
+	this.email = email;
+	this.puntostotales = puntostotales;
+}
+
+
+public Jugador(String nombre, int puntostotales) {
+	super();
+	this.nombre = nombre;
+	this.puntostotales = puntostotales;
+}
+
 public int getId() {
 	return id;
 }
@@ -37,6 +53,7 @@ public void setPuntostotales(int puntostotales) {
 }
 @Override
 public String toString() {
+	
 	return "Jugador [id=" + id + ", nombre=" + nombre + ", email=" + email + ", puntostotales=" + puntostotales + "]";
 }
 

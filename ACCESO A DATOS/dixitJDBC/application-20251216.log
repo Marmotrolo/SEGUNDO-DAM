@@ -1,0 +1,569 @@
+2025-12-16 08:56:56.007 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - null
+2025-12-16 09:02:48.626 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manue
+2025-12-16 09:02:48.652 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=0, nombre=manue, email=manuelparradotorres@gmail, puntostotales=3]
+2025-12-16 09:24:42.090 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 09:24:42.107 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 09:24:42.121 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 09:24:42.134 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 09:24:42.147 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 09:24:42.168 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=0, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:26:12.853 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 09:26:12.878 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 09:26:12.891 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 09:26:12.904 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 09:26:12.918 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 09:26:12.940 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:35:01.906 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 09:35:01.924 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 09:35:01.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 09:35:01.954 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 09:35:01.969 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 09:35:01.991 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:35:02.002 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - [Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=manue, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1]]
+2025-12-16 09:37:19.629 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 09:37:19.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 09:37:19.661 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 09:37:19.674 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 09:37:19.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 09:37:19.727 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:37:19.738 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - [Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=manue, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1]]
+2025-12-16 09:37:19.749 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:37:19.750 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manue 3
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:37:19.751 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:41:42.046 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:41:42.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - [Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=manue, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1]]
+2025-12-16 09:41:42.075 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:41:42.075 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:41:42.075 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:41:42.075 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manue 3
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:41:42.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:41:42.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:42:04.929 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:42:04.944 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - [Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=joseant, email=null, puntostotales=6], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=eva, email=null, puntostotales=4], Jugador [id=0, nombre=manue, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=puerto, email=null, puntostotales=3], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=angela, email=null, puntostotales=2], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1], Jugador [id=0, nombre=carlos, email=null, puntostotales=1]]
+2025-12-16 09:42:04.957 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:42:04.957 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manue 3
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:42:04.958 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:42:04.959 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:43:40.109 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=5, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manue 3
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:43:40.127 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:43:40.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:43:40.129 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:43:40.129 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:43:40.129 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 09:46:17.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 09:46:17.957 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 09:46:17.972 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 09:46:17.986 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 09:46:18.000 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 09:46:18.013 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 09:46:18.033 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 09:46:18.045 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:23:33.756 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.785 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.809 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.832 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.854 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.904 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:23:33.916 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 12:23:33.925 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 12:23:33.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 12:23:33.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 12:23:33.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 12:23:33.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 12:23:33.926 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:24:11.346 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.373 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.397 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.418 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.439 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.460 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:24:11.471 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 12:24:11.480 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 12:24:11.480 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 12:24:11.480 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 12:24:11.480 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 12:24:11.481 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 12:24:11.481 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:26:56.990 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.017 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.041 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.061 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.082 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.104 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:26:57.115 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 12:26:57.125 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 12:26:57.125 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 12:26:57.125 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 12:26:57.125 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 12:26:57.126 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 12:26:57.126 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:41:09.747 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.774 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.796 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.817 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.837 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.859 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:41:09.872 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 12:41:09.882 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 12:41:09.882 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 12:41:09.882 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 12:41:09.883 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 12:41:09.883 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 12:41:09.883 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:44:53.642 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 12:44:53.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 12:44:53.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 12:44:53.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 12:44:53.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 12:44:53.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 12:44:53.654 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 12:45:15.249 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:45:15.279 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:45:15.301 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:45:15.322 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 12:45:15.343 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:06:38.592 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:06:38.621 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:06:38.645 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:06:38.667 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:06:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:08:06.391 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:08:06.402 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:08:06.402 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:08:06.402 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:08:06.403 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:08:06.403 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:08:06.403 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:17:17.967 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:17:17.978 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:17:17.978 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:17:17.978 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:17:17.979 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:17:17.979 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:17:17.979 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:33:06.464 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:33:06.478 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:33:06.479 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:33:06.479 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:33:06.479 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:33:06.479 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:33:06.479 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:34:02.644 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:34:02.658 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:34:02.659 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:34:02.659 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:34:02.659 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:34:02.659 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:34:02.659 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:35:38.672 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:35:38.687 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:37:12.554 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:37:12.641 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:37:12.655 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:38:55.503 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:38:55.591 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:38:55.605 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:40:12.626 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:40:12.714 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:40:12.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:40:12.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:40:12.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:40:12.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:40:12.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:40:12.729 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:46:39.939 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:46:40.027 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:46:40.039 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:46:40.040 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:46:40.040 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:46:40.040 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:46:40.040 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:46:40.040 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:48:36.027 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:48:36.062 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:48:36.065 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:48:36.078 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:48:36.079 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:48:36.091 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:48:36.093 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:48:36.106 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:48:36.107 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:48:36.119 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:48:36.120 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:48:36.133 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:48:36.133 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:48:36.161 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:48:36.172 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:48:36.182 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:49:39.158 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:49:39.270 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:49:39.280 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:49:39.280 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:49:39.280 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:49:39.280 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:49:39.281 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:49:39.281 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:52:39.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:52:39.695 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - null
+2025-12-16 13:52:50.492 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:53:09.128 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:53:21.269 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:53:21.304 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:53:21.307 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:53:21.320 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:53:21.320 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:53:21.333 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:53:21.334 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:53:21.346 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:53:21.347 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:53:21.363 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:53:21.364 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:53:21.376 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:53:21.377 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:53:21.405 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:53:21.425 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:53:21.435 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:53:21.444 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:53:21.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:53:21.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:53:21.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:53:21.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:53:21.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:53:55.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:53:55.522 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:53:55.524 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:53:55.537 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:53:55.538 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:53:55.552 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:53:55.552 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:53:55.566 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:53:55.567 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:53:55.581 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:53:55.582 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:53:55.595 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:53:55.596 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:53:55.623 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:53:55.633 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:53:55.645 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:53:55.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:53:55.646 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:54:39.209 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:54:39.246 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:54:39.248 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:54:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:54:39.263 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:54:39.275 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:54:39.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:54:39.289 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:54:39.290 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:54:39.303 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:54:39.304 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:54:39.318 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:54:39.319 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:54:39.346 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:54:39.358 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:54:39.370 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:55:03.588 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:55:03.696 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:55:03.707 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:55:13.085 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:55:13.174 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:55:13.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:55:31.399 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:55:31.492 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:55:31.505 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:55:31.505 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:55:31.506 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:55:31.506 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:55:31.506 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:55:31.506 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:55:53.345 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:55:53.432 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:55:53.445 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:56:40.121 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:56:40.157 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:56:40.159 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 13:56:40.173 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:56:40.174 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 13:56:40.186 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:56:40.187 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 13:56:40.200 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:56:40.201 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 13:56:40.214 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:56:40.215 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 13:56:40.227 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:56:40.227 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 13:56:40.255 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 13:56:40.265 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:56:40.275 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:56:40.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:56:40.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:56:40.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:56:40.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:56:40.276 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 13:56:59.084 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 13:56:59.195 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 13:56:59.206 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:01:57.549 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:01:57.584 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:01:57.586 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:01:57.600 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:01:57.601 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:01:57.613 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:01:57.614 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:01:57.627 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:01:57.628 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:01:57.640 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:01:57.641 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:01:57.653 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:01:57.654 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:01:57.681 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 14:01:57.693 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:01:57.703 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:01:57.704 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:02:17.648 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:02:17.684 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:02:17.686 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:02:17.699 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:02:17.700 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:02:17.713 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:02:17.714 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:02:17.728 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:02:17.729 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:02:17.743 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:02:17.744 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:02:17.756 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:02:17.757 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:02:17.786 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 14:02:17.797 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:02:17.807 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:02:17.807 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:02:17.807 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:02:17.807 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:02:17.807 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:02:17.808 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:02:39.161 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:02:39.249 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:02:39.262 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:14:54.895 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:14:54.982 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:14:54.994 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:14:54.995 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:14:54.995 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:14:54.995 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:14:54.995 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:14:54.995 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:21:56.190 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:21:56.254 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:21:56.265 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:21:56.265 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:21:56.265 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:21:56.266 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:21:56.266 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:21:56.266 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:22:18.056 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:22:18.076 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:22:18.077 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:22:18.091 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:22:18.091 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:22:18.105 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:22:18.105 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:22:18.118 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:22:18.119 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:22:18.131 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:22:18.131 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:22:18.142 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:22:18.143 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:22:18.168 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 14:22:18.179 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:22:18.188 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:22:18.188 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:22:18.188 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:22:18.188 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:22:18.189 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:22:18.189 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:22:33.608 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:22:33.674 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:22:33.685 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:25:14.407 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:25:14.476 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:25:14.486 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:25:14.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:25:14.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:25:14.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:25:14.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:25:14.487 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:25:44.815 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:25:44.838 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:25:44.840 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: eva
+2025-12-16 14:25:44.854 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:25:44.855 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: angela
+2025-12-16 14:25:44.868 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:25:44.869 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: carlos
+2025-12-16 14:25:44.881 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:25:44.882 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: joseant
+2025-12-16 14:25:44.894 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:25:44.894 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: puerto
+2025-12-16 14:25:44.906 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:25:44.906 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador añadido: manuel
+2025-12-16 14:25:44.933 [main] INFO  dixitJDBC.repositorio.RepositorioPartida - Partida a�adida0
+2025-12-16 14:25:44.945 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:25:44.956 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
+2025-12-16 14:25:58.723 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - 0
+2025-12-16 14:25:58.788 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - Jugador [id=4, nombre=joseant, email=joseant@gmail, puntostotales=6]
+2025-12-16 14:25:58.798 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - joseant 6
+2025-12-16 14:25:58.798 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - manuel 5
+2025-12-16 14:25:58.798 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - eva 4
+2025-12-16 14:25:58.798 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - puerto 3
+2025-12-16 14:25:58.799 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - angela 2
+2025-12-16 14:25:58.799 [main] INFO  dixitJDBC.repositorio.RepositorioJugador - carlos 1
