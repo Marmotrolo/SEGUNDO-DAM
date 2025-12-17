@@ -28,7 +28,7 @@ public class GestionaDixit {
 			ServicioPartida servpartida= new ServicioPartida();
 
 			
-			/*Jugador jugador1= new Jugador("eva", "eva@gmail", 4);
+			Jugador jugador1= new Jugador("eva", "eva@gmail", 4);
 			Jugador jugador2= new Jugador("angela", "angela@gmail", 2);
 			Jugador jugador3= new Jugador("carlos", "carlos@gmail", 1);
 			Jugador jugador4= new Jugador("joseant", "joseant@gmail", 6);
@@ -54,11 +54,11 @@ public class GestionaDixit {
 			Partida partida5= new Partida(5,jugadoresbasededatos.get(4), Date.valueOf("1999-12-09"), Resultado.NADIE); 
 			Partida partida6= new Partida(6,jugadoresbasededatos.get(5), Date.valueOf("1999-12-10"), Resultado.ALGUNOS);
 
-			servpartida.aÃ±adirpartida(partida6); 
-			servpartida.aÃ±adirpartida(partida5); 
-			servpartida.aÃ±adirpartida(partida4); 
-			servpartida.aÃ±adirpartida(partida3); 
-			servpartida.aÃ±adirpartida(partida2); 
+			servpartida.añadirpartida(partida6); 
+			servpartida.añadirpartida(partida5); 
+			servpartida.añadirpartida(partida4); 
+			servpartida.añadirpartida(partida3); 
+			servpartida.añadirpartida(partida2); 
 
 
 
@@ -79,7 +79,7 @@ public class GestionaDixit {
 		
 		for (Partida partida : partidasordenadasdescendientementeporfecha) {
 			logger.info(partida);
-		}*/
+		}
 		servjugador.delete(2);
 }}
 	

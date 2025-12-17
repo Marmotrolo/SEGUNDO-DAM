@@ -1,17 +1,9 @@
 
+#MANUEL PARRADO TORRES 
+
 from PySide6.QtWidgets import QApplication,QMainWindow,QVBoxLayout, QWidget, QTextEdit, QLabel, QPushButton, QStatusBar
 from PySide6.QtCore import Signal
 from PySide6.QtGui import QPalette, QColor
-
-'''class personalizada(Qloquetoqe)
-        variable = Signal(lo que emite(int, str))
-        def init()
-            parametros
-
-            self.clicket/textchange/presed.connect(self.funcion)
-
-        def funcion(self)
-            self.variable.emit(lo que quieres q emita(parametro))'''
 
 class AreaTextoLimitada(QTextEdit):
     cantidad_letras = Signal(int)
