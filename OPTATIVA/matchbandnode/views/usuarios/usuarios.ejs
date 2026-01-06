@@ -1,0 +1,55 @@
+<%- include("../templates/cabecera", {subtitulo:'Panel de Usuarios'}) %>
+
+<div class="container">
+    <h1 class="display-4 ">Gestión de Usuarios </h1>
+    <a class="btn btn-success btn-block my-4" href="/usuarios/crear">Crear nuevo usuario</a>
+    
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Instrumento</th>
+                <th scope="col">Nivel</th>
+                <th scope="col">Ciudad</th>
+                <th scope="col">Rol</th>
+                <th scope="col">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% if (arrayUsuarios.length > 0) { %>
+                <% arrayUsuarios.forEach(usuario => { %>
+                    <tr>
+                        <th scope="row"><%= usuario.id %></th>
+                        <td><%= usuario.nombre %></td>
+                        <td><%= usuario.email %></td>
+                        <td><%= usuario.instrumento %></td>
+                        <td><%= usuario.nivel %></td>
+                        <td><%= usuario.ciudad || 'No especificada' %></td>
+                        <td>
+                            <% if (usuario.rol === 'admin') { %>
+                                <span class="badge badge-danger">Admin</span>
+                            <% } else if (usuario.rol === 'profesional') { %>
+                                <span class="badge badge-warning">Profesional</span>
+                            <% } else { %>
+                                <span class="badge badge-info">Normal</span>
+                            <% } %>
+                        </td>
+                        <td>
+                            <a class="btn btn-warning btn-sm" href="/usuarios/<%= usuario.id %>">
+                                Eliminar/Editar
+                            </a>
+                        </td>
+                    </tr>
+                <% }) %>
+            <% } else { %>
+                <tr>
+                    <td colspan="8" class="text-center">No hay usuarios registrados</td>
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
+</div>
+
+<%- include("../templates/footer") %>
