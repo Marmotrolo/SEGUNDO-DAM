@@ -51,6 +51,41 @@
                     console.log(error)
                 }
             })
+            // Lógica para EDITAR
+const formEditar = document.querySelector('#editar');
+
+formEditar.addEventListener('submit', async (e) => {
+    e.preventDefault(); // Evita que la página se recargue
+
+    // Capturamos los datos del formulario
+    const nombre = document.querySelector('#nombreInput').value;
+    const tipo = document.querySelector('#tipoInput').value;
+    const descripcion = document.querySelector('#descripcionInput').value;
+    const id = formEditar.dataset.id;
+
+    try {
+        const data = await fetch(`/pokemon/${id}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            // Enviamos los datos como un objeto JSON
+            body: JSON.stringify({ nombre, tipo, descripcion })
+        });
+
+        const res = await data.json();
+
+        if (res.estado) {
+            // AQUÍ es donde le dices a dónde ir tras editar con éxito
+            window.location.href = '/pokemon'; 
+        } else {
+            alert('Error al editar: ' + res.mensaje);
+        }
+
+    } catch (error) {
+        console.log('Error en la petición fetch:', error);
+    }
+});
 </script>
 
         

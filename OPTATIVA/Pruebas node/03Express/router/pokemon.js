@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
         console.error(error)
     }
 })
-router.get('/pokemon/:id', async(req, res) => { //El id vendrá por el GET (barra de direcciones)
+router.get('/:id', async(req, res) => { //El id vendrá por el GET (barra de direcciones)
     const id = req.params.id //Recordemos que en la plantilla "pokemon.ejs" le pusimos
     //a este campo pokemon.id, por eso lo llamados con params.id
     try {

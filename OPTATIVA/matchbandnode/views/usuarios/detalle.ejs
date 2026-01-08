@@ -1,0 +1,136 @@
+<%- include("../templates/cabecera", {subtitulo: 'Detalles del Usuario'}) %>
+
+<div class="container">
+    <h1>Detalles del Usuario</h1>
+    
+    <% if (error) { %>
+        <div class="alert alert-danger">
+            <%= mensaje %>
+        </div>
+        <a href="/usuarios" class="btn btn-dark btn-block my-2">
+            Volver al listado
+        </a>
+    <% } %>
+
+    <% if (!error) { %>
+        <div class="card my-4">
+            <div class="card-body">
+                <h2 class="card-title"><%= usuario.nombre %></h2>
+                <p class="card-text"><strong>Email:</strong> <%= usuario.email %></p>
+                <p class="card-text"><strong>Instrumento:</strong> <%= usuario.instrumento %></p>
+                <p class="card-text"><strong>Nivel:</strong> <%= usuario.nivel %></p>
+                <p class="card-text"><strong>Ciudad:</strong> <%= usuario.ciudad || 'No especificada' %></p>
+                <p class="card-text"><strong>Géneros:</strong> <%= usuario.generoMusical ? usuario.generoMusical.join(', ') : 'No especificados' %></p>
+                <p class="card-text"><strong>Rol:</strong> 
+                    <% if (usuario.rol === 'admin') { %>
+                        Administrador
+                    <% } else if (usuario.rol === 'profesional') { %>
+                    Profesional
+                    <% } else { %>
+                      Normal
+                    <% } %>
+                </p>
+                <% if (usuario.biografia) { %>
+                    <p class="card-text"><strong>Biografía:</strong></p>
+                    <p class="card-text"><%= usuario.biografia %></p>
+                <% } %>
+            </div>
+        </div>
+
+  <h3>Editar Usuario</h3>
+<form id="editar" data-id="<%= usuario.id %>">
+    <input type="text" value="<%= usuario.nombre %>" class="form-control my-2" name="nombre" id="nombreInput">
+    <input type="email" value="<%= usuario.email %>" class="form-control my-2" name="email" id="emailInput">
+    <input type="text" value="<%= usuario.instrumento %>" class="form-control my-2" name="instrumento" id="instrumentoInput">
+    <input type="text" value="<%= usuario.nivel %>" class="form-control my-2" name="nivel" id="nivelInput">
+    <input type="text" value="<%= usuario.ciudad || '' %>" class="form-control my-2" name="ciudad" id="ciudadInput">
+    
+    <select name="rol" id="rolInput" class="form-control my-2">
+        <option value="normal">Normal</option>
+        <option value="profesional">Profesional</option>
+        <option value="admin">Admin</option>
+    </select>
+    
+    <textarea name="biografia" id="biografiaInput" class="form-control my-2" rows="4"><%= usuario.biografia || '' %></textarea>
+    
+    <button class="btn btn-warning btn-sm" type="submit">
+        Actualizar Usuario
+    </button>
+</form>
+        
+        <hr>
+        
+        <button class="btn btn-danger btn-sm" data-id="<%= usuario.id %>">
+            Eliminar Usuario
+        </button>
+        
+        <a href="/usuarios" class="btn btn-secondary btn-sm">
+            Volver al listado
+        </a>
+    <% } %>
+</div>
+
+<script>
+    // Eliminar usuario
+    const btnEliminar = document.querySelector('.btn-danger');
+    if (btnEliminar) {
+        btnEliminar.addEventListener('click', async () => {
+            if (!confirm('¿Estás seguro de eliminar este usuario?')) return;
+            
+            console.log(btnEliminar.dataset.id);
+            try {
+                const data = await fetch(`/usuarios/${btnEliminar.dataset.id}`, {
+                    method: 'delete'
+                });
+                const res = await data.json();
+                console.log(res);
+                if (res.estado) {
+                    window.location.href = '/usuarios';
+                } else {
+                    alert(res.mensaje);
+                }
+            } catch (error) {
+                console.log(error);
+            }
+        });
+    }
+    
+    // Editar usuario
+    const formEditar = document.querySelector('#editar');
+    if (formEditar) {
+        formEditar.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const nombre = document.querySelector('#nombreInput').value;
+            const email = document.querySelector('#emailInput').value;
+            const instrumento = document.querySelector('#instrumentoInput').value;
+            const nivel = document.querySelector('#nivelInput').value;
+            const ciudad = document.querySelector('#ciudadInput').value;
+            const biografia = document.querySelector('#biografiaInput').value;
+            const id = formEditar.dataset.id;
+
+            try {
+                const data = await fetch(`/usuarios/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ nombre, email, instrumento, nivel, ciudad, biografia })
+                });
+
+                const res = await data.json();
+
+                if (res.estado) {
+                    alert('Usuario actualizado correctamente');
+                    window.location.href = '/usuarios';
+                } else {
+                    alert('Error al editar: ' + res.mensaje);
+                }
+            } catch (error) {
+                console.log('Error en la petición fetch:', error);
+            }
+        });
+    }
+</script>
+
+<%- include("../templates/footer") %>
