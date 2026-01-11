@@ -37,27 +37,26 @@
             </div>
         </div>
 
-        <h3>Editar Usuario</h3>
-        <form id="editar" data-id="<%= usuario.id %>">
-            <input type="text" value="<%= usuario.nombre %>" class="form-control my-2" name="nombre" id="nombreInput" required>
-            <input type="email" value="<%= usuario.email %>" class="form-control my-2" name="email" id="emailInput" required>
-            <input type="text" value="<%= usuario.instrumento %>" class="form-control my-2" name="instrumento" id="instrumentoInput" required>
-            
-            <select name="nivel" id="nivelInput" class="form-control my-2" required>
-                <option value="Principiante" <%= usuario.nivel === 'Principiante' ? 'selected' : '' %>>Principiante</option>
-                <option value="Intermedio" <%= usuario.nivel === 'Intermedio' ? 'selected' : '' %>>Intermedio</option>
-                <option value="Avanzado" <%= usuario.nivel === 'Avanzado' ? 'selected' : '' %>>Avanzado</option>
-                <option value="Profesional" <%= usuario.nivel === 'Profesional' ? 'selected' : '' %>>Profesional</option>
-            </select>
-            
-            <input type="text" value="<%= usuario.ciudad || '' %>" class="form-control my-2" name="ciudad" id="ciudadInput" placeholder="Ciudad">
-            
-            <textarea name="biografia" id="biografiaInput" class="form-control my-2" rows="4"><%= usuario.biografia || '' %></textarea>
-            
-            <button class="btn btn-warning btn-sm" type="submit">
-                Actualizar Usuario
-            </button>
-        </form>
+  <h3>Editar Usuario</h3>
+<form id="editar" data-id="<%= usuario.id %>">
+    <input type="text" value="<%= usuario.nombre %>" class="form-control my-2" name="nombre" id="nombreInput">
+    <input type="email" value="<%= usuario.email %>" class="form-control my-2" name="email" id="emailInput">
+    <input type="text" value="<%= usuario.instrumento %>" class="form-control my-2" name="instrumento" id="instrumentoInput">
+    <input type="text" value="<%= usuario.nivel %>" class="form-control my-2" name="nivel" id="nivelInput">
+    <input type="text" value="<%= usuario.ciudad || '' %>" class="form-control my-2" name="ciudad" id="ciudadInput">
+    
+    <select name="rol" id="rolInput" class="form-control my-2">
+        <option value="normal">Normal</option>
+        <option value="profesional">Profesional</option>
+        <option value="admin">Admin</option>
+    </select>
+    
+    <textarea name="biografia" id="biografiaInput" class="form-control my-2" rows="4"><%= usuario.biografia || '' %></textarea>
+    
+    <button class="btn btn-warning btn-sm" type="submit">
+        Actualizar Usuario
+    </button>
+</form>
         
         <hr>
         

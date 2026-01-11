@@ -12,12 +12,7 @@ const usuarioSchema = new Schema({
     biografia: String,
     rol: String, enum: ['normal', 'profesional', 'admin'],
     verificado:  Boolean,
-    redesSociales: {
-        soundcloud: String,
-        spotify: String,
-        youtube: String,
-        instagram: String
-    },
+   
 });
 
 const Usuario = mongoose.model('usuario', usuarioSchema, "usuarios");
