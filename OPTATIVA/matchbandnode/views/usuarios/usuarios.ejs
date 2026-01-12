@@ -29,11 +29,11 @@
                         <td><%= usuario.ciudad || 'No especificada' %></td>
                         <td>
                             <% if (usuario.rol === 'admin') { %>
-                                <span class="badge badge-danger">Admin</span>
+                                Admin
                             <% } else if (usuario.rol === 'profesional') { %>
-                                <span class="badge badge-warning">Profesional</span>
-                            <% } else { %>
-                                <span class="badge badge-info">Normal</span>
+                               Profesional
+                            <% } else if (usuario.rol === 'normal') { %>
+                                Normal
                             <% } %>
                         </td>
                         <td>
