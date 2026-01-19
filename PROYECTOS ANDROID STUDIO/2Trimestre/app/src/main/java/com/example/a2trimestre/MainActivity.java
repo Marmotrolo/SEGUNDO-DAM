@@ -3,6 +3,10 @@ package com.example.a2trimestre;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.ContextMenu;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -12,6 +16,7 @@ import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.SeekBar;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,10 +27,43 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.mainmenu, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Log.i("menus",item.toString());
+        return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,
+                                    ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menuelemento, menu);
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        Log.i("menus",item.toString());
+        return super.onContextItemSelected(item);
+    }
+
+
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+        TextView elemento = (TextView) findViewById(R.id.texto);
+        registerForContextMenu(elemento);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -38,12 +76,12 @@ public class MainActivity extends AppCompatActivity {
                 new Datos("Linea superior 4", "Linea inferior 4"),
                 new Datos("Linea superior 5", "Linea inferior 5")
         };
-        ListView listado = (ListView) findViewById(R.id.miLista);
+       ListView listado = (ListView) findViewById(R.id.miLista);
         Adaptador miAdaptador = new Adaptador(this, datos);
         listado.setAdapter(miAdaptador);
 
 
-        String[] opciones = {
+       /* String[] opciones = {
                 "Dark Souls",
                 "Dark Souls II",
                 "Dark Souls III",
@@ -54,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 "Lies of P",
                 "Nioh",
                 "Nioh 2"
-        };
+        };*/
+
         /*AutoCompleteTextView textoLeido = (AutoCompleteTextView) findViewById(R.id.miTexto);
         ArrayAdapter<String> adapador = new ArrayAdapter<String> (this, android.R.layout.simple_dropdown_item_1line, opciones);
         textoLeido.setAdapter(adapador);*/
@@ -119,4 +158,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 }

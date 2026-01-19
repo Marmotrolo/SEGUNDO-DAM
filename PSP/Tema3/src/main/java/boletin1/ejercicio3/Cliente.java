@@ -1,4 +1,4 @@
-package boletin1;
+package boletin1.ejercicio3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,23 +18,15 @@ public class Cliente {
 			cliente = new Socket(Host, Puerto);
 			System.out.println("Cliente: conexion establecida");
 			// Conexion
-			PrintWriter salida = new PrintWriter(cliente.getOutputStream(), true);
-			BufferedReader entrada = new BufferedReader(new InputStreamReader(cliente.getInputStream()));
-			Scanner sc = new Scanner(System.in);
+			BufferedReader entrada= new BufferedReader( new InputStreamReader(cliente.getInputStream()));
+			String mensaje= entrada.readLine();
+			if(!mensaje.equals(""))
 
-			boolean acabado = false;
-			String mensajeparaservidor = "";
+				System.out.println( mensaje);
+				
+			
 
-			while (!acabado) {
-				System.out.println("Escribe un mensaje para el servidor: ");
-				mensajeparaservidor = sc.nextLine();
-				if (mensajeparaservidor != null && mensajeparaservidor.equals("fin")) {
-					acabado = true;
-				} else {
-					salida.println(mensajeparaservidor);
-				}
-			}
-
+			
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -42,6 +34,7 @@ public class Cliente {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} // conecta
+		
 
 	}
 

@@ -1,4 +1,4 @@
-package boletin1;
+package boletin1.ejercicio1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

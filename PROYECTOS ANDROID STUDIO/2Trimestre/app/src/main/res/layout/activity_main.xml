@@ -42,13 +42,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
-
-   <!-- <GridView
-        android:id="@+id/miGrid"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numColumns="3"
-        tools:ignore="MissingConstraints" />-->
+        android:text="Pulsa sobre el texto!!!"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <!-- <GridView
+         android:id="@+id/miGrid"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:numColumns="3"
+         tools:ignore="MissingConstraints" />-->
 
     <!--<Spinner
         android:id="@+id/miSpinner"
