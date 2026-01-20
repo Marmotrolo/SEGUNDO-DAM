@@ -5,18 +5,19 @@
 <hibernate-configuration>
    <session-factory>
           <property name="hibernate.connection.driver_class">  com.mysql.cj.jdbc.Driver      </property>
-       <property name="hibernate.connection.url">
-           jdbc:mysql://localhost:3307/accesoDatosDAM?useSSL=false&amp;serverTimezone=UTC
-       </property>
-       <property name="hibernate.connection.username">usuario2</property>
-       <property name="hibernate.connection.password">usuario</property>
+     <property name="connection.url">
+    jdbc:mysql://localhost:3307/accesoDatosDAM?useSSL=false&amp;allowPublicKeyRetrieval=true
+</property>
+       <property name="hibernate.connection.username">parrado</property>
+       <property name="hibernate.connection.password">1234</property>
        <!-- Dialect -->
        <property name="hibernate.dialect">  org.hibernate.dialect.MySQLDialect       </property>
-       <property name="hibernate.hbm2ddl.auto">create-only</property>
+       <property name="hibernate.hbm2ddl.auto">create</property>
        <property name="hibernate.show_sql">true</property>
        <property name="hibernate.format_sql">true</property>
        <!-- Entidades -->
        <mapping class="modelo.Reunion"/>
+       <mapping class="modelo.Sala"/>
 
    </session-factory>
 </hibernate-configuration>

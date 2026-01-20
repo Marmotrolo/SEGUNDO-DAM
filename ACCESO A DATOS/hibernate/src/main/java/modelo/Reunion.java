@@ -4,15 +4,21 @@ import java.time.LocalDateTime;
 
 import org.hibernate.Session;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "reunion")
 public class Reunion {
+	@ManyToOne(cascade = CascadeType.PERSIST)
+	@JoinColumn(name="idSala")
+	private Sala sala;
 	// Este campo es la clave primaria
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -45,6 +51,16 @@ public class Reunion {
 	@Override
 	public String toString() {
 		return "Reunion [idReunion=" + idReunion + ", fecha=" + fecha + ", asunto=" + asunto + "]";
+	}
+
+	public Reunion(Sala sala, LocalDateTime fecha, String asunto) {
+		super();
+		this.sala = sala;
+		this.fecha = fecha;
+		this.asunto = asunto;
+	}
+	public Reunion() {
+		super();
 	}
 	
 	

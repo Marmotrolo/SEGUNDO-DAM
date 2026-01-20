@@ -9,7 +9,7 @@ import org.hibernate.Session;
 import org.junit.jupiter.api.Test;
 
 import modelo.Reunion;
-import utils.HibernateUtil;
+import utiles.HibernateUtil;
 
 public class TestReunion {
 	private static final Logger logger = LogManager.getLogger(TestReunion.class);
