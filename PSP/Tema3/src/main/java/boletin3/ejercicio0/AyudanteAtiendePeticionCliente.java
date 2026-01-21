@@ -18,25 +18,23 @@ public AyudanteAtiendePeticionCliente(Socket socket) {
 
 @Override
 public void run() {
-	PrintWriter salida = null;
-	BufferedReader entrada = null;
+
 	
 	try {
-		entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-		salida = new PrintWriter(socket.getOutputStream(), true);
-		salida.println("Bienvenido. Escribe algo (o 'fin' para salir):");
-		String mensaje;
-		while ((mensaje = entrada.readLine()) != null && !mensaje.equalsIgnoreCase("fin")) {
-				System.out.println("Cliente dice: " + mensaje);
-				salida.println("Servidor responde: " + mensaje.toUpperCase());
+		PrintWriter salida = null;
+		BufferedReader entrada = null;
+		
+				
+		System.out.println("Cliente conectado" + socket.getLocalPort());
+			Thread.sleep(5000);
+			System.out.println("Conexion cerrada");
+
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		if (mensaje != null && mensaje.equalsIgnoreCase("fin")) {
-			salida.println("Cerrando sesión. ¡Hasta pronto!"); 			
-	}
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	
+
 	
 
 

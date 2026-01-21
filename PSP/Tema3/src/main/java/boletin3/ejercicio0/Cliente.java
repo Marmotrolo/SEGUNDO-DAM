@@ -20,7 +20,6 @@ public class Cliente {
             // Leemos para mantener la conexión viva hasta que el servidor cierre
             socket.getInputStream().read(); 
             
-            socket.close();
         } catch (Exception e) {
             System.err.println("Conexión finalizada.");
         }

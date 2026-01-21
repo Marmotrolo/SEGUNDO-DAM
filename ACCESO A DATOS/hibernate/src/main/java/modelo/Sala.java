@@ -18,7 +18,7 @@ public class Sala {
 private int idSala;
 	private String nombre;
 	private int capacidad;
-	@OneToMany(mappedBy = "sala", cascade = CascadeType.ALL)
+	@OneToMany(mappedBy = "sala")
 	private List<Reunion> reuniones;
 	
 	public Sala() {
