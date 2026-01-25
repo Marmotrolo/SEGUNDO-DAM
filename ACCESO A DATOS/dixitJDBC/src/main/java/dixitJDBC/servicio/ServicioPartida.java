@@ -41,9 +41,9 @@ public class ServicioPartida {
 		}
 		  return partidas;
 	  }
-	  public void aÃ±adirpartida(Partida partida){
+	  public void añadirpartida(Partida partida){
 			try {
-				repoPartida.aÃ±adirpartida(partida);
+				repoPartida.añadirpartida(partida);
 			} catch (MiExcepcion | SQLException e) {
 				// TODO Auto-generated catch block
 				logger.error(e.getMessage());

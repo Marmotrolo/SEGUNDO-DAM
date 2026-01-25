@@ -105,7 +105,7 @@ private static final Logger logger = LogManager.getLogger(RepositorioPartida.cla
 		  	return partidascontadas;
 	}
 			
-	public void aÃ±adirpartida(Partida partida) throws MiExcepcion, SQLException {
+	public void añadirpartida(Partida partida) throws MiExcepcion, SQLException {
 		String consulta= "insert into dixitparrado.partidas(torneo_id,narrador_id,fecha,resultado) values(?,?,?,?)";
 		PreparedStatement ps;
 		if(cuentapartidas()<5) {
