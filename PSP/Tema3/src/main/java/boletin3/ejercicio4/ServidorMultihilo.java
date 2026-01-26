@@ -9,6 +9,7 @@ import boletin3.ejercicio4.AyudanteAtiendePeticionCliente;
 public class ServidorMultihilo {
 public static void main(String[] args) {
 	Contador contador= new Contador();
+	Tablero tablero= new Tablero();
 
 	   int puerto = 4444;
 	   
@@ -20,7 +21,7 @@ public static void main(String[] args) {
                System.out.println("Nuevo cliente conectado: " + socketCliente.getInetAddress());
                // 2. Lanza un hilo nuevo para este cliente específico
                // Esto permite que el bucle vuelva al accept() inmediatamente
-               new AyudanteAtiendePeticionCliente(socketCliente, contador).start();
+               new AyudanteAtiendePeticionCliente(socketCliente, contador, tablero).start();
                
            }
        } catch (IOException e) {

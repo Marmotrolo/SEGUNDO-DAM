@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Tablero {
 private String[][] tablero;
 
-public Tablero(String[][] tablero) {
+public Tablero() {
 	super();
 	this.tablero = new String[][] {{"Crucero", null, null,null},{null,null,"Entradas",null},{"Masaje",null,null,"1000€"}};
 	
