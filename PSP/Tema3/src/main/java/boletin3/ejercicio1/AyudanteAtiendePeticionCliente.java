@@ -32,7 +32,7 @@ import java.time.LocalTime;
 						
 						while ((mensaje = entrada.readLine()) != null) {
 							System.out.println("Ayudante: El cliente dice " + mensaje);
-			                String respuesta = "ECO:" + mensaje + " [Hilo ID: " + this.getId() + " a las " + LocalTime.now() + "]";
+			                String respuesta =  mensaje + " Hilo ID: " + this.getId() + " a las " + LocalTime.now() ;
 			                salida.println(respuesta);
 			            }
 						

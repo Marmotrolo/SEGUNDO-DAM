@@ -1,4 +1,4 @@
-package boletin3.ejercicio1;
+ package boletin3.ejercicio4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,28 +6,23 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.Scanner;
+
 import java.net.Socket;
 
-public class ClienteHilo extends Thread{
-
-    
-    @Override
-    public void run() {
-    	int puerto = 4444;
+public class Cliente {
+    public static void main(String[] args) {
+        int puerto = 4444;
         String host = "localhost";
-		PrintWriter salida=null;
-		BufferedReader entrada= null;
-		Scanner sc= new Scanner (System.in);
-
+        PrintWriter salida= null;
+        BufferedReader entrada=null;
+        
         try {
             Socket socket = new Socket(host, puerto);
             salida = new PrintWriter(socket.getOutputStream(), true);
             entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            System.out.println("Conectado al servidor " + socket.getInetAddress());
-            
-            salida.println("Hola desde el hilo " + this.getId());
-            System.out.println("Respuesta recibida ECO:" + entrada.readLine());
+            String mensaje= entrada.readLine();
+            System.out.println("Servidor dice " + mensaje);
+            socket.getInputStream().read(); 
             
         } catch (Exception e) {
             System.err.println("Conexión finalizada.");
