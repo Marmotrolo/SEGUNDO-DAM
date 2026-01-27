@@ -44,7 +44,7 @@ catch(NullPointerException e ) {
 	
 }
 
-public String aciertapremio(String apuestacliente) {
+public synchronized String aciertapremio(String apuestacliente) {
 	String mensajeresultadoapuesta="";
 	
 	  int pos1 = apuestacliente.charAt(0) - '0';
@@ -79,12 +79,14 @@ public void run() {
 
 		mensaje= "Cliente conectado => " + contador.getNumeroconexiones();
 		salida.println(mensaje);
-		if(!nohaypremios) {
-			String mensajeparacliente="Dime la posicion que quieres jugar. FORMATO: X,X";
+		while(!nohaypremios) {
+			String mensajeparacliente="Dime la posicion que quieres jugar. FORMATO: X,X o escribe salir para terminar";
 			salida.println(mensajeparacliente);
 			String mensajedecliente= entrada.readLine();
+			if(!mensajedecliente.equals("salir")) {
 			String premioparacliente= aciertapremio(mensajedecliente);
 			salida.println(premioparacliente);
+			}
 			
 		}
 	
