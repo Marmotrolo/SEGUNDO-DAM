@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Logo (por ahora un placeholder, luego lo cambias) -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="332dp"
+        android:layout_height="238dp"
+        android:contentDescription="Logo MatchBand"
+        android:src="@drawable/logo3" />
+
+    <!-- Título MatchBand -->
+
+    <!-- Campo Correo -->
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electronico"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#6B6B6B"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/edittext_bg"
+        android:padding="18dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Campo Contraseña -->
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#6B6B6B"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/edittext_bg"
+        android:padding="18dp"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Botón Iniciar Sesión -->
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="100dp" />
+
+    <!-- Texto Registro -->
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate si no tienes cuenta"
+        android:textColor="#9E9E9E"
+        android:textSize="14sp" />
+
+</LinearLayout>

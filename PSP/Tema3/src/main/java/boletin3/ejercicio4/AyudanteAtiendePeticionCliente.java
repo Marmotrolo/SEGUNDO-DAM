@@ -34,6 +34,7 @@ try {
 		}
 	}
 	}
+
 catch(NullPointerException e ) {
 	System.out.println("Es nulo" +contadornulo);
 }
