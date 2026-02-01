@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_marginEnd="16dp">
+
+    <!-- Contenedor para foto/inicial -->
+    <FrameLayout
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+
+        <!-- Fondo circular -->
+        <View
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_background" />
+
+        <!-- Imagen de perfil (si existe) -->
+        <ImageView
+            android:id="@+id/ivFotoPerfil"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:contentDescription="Foto de perfil" />
+
+        <!-- Inicial del nombre (si no hay foto) -->
+        <TextView
+            android:id="@+id/tvInicial"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="C"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+    <!-- Nombre del músico -->
+    <TextView
+        android:id="@+id/tvNombreMusico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos Ruiz"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:maxWidth="80dp"
+        android:gravity="center" />
+
+    <!-- Instrumento -->
+    <TextView
+        android:id="@+id/tvInstrumento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guitarra"
+        android:textColor="#9E9E9E"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
