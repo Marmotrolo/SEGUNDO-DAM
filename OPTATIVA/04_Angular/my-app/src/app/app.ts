@@ -1,15 +1,13 @@
-import {Component} from '@angular/core';
+import { Component, signal } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import { Hero } from './components/hero/hero';
 
 @Component({
   selector: 'app-root',
-  template: ` Hello {{musico}} `,
-  styles: `
-    :host {
-      color: #2cd7f5;
-    }
-  `,
+  imports: [RouterOutlet,Hero],
+  templateUrl: './app.html',
+  styleUrl: './app.css'
 })
 export class App {
-musico= 'Manuel Parrado'
-
+  protected readonly title = signal('my-app');
 }
