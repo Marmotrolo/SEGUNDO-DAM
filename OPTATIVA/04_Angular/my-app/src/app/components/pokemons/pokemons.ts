@@ -1,13 +1,13 @@
 import { Component, Input } from '@angular/core';
 import { Pokemonsinterface } from '../pokemonsinterface';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-pokemons',
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './pokemons.html',
   styleUrl: './pokemons.css',
 })
 export class Pokemons {
-  title: string="Mira mi webo"
   
     @Input() pokemons!: Pokemonsinterface;
    }

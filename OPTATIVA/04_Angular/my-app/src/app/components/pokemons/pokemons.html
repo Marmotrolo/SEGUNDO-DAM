@@ -6,5 +6,6 @@
 
     <h2 class="listing-heading">{{pokemons.nombre}} </h2>
     <p class="listing-type">{{pokemons.tipo}}, {{pokemons.description}} </p>
+    <a [routerLink]="['/details', pokemons.nombre]" routerLinkActive="router-link-active">Details</a>
     
 </section>

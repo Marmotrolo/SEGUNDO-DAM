@@ -1,11 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Hero } from './components/hero/hero';
+import { RouterModule } from '@angular/router';
 import { Pokemon } from './components/pokemon/pokemon';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Pokemon],
+  imports: [RouterOutlet, RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
