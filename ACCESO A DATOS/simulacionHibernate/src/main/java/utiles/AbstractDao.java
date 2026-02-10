@@ -116,4 +116,31 @@ public abstract class AbstractDao<T> implements IDao<T> {
 	public void setClase(Class<T> clase) {
 		this.clase = clase;
 	}
+	/*-- Obtiene todos los jugadores de un equipo específico por su nombre
+SELECT j FROM Jugador j WHERE j.equipo.nombre = :nombreEquipo
+
+-- Selecciona los equipos ordenados por puntos de forma descendente
+FROM Equipo e ORDER BY e.puntosAcumulados DESC
+
+SELECT f.equipos FROM Fase f WHERE f.nombreFase = :nombreFase
+
+FROM Jugador j WHERE j.dni = :dni
+
+*SELECT art FROM Articulo art 
+JOIN art.autores aut 
+WHERE aut.nombre = :nombreAutor 
+ORDER BY art.titulo ASC
+
+SELECT art.titulo, (art.numPaginaFin - art.numPaginaInicio) 
+FROM Articulo art 
+WHERE (art.numPaginaFin - art.numPaginaInicio) > 6
+
+SELECT r.nombreRevista, COUNT(a) 
+FROM Revista r 
+JOIN r.articulos a 
+GROUP BY r.idRevista, r.nombreRevista
+
+SELECT r.nombreRevista, r.fecha, r.numeroRevista 
+FROM Revista r 
+WHERE r.fecha < :fechaLimite*/
 }
