@@ -8,17 +8,31 @@
     android:padding="32dp">
 
     <!-- Logo -->
+
+
+    <!-- Nombre de usuario -->
     <ImageView
-        android:id="@+id/logoImage"
         android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_height="203dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="Logo MatchBand"
         android:src="@drawable/logo3" />
 
-
-    <!-- Campo Correo -->
     <EditText
-        android:id="@+id/etCorreo"
+        android:id="@+id/etNombreUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"
+        android:inputType="textPersonName"
+        android:textColorHint="#6B6B6B"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/edittext_bg"
+        android:padding="18dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Correo -->
+    <EditText
+        android:id="@+id/etCorreoRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Correo electronico"
@@ -29,9 +43,9 @@
         android:padding="18dp"
         android:layout_marginBottom="16dp" />
 
-    <!-- Campo Contraseña -->
+    <!-- Contraseña -->
     <EditText
-        android:id="@+id/etContrasena"
+        android:id="@+id/etContrasenaRegistro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Contraseña"
@@ -40,14 +54,27 @@
         android:textColor="#FFFFFF"
         android:background="@drawable/edittext_bg"
         android:padding="18dp"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="16dp" />
 
-    <!-- Botón Iniciar Sesión -->
-    <Button
-        android:id="@+id/btnIniciarSesion"
+    <!-- Confirmar Contraseña -->
+    <EditText
+        android:id="@+id/etConfirmarContrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Iniciar sesión"
+        android:hint="Confirma contraseña"
+        android:inputType="textPassword"
+        android:textColorHint="#6B6B6B"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/edittext_bg"
+        android:padding="18dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botón Crear cuenta -->
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -55,12 +82,12 @@
         android:padding="16dp"
         android:layout_marginBottom="16dp" />
 
-    <!-- Texto Registro -->
+    <!-- Ir a Login -->
     <TextView
-        android:id="@+id/tvRegistro"
+        android:id="@+id/tvIrLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrate si no tienes cuenta"
+        android:text="Iniciar sesion"
         android:textColor="#9E9E9E"
         android:textSize="14sp"
         android:clickable="true"

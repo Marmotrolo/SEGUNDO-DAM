@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A2E"
+    android:padding="24dp">
+
+    <!-- Botón atrás -->
+    <ImageButton
+        android:id="@+id/btnAtras"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/flechaatras"
+        android:background="@android:color/transparent"
+        android:contentDescription="Atrás"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Barra de progreso -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="32dp">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:progress="100"
+            android:max="100"
+            android:progressTint="#00D9FF"
+            android:progressBackgroundTint="#2A2A40" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/3"
+            android:textColor="#9E9E9E"
+            android:textSize="14sp"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+    <!-- Título -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu objetivo"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué esperas encontrar en MatchBand?"
+        android:textSize="14sp"
+        android:textColor="#9E9E9E"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Opciones de objetivo -->
+    <LinearLayout
+        android:id="@+id/llObjetivos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Se crearán dinámicamente -->
+
+    </LinearLayout>
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnComenzar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comenzar →"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#09B4D9"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvOmitir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Omitir por ahora"
+            android:textColor="#9E9E9E"
+            android:textSize="14sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
