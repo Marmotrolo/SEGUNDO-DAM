@@ -2,7 +2,6 @@ package com.example.matchband;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -10,7 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
-public class testgeneros extends AppCompatActivity {
+public class Testgeneros extends AppCompatActivity {
 
     private LinearLayout llGeneros;
     private Button btnSiguiente;
@@ -49,7 +48,7 @@ public class testgeneros extends AppCompatActivity {
     }
 
     private void irSiguiente() {
-        Intent intent = new Intent(this, testobjetivos.class);
+        Intent intent = new Intent(this, Testobjetivos.class);
         intent.putExtra("nombre", nombre);
         intent.putExtra("correo", correo);
         intent.putExtra("contrasena", contrasena);

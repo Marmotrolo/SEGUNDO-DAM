@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.matchband.DataBase;
 
 public class Login extends AppCompatActivity {
 
@@ -20,13 +21,11 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // Referencias
         etCorreo = findViewById(R.id.etCorreo);
         etContrasena = findViewById(R.id.etContrasena);
         btnIniciarSesion = findViewById(R.id.btnIniciarSesion);
         tvRegistro = findViewById(R.id.tvRegistro);
 
-        // Botón Iniciar Sesión
         btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,11 +33,10 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        // Ir a Registro
         tvRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, crearcuenta.class);
+                Intent intent = new Intent(Login.this, Crearcuenta.class);
                 startActivity(intent);
             }
         });
@@ -48,24 +46,18 @@ public class Login extends AppCompatActivity {
         String correo = etCorreo.getText().toString().trim();
         String contrasena = etContrasena.getText().toString().trim();
 
-        // Validar campos vacíos
         if (correo.isEmpty() || contrasena.isEmpty()) {
             Toast.makeText(this, "Por favor completa todos los campos", Toast.LENGTH_SHORT).show();
             return;
         }
 
-        // TODO: Aquí conectarás con tu base de datos MongoDB
-        // Por ahora, simulamos la validación
-
-        // Simulación: usuario de prueba
-        if (correo.equals("test@matchband.com") && contrasena.equals("123456")) {
-            // Login exitoso
+        // TODO: Cambiar por llamada a MongoDB
+        if (DataBase.login(correo, contrasena)) {
             Toast.makeText(this, "¡Bienvenido!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(Login.this, home.class);
+            Intent intent = new Intent(Login.this, Home.class);
             startActivity(intent);
             finish();
         } else {
-            // Credenciales incorrectas
             Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show();
         }
     }

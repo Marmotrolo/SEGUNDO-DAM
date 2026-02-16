@@ -12,28 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MatchBand">
         <activity
-            android:name=".testobjetivos"
+            android:name=".Testobjetivos"
             android:exported="false" />
         <activity
-            android:name=".testgeneros"
+            android:name=".Testgeneros"
             android:exported="false" />
         <activity
-            android:name=".testinstrumentos"
+            android:name=".Testinstrumentos"
             android:exported="false" />
         <activity
-            android:name=".crearcuenta"
+            android:name=".Crearcuenta"
             android:exported="false" />
         <activity
-            android:name=".messenger"
+            android:name=".Messenger"
             android:exported="false" />
         <activity
-            android:name=".profile"
+            android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name=".search"
+            android:name=".Search"
             android:exported="false" />
         <activity
-            android:name=".home"
+            android:name=".Home"
             android:exported="false" /> <!-- Login es la actividad de inicio (LAUNCHER) -->
         <activity
             android:name=".Login"

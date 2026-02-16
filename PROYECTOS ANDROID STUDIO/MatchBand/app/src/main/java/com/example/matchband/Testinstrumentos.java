@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
-public class testinstrumentos extends AppCompatActivity {
+public class Testinstrumentos extends AppCompatActivity {
 
     private GridLayout gridInstrumentos;
     private Button btnSiguiente;
@@ -86,7 +86,7 @@ public class testinstrumentos extends AppCompatActivity {
     }
 
     private void irSiguiente() {
-        Intent intent = new Intent(this, testgeneros.class);
+        Intent intent = new Intent(this, Testgeneros.class);
         intent.putExtra("nombre", nombre);
         intent.putExtra("correo", correo);
         intent.putExtra("contrasena", contrasena);

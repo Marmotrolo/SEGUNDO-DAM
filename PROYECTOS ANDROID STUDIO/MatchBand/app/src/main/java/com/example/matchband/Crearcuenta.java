@@ -8,8 +8,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-
-public class crearcuenta extends AppCompatActivity {
+import com.example.matchband.DataBase;
+public class Crearcuenta extends AppCompatActivity {
 
     private EditText etNombreUsuario, etCorreo, etContrasena, etConfirmarContrasena;
     private Button btnCrearCuenta;
@@ -20,7 +20,6 @@ public class crearcuenta extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crearcuenta);
 
-        // Referencias
         etNombreUsuario = findViewById(R.id.etNombreUsuario);
         etCorreo = findViewById(R.id.etCorreoRegistro);
         etContrasena = findViewById(R.id.etContrasenaRegistro);
@@ -28,7 +27,6 @@ public class crearcuenta extends AppCompatActivity {
         btnCrearCuenta = findViewById(R.id.btnCrearCuenta);
         tvIrLogin = findViewById(R.id.tvIrLogin);
 
-        // Botón Crear Cuenta
         btnCrearCuenta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,11 +34,10 @@ public class crearcuenta extends AppCompatActivity {
             }
         });
 
-        // Ir a Login
         tvIrLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // Vuelve al Login
+                finish();
             }
         });
     }
@@ -51,7 +48,6 @@ public class crearcuenta extends AppCompatActivity {
         String contrasena = etContrasena.getText().toString().trim();
         String confirmarContrasena = etConfirmarContrasena.getText().toString().trim();
 
-        // Validaciones
         if (nombre.isEmpty() || correo.isEmpty() || contrasena.isEmpty() || confirmarContrasena.isEmpty()) {
             Toast.makeText(this, "Por favor completa todos los campos", Toast.LENGTH_SHORT).show();
             return;
@@ -72,17 +68,16 @@ public class crearcuenta extends AppCompatActivity {
             return;
         }
 
-        // TODO: Guardar usuario en MongoDB
+        // TODO: Cambiar por llamada a MongoDB
+        if (DataBase.existeCorreo(correo)) {
+            Toast.makeText(this, "Este correo ya está registrado", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
+        Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show();
 
-
-
-        // Por ahora, pasamos al onboarding
-
-        Toast.makeText(this, "Cuenta creada exitosamente", Toast.LENGTH_SHORT).show();
-
-        // Ir al onboarding (cuestionario)
-        Intent intent = new Intent(crearcuenta.this, testinstrumentos.class);
+        // Ir al onboarding
+        Intent intent = new Intent(Crearcuenta.this, Testinstrumentos.class);
         intent.putExtra("nombre", nombre);
         intent.putExtra("correo", correo);
         intent.putExtra("contrasena", contrasena);
