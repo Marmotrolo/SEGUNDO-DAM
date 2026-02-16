@@ -86,10 +86,10 @@ public class Trabajador extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Notificar Incidencia");
         builder.setMessage("¿Enviar incidencia a RRHH?");
-        builder.setPositiveButton("Enviar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                enviarNotificacion("Incidencia", "Enviada correctamente");
+                builder.setPositiveButton("Enviar", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        enviarNotificacion("Incidencia", "Enviada correctamente");
             }
         });
         builder.setNegativeButton("Cancelar", null);

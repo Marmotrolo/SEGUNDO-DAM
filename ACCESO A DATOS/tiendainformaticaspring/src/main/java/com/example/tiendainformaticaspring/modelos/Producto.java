@@ -1,5 +1,4 @@
-package modelos;
-
+package com.example.tiendainformaticaspring.modelos;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -75,4 +74,6 @@ public class Producto {
 		this.clientes.remove(cliente);
 		cliente.getProductos().remove(this);
 	}
+	
+	
 }

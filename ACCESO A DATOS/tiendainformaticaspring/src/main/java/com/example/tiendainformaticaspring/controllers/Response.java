@@ -1,4 +1,4 @@
-package controllers;
+package com.example.tiendainformaticaspring.controllers;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

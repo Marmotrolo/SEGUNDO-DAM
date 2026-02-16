@@ -1,5 +1,4 @@
-package controllers;
-
+package com.example.tiendainformaticaspring.controllers; // Cambia esto
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +7,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+
+import com.example.tiendainformaticaspring.modelos.Producto;
+import com.example.tiendainformaticaspring.services.ProductService;
+
 import exceptions.ProductNotFoundException;
-import modelos.Producto;
-import services.ProductService;
 
 @Controller
 @RequestMapping("/miweb")
@@ -35,7 +36,7 @@ public class WebController {
 		return new ResponseEntity<>(addedProduct, HttpStatus.OK);
 	}
 
-	@RequestMapping("/lista")
+	@GetMapping("/lista")
 	public String catalog(Model model) {
 		List<Producto> productos = productService.findAll();
 		model.addAttribute("productos", productos);
@@ -45,7 +46,7 @@ public class WebController {
     // Método para obtener un producto por ID
     @GetMapping("/producto/{id}")
     public String getProductById(@PathVariable Long id, Model model) {
-        Product product = productService.findProductById(id);
+        Producto product = productService.findProductById(id);
     	model.addAttribute("detalleProducto", product);
         return "detalle";
     }

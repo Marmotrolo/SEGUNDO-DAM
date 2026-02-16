@@ -1,4 +1,4 @@
-package services;
+package com.example.tiendainformaticaspring.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,10 +7,10 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.tiendainformaticaspring.modelos.Producto;
+import com.example.tiendainformaticaspring.repositorios.ProductoRepository;
 
 import exceptions.ProductNotFoundException;
-import modelos.Producto;
-import repositorios.ProductoRepository;
 
 @Service
 public class ProductoServiceImpl implements ProductService {
@@ -23,8 +23,8 @@ public class ProductoServiceImpl implements ProductService {
 	}
    
 	@Override
-	public Set<Producto> findByCategory(String category) {
-		return productRepository.findByCategory(category);
+	public Set<Producto> findByCategoriaNombre(String nombre) {
+		return productRepository.findByCategoriaNombre(nombre);
 	}
 
 	public Producto createProduct(Producto product) {

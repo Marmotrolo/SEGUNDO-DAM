@@ -1,4 +1,4 @@
-package modelos;
+package com.example.tiendainformaticaspring.modelos;
 
 
 
