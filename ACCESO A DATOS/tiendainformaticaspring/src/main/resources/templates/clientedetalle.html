@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Cliente</title>
+</head>
+<body>
+    <h1>Detalle del Cliente</h1>
+    <p th:text="'ID: ' + ${cliente.id}"></p>
+    <p th:text="'Nombre: ' + ${cliente.nombre}"></p>
+    <p th:text="'Email: ' + ${cliente.email}"></p>
+    <p th:text="'Teléfono: ' + ${cliente.telefono}"></p>
+    <p><a href="/clientes">Volver a clientes</a></p>
+</body>
+</html>

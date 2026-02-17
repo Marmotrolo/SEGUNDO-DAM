@@ -1,5 +1,6 @@
 package com.example.tiendainformaticaspring.repositorios;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -12,4 +13,6 @@ public interface ProductoRepository extends JpaRepository<Producto, Long> {
 	List<Producto> findAll();
     Set<Producto> findByCategoriaNombre(String nombre);
     Producto findProductById(long id);
+	Optional<Producto> findByNombre(String nombre);
+
 }

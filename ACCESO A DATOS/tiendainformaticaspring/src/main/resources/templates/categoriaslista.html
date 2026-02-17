@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorías</title>
+</head>
+<body>
+    <h1>Lista de Categorías</h1>
+    <ul th:each="categoria : ${categorias}">
+        <li>
+            <p th:text="${categoria.nombre}"></p>
+        </li>
+    </ul>
+    <p><a href="/">Volver al inicio</a></p>
+</body>
+</html>

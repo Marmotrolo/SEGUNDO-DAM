@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Categoría</title>
+</head>
+<body>
+    <h1>Detalle de Categoría</h1>
+    <p th:text="'ID: ' + ${categoria.id}"></p>
+    <p th:text="'Nombre: ' + ${categoria.nombre}"></p>
+    <p th:text="'Descripción: ' + ${categoria.descripcion}"></p>
+    <p><a href="/categorias">Volver a categorías</a></p>
+</body>
+</html>

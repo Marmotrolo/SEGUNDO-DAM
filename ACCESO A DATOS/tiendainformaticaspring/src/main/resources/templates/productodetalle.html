@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Producto</title>
+</head>
+<body>
+    <h1>Detalle del Producto</h1>
+    <p th:text="'ID: ' + ${producto.id}"></p>
+    <p th:text="'Nombre: ' + ${producto.nombre}"></p>
+    <p th:text="'Precio: €' + ${producto.precio}"></p>
+    <p th:text="'Descripción: ' + ${producto.descripcion}"></p>
+    <p><a href="/productos">Volver al catálogo</a></p>
+</body>
+</html>

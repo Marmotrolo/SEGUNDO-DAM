@@ -42,7 +42,11 @@ public class ProductoServiceImpl implements ProductService {
 		return productRepository.save(pOriginal);
 	}
 	
-	
+	@Override
+	public Producto findByNombre(String nombre) {
+		return productRepository.findByNombre(nombre)
+			.orElseThrow(() -> new ProductNotFoundException("Producto no encontrado con nombre: " + nombre));
+	}
 
 	// Método para encontrar un producto por ID
     public Producto findProductById(long id) {

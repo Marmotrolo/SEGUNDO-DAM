@@ -1,6 +1,8 @@
 package acceso.veterinaria.controllers;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,7 +12,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import acceso.veterinaria.models.Animal;
-import acceso.veterinaria.services.AnimalService;
+import acceso.veterinaria.models.Vacuna;
+import acceso.veterinaria.services.AnimalesServices;
 import exceptions.AnimalNotFoundException;
 
 @Controller
@@ -18,7 +21,7 @@ import exceptions.AnimalNotFoundException;
 
 public class WebController {
 	@Autowired
-	private AnimalService animalService;
+	private AnimalesServices animalService;
 
 	@RequestMapping("/") 
 	public String index(Model model) {
@@ -30,6 +33,18 @@ public class WebController {
 	public String addAnimal(@RequestBody Animal animal) {
 		return animalService.createAnimal(animal);
 	}
+	
+	@PostMapping("/agregarvacunaaanimal/{idAnimal}")
+	@ResponseBody
+	public Map<String, Object>  agregarvacunaaanimal ( @PathVariable Long idAnimal,@RequestBody Vacuna vacuna){
+		Map<String, Object> respuesta= new HashMap<>();
+		if(animalService.agregarvacunaaanimal(idAnimal, vacuna)!=null) {
+		 respuesta.put("exito", true);
+		    respuesta.put("mensaje", "Datos cargados correctamente");
+		    respuesta.put("codigo", 200);
+}
+		return respuesta;
+	}
 	@PutMapping("/animal/{id}")
 	public ResponseEntity<Animal> updateAnimal(@PathVariable Long id, @RequestBody Animal animal) {
 		Animal addedAnimal = animalService.updateAnimal(id, animal);
@@ -40,13 +55,14 @@ public class WebController {
 	public String catalog(Model model) {
 		List<Animal> animales = animalService.findAllAnimals();
 		model.addAttribute("animales", animales);
-		return "animales	";
+		return "animales";
 	}
 	
     // Método para obtener un producto por ID
     @GetMapping("/animal/{id}")
-    public String getAnimaltById(@PathVariable Long id, Model model) {
+    public String getAnimalById(@PathVariable Long id, Model model) {
         Animal animal = animalService.findByIdAnimal(id);
+        System.out.println(animal.getNombre());
     	model.addAttribute("detalleAnimal", animal);
         return "detalle";
     }

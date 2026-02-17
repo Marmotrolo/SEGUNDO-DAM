@@ -15,6 +15,7 @@ public interface ProductService {
 	    Set<Producto> findByCategoriaNombre(String nombre);
 	    public Producto createProduct(Producto product) ;
 	    public Producto updateProduct(Long id, Producto product);
-	    
+		Producto findByNombre(String nombre);
+
 	    public Producto findProductById(long id);
 }

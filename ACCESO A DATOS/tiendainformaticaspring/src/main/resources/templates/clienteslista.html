@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes</title>
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <ul th:each="cliente : ${clientes}">
+        <li>
+            <p th:text="${cliente.nombre}"></p>
+            <p th:text="'Email: ' + ${cliente.email}"></p>
+        </li>
+    </ul>
+    <p><a href="/">Volver al inicio</a></p>
+</body>
+</html>
