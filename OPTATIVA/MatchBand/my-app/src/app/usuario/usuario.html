@@ -1,0 +1,16 @@
+<section>
+  <div class="header-section">
+    <form>
+      <input type="text" placeholder="Buscar por nombre, instrumento o ciudad" #filter>
+      <button class="primary" type="button" (click)="onsearch(filter.value)">Buscar</button>
+    </form>
+    <button class="btn-create" routerLink="/usuarios/create">+ Nuevo Músico</button>
+  </div>
+
+  <section class="results">
+    <app-usuarios
+      *ngFor="let usuario of filteredusuariolista"
+      [usuario]="usuario">
+    </app-usuarios>
+  </section>
+</section>

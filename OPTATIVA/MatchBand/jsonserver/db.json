@@ -1,0 +1,121 @@
+{
+  "usuarios": [
+    {
+      "id": "u1",
+      "nombre": "Carlos García",
+      "email": "carlos@matchband.es",
+      "instrumento": "Guitarra",
+      "generoMusical": "Rock",
+      "nivel": "avanzado",
+      "ciudad": "Madrid",
+      "foto": "https://img.freepik.com/foto-gratis/joven-hombre-guapo-camiseta-informal-sobre-fondo-azul-cara-feliz-sonriendo-brazos-cruzados-mirando-camara-persona-positiva_839833-12963.jpg?semt=ais_user_personalization&w=740&q=80",
+      "rol": "musico",
+      "verificado": true,
+      "activo": true,
+      "reputacion": 0,
+      "bio": "Guitarrista autodidacta con 8 años de experiencia. Busco banda para dar el salto.",
+      "redesSociales": "https://soundcloud.com/carlosguitar",
+      "tarifa": ""
+    },
+    {
+      "id": "u2",
+      "nombre": "Laura Martínez",
+      "email": "laura@matchband.es",
+      "instrumento": "Bajo",
+      "generoMusical": "Jazz, Funk",
+      "nivel": "profesional",
+      "ciudad": "Barcelona",
+      "foto": "https://i.pravatar.cc/150?img=5.png",
+      "rol": "profesional",
+      "verificado": true,
+      "activo": true,
+      "reputacion": 4.8,
+      "bio": "Bajista profesional con experiencia en directo. Disponible para sesiones y giras.",
+      "redesSociales": "https://soundcloud.com/laurabajo",
+      "tarifa": "80€/sesión"
+    },
+    {
+      "id": "u3",
+      "nombre": "Miguel Torres",
+      "email": "miguel@matchband.es",
+      "instrumento": "Batería",
+      "generoMusical": "Rock, Metal",
+      "nivel": "intermedio",
+      "ciudad": "Sevilla",
+      "foto": "https://i.pravatar.cc/150?img=8.png",
+      "rol": "musico",
+      "verificado": true,
+      "activo": true,
+      "reputacion": 0,
+      "bio": "Baterista con 5 años tocando. Busco grupo de rock o metal para ensayar.",
+      "redesSociales": "",
+      "tarifa": ""
+    }
+  ],
+  "anuncios": [
+    {
+      "id": "a1",
+      "titulo": "Busco guitarrista para banda de rock clásico en Madrid",
+      "descripcion": "Somos una banda de 3 miembros (batería, bajo y voz) buscando guitarrista con buen nivel y ganas de ensayar 2 veces por semana. Influencias: AC/DC, Led Zeppelin, Black Sabbath.",
+      "tipo": "busco-musico",
+      "generoMusical": "Rock",
+      "instrumento": "Guitarra",
+      "ciudad": "Madrid",
+      "autorId": "u3",
+      "autorNombre": "Miguel Torres",
+      "precio": "",
+      "activo": true,
+      "fechaPublicacion": "2025-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "a2",
+      "titulo": "Bajista profesional disponible para sesiones y directos",
+      "descripcion": "Ofrezco mis servicios como bajista de sesión para grabaciones, conciertos y eventos. Amplia experiencia en Jazz, Funk y Soul. Cuento con equipo profesional.",
+      "tipo": "ofrezco-servicio",
+      "generoMusical": "Jazz, Funk",
+      "instrumento": "Bajo",
+      "ciudad": "Barcelona",
+      "autorId": "u2",
+      "autorNombre": "Laura Martínez",
+      "precio": "80€/sesión",
+      "activo": true,
+      "fechaPublicacion": "2025-09-05T14:30:00.000Z"
+    }
+  ],
+  "eventos": [
+    {
+      "id": "e1",
+      "titulo": "Jam Session de Jazz abierta",
+      "descripcion": "Tarde de improvisación jazz abierta a todos los niveles. Ven con tu instrumento y únete. Ambiente relajado y participativo.",
+      "tipo": "jam",
+      "ciudad": "Madrid",
+      "lugar": "Bar El Jazz, Calle Mayor 15",
+      "fecha": "2025-10-15",
+      "hora": "20:00",
+      "organizadorId": "u2",
+      "organizadorNombre": "Laura Martínez",
+      "generoMusical": "Jazz",
+      "aforo": 30,
+      "gratuito": true,
+      "precio": "",
+      "imagen": ""
+    },
+    {
+      "id": "e2",
+      "titulo": "Concurso de bandas emergentes Madrid 2025",
+      "descripcion": "Primera edición del concurso de bandas emergentes en Madrid. Premio de 500€ y grabación de maqueta para la banda ganadora.",
+      "tipo": "concurso",
+      "ciudad": "Madrid",
+      "lugar": "Sala Moby Dick",
+      "fecha": "2025-10-25",
+      "hora": "19:00",
+      "organizadorId": "u1",
+      "organizadorNombre": "Carlos García",
+      "generoMusical": "Rock",
+      "aforo": 200,
+      "gratuito": false,
+      "precio": "5€",
+      "imagen": ""
+    }
+  ]
+}

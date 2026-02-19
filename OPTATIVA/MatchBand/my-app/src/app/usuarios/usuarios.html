@@ -1,0 +1,11 @@
+<section class="listing">
+    <img class="listing-photo" 
+    [src]="usuario.foto"
+    alt="Usuario {{usuario.foto}}" 
+    crossorigin/>
+
+    <h2 class="listing-heading">{{usuario.nombre}} </h2>
+    <p class="listing-type">{{usuario.instrumento}}, {{usuario.bio}} </p>
+    <a [routerLink]="['/details', usuario.nombre]" routerLinkActive="router-link-active">Details</a>
+    
+</section>
