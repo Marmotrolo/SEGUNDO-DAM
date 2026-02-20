@@ -1,0 +1,15 @@
+<div class="card">
+  <img [src]="vehiculo.imagen" width="700px" alt="vehiculo">
+
+  <h3>{{ vehiculo.marca }} {{ vehiculo.modelo }}</h3>
+
+  <p class="precio">Precio: {{ vehiculo.precio }} €</p>
+
+  <p *ngIf="vehiculo.disponible; else noDisponible" class="disponible">
+    Disponible
+  </p>
+
+  <ng-template #noDisponible>
+    <p class="no-disponible">No disponible</p>
+  </ng-template>
+</div>
