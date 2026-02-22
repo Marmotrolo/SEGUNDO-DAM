@@ -1,0 +1,27 @@
+<div class="mensajes-container">
+  <h1>Mensajes</h1>
+  <div class="conversaciones-list">
+    <div class="conversacion-item" *ngFor="let conv of conversaciones" (click)="seleccionarConversacion(conv)">
+      <div class="conversacion-header">
+        <h3>Conversación {{ conv.id }}</h3>
+        <span class="no-leidos" *ngIf="conv.noLeidos > 0">{{ conv.noLeidos }}</span>
+      </div>
+      <p class="ultimo-mensaje">{{ conv.ultimoMensaje }}</p>
+      <p class="fecha">{{ conv.ultimaFecha | date:'short' }}</p>
+    </div>
+  </div>
+  <div class="conversacion-detalle" *ngIf="conversacionSeleccionada">
+    <h2>Conversación</h2>
+    <div class="mensajes">
+      <div class="mensaje" *ngFor="let msg of conversacionSeleccionada.mensajes">
+        <strong>{{ msg.emisorNombre }}</strong>
+        <p>{{ msg.texto }}</p>
+        <small>{{ msg.fecha | date:'short' }}</small>
+      </div>
+    </div>
+    <div class="enviar-mensaje">
+      <input type="text" [(ngModel)]="nuevoMensaje" placeholder="Escribe un mensaje..." class="input-mensaje">
+      <button (click)="enviarMensaje()" class="btn-enviar">Enviar</button>
+    </div>
+  </div>
+</div>

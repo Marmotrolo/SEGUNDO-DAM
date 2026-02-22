@@ -1,0 +1,42 @@
+<div class="perfil-container" *ngIf="usuario">
+  <div class="perfil-header">
+    <img [src]="usuario.fotoPerfil" [alt]="usuario.nombre" class="foto-perfil">
+    <h1>{{ usuario.nombre }}</h1>
+    <p class="username">@{{ usuario.username }}</p>
+    <p class="rol">{{ usuario.rol }}</p>
+  </div>
+  <div class="perfil-info">
+    <div class="seccion">
+      <h3>Información</h3>
+      <p><strong>Email:</strong> {{ usuario.email }}</p>
+      <p><strong>Instrumento Principal:</strong> {{ usuario.instrumentoPrincipal }}</p>
+      <p><strong>Instrumentos Secundarios:</strong> {{ usuario.instrumentosSecundarios.join(', ') || 'N/A' }}</p>
+      <p><strong>Géneros Musicales:</strong> {{ usuario.generosMusicals.join(', ') }}</p>
+      <p><strong>Nivel:</strong> {{ usuario.nivel }}</p>
+      <p><strong>Ciudad:</strong> {{ usuario.ciudad }}, {{ usuario.pais }}</p>
+    </div>
+    <div class="seccion">
+      <h3>Biografía</h3>
+      <p>{{ usuario.biografia }}</p>
+    </div>
+    <div class="seccion">
+      <h3>Redes Sociales</h3>
+      <p *ngIf="usuario.redesSociales.instagram"><strong>Instagram:</strong> {{ usuario.redesSociales.instagram }}</p>
+      <p *ngIf="usuario.redesSociales.soundcloud"><strong>SoundCloud:</strong> {{ usuario.redesSociales.soundcloud }}</p>
+      <p *ngIf="usuario.redesSociales.youtube"><strong>YouTube:</strong> {{ usuario.redesSociales.youtube }}</p>
+      <p *ngIf="usuario.redesSociales.spotify"><strong>Spotify:</strong> {{ usuario.redesSociales.spotify }}</p>
+    </div>
+    <div class="seccion">
+      <h3>Valoraciones</h3>
+      <p><strong>Promedio:</strong> {{ promedioValoraciones | number:'1.1-1' }} / 5</p>
+      <p><strong>Total Valoraciones:</strong> {{ usuario.totalValoraciones || 0 }}</p>
+      <div class="valoraciones-list">
+        <div class="valoracion-item" *ngFor="let val of valoraciones">
+          <strong>{{ val.autorNombre }}</strong>
+          <p>⭐ {{ val.puntuacion }}/5</p>
+          <p>{{ val.comentario }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

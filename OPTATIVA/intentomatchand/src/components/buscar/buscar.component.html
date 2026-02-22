@@ -1,0 +1,26 @@
+<div class="buscar-container">
+  <h1>Buscar Músicos</h1>
+  <div class="filtros">
+    <input type="text" [(ngModel)]="filtro.ciudad" placeholder="Ciudad" class="filtro-input">
+    <input type="text" [(ngModel)]="filtro.genero" placeholder="Género" class="filtro-input">
+    <input type="text" [(ngModel)]="filtro.instrumento" placeholder="Instrumento" class="filtro-input">
+    <select [(ngModel)]="filtro.nivel" class="filtro-input">
+      <option value="">Nivel</option>
+      <option value="principiante">Principiante</option>
+      <option value="intermedio">Intermedio</option>
+      <option value="avanzado">Avanzado</option>
+      <option value="profesional">Profesional</option>
+    </select>
+    <button (click)="buscar()" class="btn-buscar">Buscar</button>
+  </div>
+  <div class="resultados">
+    <div class="usuario-card" *ngFor="let usuario of usuarios">
+      <img [src]="usuario.fotoPerfil" [alt]="usuario.nombre">
+      <h3>{{ usuario.nombre }}</h3>
+      <p>{{ usuario.instrumentoPrincipal }}</p>
+      <p class="ciudad">{{ usuario.ciudad }}</p>
+      <p class="generos">{{ usuario.generosMusicals.join(', ') }}</p>
+      <p class="nivel">Nivel: {{ usuario.nivel }}</p>
+    </div>
+  </div>
+</div>

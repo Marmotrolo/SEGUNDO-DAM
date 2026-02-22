@@ -1,0 +1,31 @@
+<div class="onboarding-container">
+  <div class="onboarding-box">
+    <h1>Completa tu Perfil</h1>
+    <p class="subtitle">Cuéntanos más sobre ti</p>
+    <form (ngSubmit)="completarPerfil()">
+      <div class="form-group">
+        <label for="generos">Géneros Musicales</label>
+        <input type="text" id="generos" [(ngModel)]="generos" name="generos" placeholder="Ej: Rock, Blues, Jazz" required>
+      </div>
+      <div class="form-group">
+        <label for="nivel">Nivel Musical</label>
+        <select id="nivel" [(ngModel)]="nivel" name="nivel" required>
+          <option value="">Selecciona tu nivel</option>
+          <option value="principiante">Principiante</option>
+          <option value="intermedio">Intermedio</option>
+          <option value="avanzado">Avanzado</option>
+          <option value="profesional">Profesional</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" id="ciudad" [(ngModel)]="ciudad" name="ciudad" placeholder="Tu ciudad" required>
+      </div>
+      <div class="form-group">
+        <label for="biografia">Biografía</label>
+        <textarea id="biografia" [(ngModel)]="biografia" name="biografia" placeholder="Cuéntanos sobre ti..." rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn-completar">Completar Perfil</button>
+    </form>
+  </div>
+</div>

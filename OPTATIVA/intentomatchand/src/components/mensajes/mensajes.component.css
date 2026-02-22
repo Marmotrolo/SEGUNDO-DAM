@@ -1,0 +1,137 @@
+.mensajes-container {
+  padding: 20px;
+}
+
+.mensajes-container h1 {
+  color: #c9d1d9;
+  margin-bottom: 20px;
+}
+
+.conversaciones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.conversacion-item {
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+  background: #0d1117;
+}
+
+.conversacion-item:hover {
+  background: #161b22;
+}
+
+.conversacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conversacion-header h3 {
+  margin: 0;
+  color: #c9d1d9;
+}
+
+.no-leidos {
+  background: #00d4e8;
+  color: #0d1117;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ultimo-mensaje {
+  margin: 5px 0;
+  color: #8b949e;
+  font-size: 14px;
+}
+
+.fecha {
+  margin: 5px 0;
+  color: #6e7681;
+  font-size: 12px;
+}
+
+.conversacion-detalle {
+  border-top: 1px solid #30363d;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.conversacion-detalle h2 {
+  color: #c9d1d9;
+  margin-bottom: 15px;
+}
+
+.mensajes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.mensaje {
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 10px;
+  background: #0d1117;
+}
+
+.mensaje strong {
+  color: #00d4e8;
+}
+
+.mensaje p {
+  margin: 5px 0;
+  color: #c9d1d9;
+}
+
+.mensaje small {
+  color: #6e7681;
+}
+
+.enviar-mensaje {
+  display: flex;
+  gap: 10px;
+}
+
+.input-mensaje {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+.input-mensaje:focus {
+  outline: none;
+  border-color: #00d4e8;
+}
+
+.btn-enviar {
+  padding: 10px 20px;
+  background: #00d4e8;
+  color: #0d1117;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-enviar:hover {
+  background: #00b8d4;
+}

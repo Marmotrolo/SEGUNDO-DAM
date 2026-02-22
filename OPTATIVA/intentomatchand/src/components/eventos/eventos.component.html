@@ -1,0 +1,22 @@
+<div class="eventos-container">
+  <h1>Eventos</h1>
+  <div class="eventos-list">
+    <div class="evento-card" *ngFor="let evento of eventos">
+      <img [src]="evento.imagenPortada" [alt]="evento.titulo" class="evento-imagen">
+      <div class="evento-info">
+        <h3>{{ evento.titulo }}</h3>
+        <p class="tipo">{{ evento.tipo }}</p>
+        <p>{{ evento.descripcion }}</p>
+        <div class="evento-detalles">
+          <span>📅 {{ evento.fecha | date:'short' }}</span>
+          <span>🕐 {{ evento.hora }}</span>
+          <span>📍 {{ evento.lugar }}</span>
+        </div>
+        <div class="evento-footer">
+          <span class="asistentes">{{ evento.totalAsistentes }} asistentes</span>
+          <button (click)="confirmarAsistencia(evento.id)" class="btn-confirmar">Confirmar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

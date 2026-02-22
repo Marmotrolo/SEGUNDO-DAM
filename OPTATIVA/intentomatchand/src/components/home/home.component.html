@@ -1,0 +1,13 @@
+<div class="home-container">
+  <h1>Inicio</h1>
+  <div class="recomendados">
+    <h2>Músicos Recomendados</h2>
+    <div class="usuario-card" *ngFor="let rec of recomendados">
+      <img [src]="rec.usuario.fotoPerfil" [alt]="rec.usuario.nombre">
+      <h3>{{ rec.usuario.nombre }}</h3>
+      <p>{{ rec.usuario.instrumentoPrincipal }}</p>
+      <p class="ciudad">{{ rec.usuario.ciudad }}</p>
+      <p class="puntos">Compatibilidad: {{ rec.pts }} pts</p>
+    </div>
+  </div>
+</div>
